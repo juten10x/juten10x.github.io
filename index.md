@@ -1,8 +1,8 @@
-#Juten10x
+# Juten10x
 
-![Juten10x](light_white.jpg)
+<img src="light_white.jpg" width="250px">
 
-##Links
+## Links
 
 * GitHub: [Juten10x](https://github.com/Juten10x)
 * AtCoder: [Juten10x](https://atcoder.jp/users/Juten10x)
