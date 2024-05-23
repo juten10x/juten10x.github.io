@@ -1,8 +1,6 @@
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="icon" href="favicon.ico">
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="icon" href="favicon.ico">
 
 <img src="light_white.jpg" width="250px">
 
