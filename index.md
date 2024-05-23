@@ -1,4 +1,4 @@
-# <font color="Black">[Juten10x](https://juten10x.github.io/)</font>
+# [Juten10x](https://juten10x.github.io/)
 
 <img src="light_white.jpg" width="250px">
 
