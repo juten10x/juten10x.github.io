@@ -4,13 +4,10 @@
   <link rel="icon" href="favicon.ico">
 </head>
 
-# [Juten10x](https://juten10x.github.io/)
-
 <img src="light_white.jpg" width="250px">
 
 ## Links
 
-* test
 * GitHub: [Juten10x](https://github.com/Juten10x)
 * AtCoder: [Juten10x](https://atcoder.jp/users/Juten10x)
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
