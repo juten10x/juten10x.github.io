@@ -1,7 +1,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title>Juten10x</title>
   <link rel="icon" href="favicon.ico">
 </head>
 
