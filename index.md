@@ -6,8 +6,6 @@
 
 <img src="light_white.jpg" width="250px">
 
-## Links
-
 * GitHub: [Juten10x](https://github.com/Juten10x)
 * AtCoder: [Juten10x](https://atcoder.jp/users/Juten10x)
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
