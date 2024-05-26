@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width">
 <link rel="icon" href="favicon.ico">
 
-<img src="light_white.jpg" width="250px">
+<img src="light_white.jpg" width="200px">
 
 * GitHub: [Juten10x](https://github.com/Juten10x)
 * AtCoder: [Juten10x](https://atcoder.jp/users/Juten10x)
