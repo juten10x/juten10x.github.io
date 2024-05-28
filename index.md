@@ -9,6 +9,7 @@
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
 * AOJ: [Juten10x](https://onlinejudge.u-aizu.ac.jp/status/users/Juten10x)
 * AOJ (old): [Juten10x](https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=Juten10x)
+* OMC: [Juten10x](https://onlinemathcontest.com/users/Juten10x)
 * Wikipedia: [Juten](https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Juten)
 * YouTube: [Juten10x](https://www.youtube.com/@Juten10x)
 * Niconico: [Juten10x](https://www.nicovideo.jp/user/125236633)
