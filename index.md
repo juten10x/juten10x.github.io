@@ -2,8 +2,6 @@
 <!-- <meta name="viewport" content="width=device-width"> -->
 <link rel="icon" href="favicon.ico">
 
-## [Info](/info) - [Note](/note) - [Gallery](/gallery)
-
 <img src="light_white.jpg" width="200px">
 
 * GitHub: [Juten10x](https://github.com/Juten10x)
