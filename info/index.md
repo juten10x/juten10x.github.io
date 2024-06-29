@@ -2,7 +2,7 @@
 
 ## [Info](/info) - [Note](/note) - [Gallery](/gallery)
 
-<img src="light_white.jpg" width="200px">
+<img src="../light_white.jpg" width="200px">
 
 * GitHub: [Juten10x](https://github.com/Juten10x)
 * AtCoder: [Juten10x](https://atcoder.jp/users/Juten10x)
