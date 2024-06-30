@@ -1,4 +1,4 @@
-# [Departure - Jul 1, 2024](https://juten10x.github.io/note/departure_Jul-1-2024)
+### [Departure - Jul 1, 2024](https://juten10x.github.io/note/departure_Jul-1-2024)
 
 Juten10xです．自身のWebサイトに「Note」と題した場所を設けてみました．
 何か日常的なメモや記録を置いていくつもりです．
