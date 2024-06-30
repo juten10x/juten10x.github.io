@@ -1,9 +1,9 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-  <!-- <meta property="og:title" content="Juten10x">
+  <meta property="og:title" content="Juten10x">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://juten10x.github.io">
-  <meta property="og:image" content="画像のURL">
-  <meta property="og:site_name" content="juten10x.github.io"> (書いてる途中) -->
+  <meta property="og:image" content="IMG_2379.jpeg">
+  <meta property="og:site_name" content="juten10x.github.io">
   <!-- <meta property="og:description" content="ページのディスクリプション" /> -->
   <!-- <meta property="og:locale" content="ローカル言語" /> -->
 </head>
