@@ -1,5 +1,15 @@
-<meta charset="UTF-8">
-<!-- <meta name="viewport" content="width=device-width"> -->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+  <!-- <meta name="viewport" content="width=device-width"> -->
+  <!-- <meta charset="UTF-8">
+  <meta property="og:title" content="Juten10x">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://juten10x.github.io">
+  <meta property="og:image" content="画像のURL">
+  <meta property="og:site_name" content="juten10x.github.io"> (書いてる途中) -->
+  <!-- <meta property="og:description" content="ページのディスクリプション" /> -->
+<!-- <meta property="og:locale" content="ローカル言語" /> -->
+  <title>Juten10x</title>
+</head>
 
 <img src="light_white.jpg" width="200px">
 
