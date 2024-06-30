@@ -2,7 +2,7 @@
   <meta property="og:title" content="Departure - Jul 1, 2024">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://juten10x.github.io/note/departure_Jul-1-2024.html">
-  <meta property="og:image" content="/images_for_ogp/IMG_2380.jpeg">
+  <meta property="og:image" content="/images_for_ogp/IMG_2381.jpeg">
   <meta property="og:site_name" content="juten10x.github.io">
   <meta name="twitter::card" content="summary_large_image">
   <!-- <meta property="og:description" content="ページのディスクリプション" /> -->
