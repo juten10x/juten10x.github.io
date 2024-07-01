@@ -1,4 +1,4 @@
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
   <meta property="og:title" content="Departure - Jul 1, 2024" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://juten10x.github.io/note/departure_Jul-1-2024.html" />
