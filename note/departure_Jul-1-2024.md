@@ -1,10 +1,10 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-  <meta property="og:title" content="Departure - Jul 1, 2024">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://juten10x.github.io/note/departure_Jul-1-2024.html">
-  <meta property="og:image" content="/images_for_ogp/IMG_2381.jpeg">
-  <meta property="og:site_name" content="juten10x.github.io">
-  <meta name="twitter::card" content="summary_large_image">
+  <meta property="og:title" content="Departure - Jul 1, 2024" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://juten10x.github.io/note/departure_Jul-1-2024.html" />
+  <meta property="og:image" content="/images_for_ogp/IMG_2381.jpeg" />
+  <meta property="og:site_name" content="juten10x.github.io" />
+  <meta name="twitter::card" content="summary_large_image" />
   <!-- <meta property="og:description" content="ページのディスクリプション" /> -->
   <!-- <meta property="og:locale" content="ローカル言語" /> -->
 </head>
