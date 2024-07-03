@@ -9,7 +9,7 @@
   <!-- <meta property="og:locale" content="ローカル言語" /> -->
 </head>
 
-### [「Gallery」について - Jul 4, 2024](https://juten10x.github.io/note/about_gallery_Jul-4-2024.md)
+### [「Gallery」について - Jul 4, 2024](https://juten10x.github.io/note/about_gallery_Jul-4-2024.html)
 
 [Gallery](https://juten10x.github.io/gallery/)について書いておきます．これは当該ページにも書いている通り，「撮った写真を不定期で1枚載せ」るページです．
 
