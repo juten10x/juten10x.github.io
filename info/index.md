@@ -15,3 +15,4 @@
 * Instagram: [Juten10x](https://www.instagram.com/juten10x)
 * Misskey競プロ鯖: [Juten10x](https://misskey.kyoupro.com/@Juten10x)
 * Misskey.design: [Juten10x](https://misskey.design/@Juten10x)
+* [Juten10x / juten10x.github.io](https://github.com/Juten10x/juten10x.github.io)
