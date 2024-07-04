@@ -1,4 +1,13 @@
-<meta charset="UTF-8">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta property="og:title" content="Info" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://juten10x.github.io/info/" />
+  <meta property="og:image" content="https://juten10x.github.io/info/IMG_2411.jpeg" />
+  <meta property="og:site_name" content="juten10x.github.io" />
+  <meta name="twitter::card" content="summary_large_image" />
+  <!-- <meta property="og:description" content="ページのディスクリプション" /> -->
+  <!-- <meta property="og:locale" content="ローカル言語" /> -->
+</head>
 
 <img src="../light_white.jpg" width="200px">
 
