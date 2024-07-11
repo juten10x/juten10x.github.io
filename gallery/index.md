@@ -11,4 +11,4 @@
 
 撮った写真を不定期で1枚載せます．
 
-<img src="Kyoto_University_tree_s">
+<img src="Kyoto_University_tree_s.jpg">
