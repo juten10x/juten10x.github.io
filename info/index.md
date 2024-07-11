@@ -2,7 +2,7 @@
   <meta property="og:title" content="Info" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://juten10x.github.io/info/" />
-  <meta property="og:image" content="https://juten10x.github.io/info/IMG_2411.jpeg" />
+  <meta property="og:image" content="https://juten10x.github.io/images_for_ogp/IMG_2437.jpeg" />
   <meta property="og:site_name" content="juten10x.github.io" />
   <meta name="twitter::card" content="summary_large_image" />
   <!-- <meta property="og:description" content="ページのディスクリプション" /> -->
