@@ -25,3 +25,7 @@
 * Misskey競プロ鯖: [Juten10x](https://misskey.kyoupro.com/@Juten10x)
 * Misskey.design: [Juten10x](https://misskey.design/@Juten10x)
 * [Juten10x / juten10x.github.io](https://github.com/Juten10x/juten10x.github.io)
+
+<a href="https://sites.google.com/view/happy-busy/">
+  <img src="time.png">
+</a>
