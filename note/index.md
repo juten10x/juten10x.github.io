@@ -9,6 +9,7 @@
   <!-- <meta property="og:locale" content="ローカル言語" /> -->
 </head>
 
+* [最近 - Jul 20, 2024](/recent_Jul-20-2024.md)
 * [Three Sights - Jul 6, 2024](/three_sights_Jul-6-2024.md)
 * [「Gallery」について - Jul 4, 2024](/about_gallery_Jul-4-2024.md)
 * [Departure - Jul 1, 2024](/departure_Jul-1-2024.md)
