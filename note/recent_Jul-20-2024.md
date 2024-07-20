@@ -2,7 +2,7 @@
   <meta property="og:title" content="最近 - Jul 20, 2024" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://juten10x.github.io/note/recent_Jul-20-2024.html" />
- <!-- <meta property="og:image" content="https://juten10x.github.io/images_for_ogp/IMG_.jpeg" />-->
+ <meta property="og:image" content="https://juten10x.github.io/images_for_ogp/IMG_2486.jpeg" />
   <meta property="og:site_name" content="juten10x.github.io" />
   <meta name="twitter::card" content="summary_large_image" />
   <!-- <meta property="og:description" content="ページのディスクリプション" /> -->
