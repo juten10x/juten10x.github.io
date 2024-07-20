@@ -9,7 +9,7 @@
   <!-- <meta property="og:locale" content="ローカル言語" /> -->
 </head>
 
-<img src="light_white.jpg" width="200px">
+<img src="light_white.jpg" width="200px" alt="アイコン．快晴の空を背景に，白い柱の上に双頭の電灯が載っている，街灯ではないが街灯のような形をしているものが写っている．">
 
 * GitHub: [Juten10x](https://github.com/Juten10x)
 * AtCoder: [Juten10x](https://atcoder.jp/users/Juten10x)
@@ -27,5 +27,5 @@
 * [Juten10x / juten10x.github.io](https://github.com/Juten10x/juten10x.github.io)
 
 <a href="https://sites.google.com/view/happy-busy/">
-  <img src="time.png">
+  <img src="time.png" alt="時間のないサイト運営者リングのバナー">
 </a>
