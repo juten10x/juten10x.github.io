@@ -1,5 +1,5 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-  <meta property="og:title" content="Juten10x">
+  <meta property="og:title" content="juten10x">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://juten10x.github.io">
   <meta property="og:image" content="https://juten10x.github.io/IMG_2388.jpeg">
