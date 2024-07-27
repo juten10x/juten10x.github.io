@@ -11,20 +11,21 @@
 
 <img src="light_white.jpg" width="200px" alt="アイコン．快晴の空を背景に，白い柱の上に双頭の電灯が載っている，街灯ではないが街灯のような形をしているものが写っている．">
 
-* GitHub: [Juten10x](https://github.com/Juten10x)
-* AtCoder: [Juten10x](https://atcoder.jp/users/Juten10x)
+いずれ Wikipedia を除く全ての Web サイトにおいて、HNを "juten10x" にします．
+* GitHub: [juten10x](https://github.com/juten10x)
+* AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
-* AOJ: [Juten10x](https://onlinejudge.u-aizu.ac.jp/status/users/Juten10x)
-* OMC: [Juten10x](https://onlinemathcontest.com/users/Juten10x)
+* AOJ: [juten10x](https://onlinejudge.u-aizu.ac.jp/status/users/juten10x)
+* OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
 * Wikipedia: [Juten](https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Juten)
-* YouTube: [Juten10x](https://www.youtube.com/@Juten10x)
+* YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * Niconico: [Juten10x](https://www.nicovideo.jp/user/125236633)
-* Vimeo: [Juten10x](https://vimeo.com/juten10x)
-* X: [Juten10x](https://x.com/Juten10x)
-* Instagram: [Juten10x](https://www.instagram.com/juten10x)
-* Misskey競プロ鯖: [Juten10x](https://misskey.kyoupro.com/@Juten10x)
+* Vimeo: [juten10x](https://vimeo.com/juten10x)
+* X: [juten10x](https://x.com/juten10x)
+* Instagram: [juten10x](https://www.instagram.com/juten10x)
+* Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
 * Misskey.design: [Juten10x](https://misskey.design/@Juten10x)
-* [Juten10x / juten10x.github.io](https://github.com/Juten10x/juten10x.github.io)
+* [juten10x / juten10x.github.io](https://github.com/Juten10x/juten10x.github.io)
 
 <a href="https://sites.google.com/view/happy-busy/">
   <img src="time.png" alt="時間のないサイト運営者リングのバナー">
