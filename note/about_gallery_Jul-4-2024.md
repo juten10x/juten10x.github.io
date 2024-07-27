@@ -1,14 +1,3 @@
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-  <meta property="og:title" content="Departure - Jul 4, 2024" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://juten10x.github.io/note/about_gallery_Jul-4-2024.html" />
-  <meta property="og:image" content="https://juten10x.github.io/images_for_ogp/IMG_2440.jpeg" />
-  <meta property="og:site_name" content="juten10x.github.io" />
-  <meta name="twitter::card" content="summary_large_image" />
-  <!-- <meta property="og:description" content="ページのディスクリプション" /> -->
-  <!-- <meta property="og:locale" content="ローカル言語" /> -->
-</head>
-
 ### [「Gallery」について - Jul 4, 2024](https://juten10x.github.io/note/about_gallery_Jul-4-2024.html) (Update: Jul 6, 2024)
 
 [Gallery](https://juten10x.github.io/gallery/)について書いておきます．これは当該ページにも書いている通り，「撮った写真を不定期で1枚載せ」るページです．
