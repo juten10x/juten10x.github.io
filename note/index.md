@@ -9,6 +9,7 @@
   <!-- <meta property="og:locale" content="ローカル言語" /> -->
 </head>
 
+* [FEを受験しました - Jul 31, 2024](/fe_Jul-31-2024.md)
 * [最近2（ツー） - Jul 29, 2024](/recent2_Jul-29-2024.md)
 * [Juten10x -> juten10x - Jul 27, 2024](/j_Jul-27-2024.md)
 * [最近 - Jul 20, 2024](/recent_Jul-20-2024.md)
