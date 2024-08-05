@@ -19,7 +19,7 @@
 * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
 * Wikipedia: [Juten](https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Juten)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
-* Niconico: [Juten10x](https://www.nicovideo.jp/user/125236633)
+* Niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
 * X: [juten10x](https://x.com/juten10x)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
