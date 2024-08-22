@@ -23,6 +23,7 @@
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
 * X: [juten10x](https://x.com/juten10x)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
+* Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
 * Misskey.design: [juten10x](https://misskey.design/@Juten10x)
 * [juten10x / juten10x.github.io](https://github.com/Juten10x/juten10x.github.io)
