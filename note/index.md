@@ -10,9 +10,3 @@
 </head>
 
 * [FEを受験しました - Jul 31, 2024](/fe_Jul-31-2024.md)
-* [最近2（ツー） - Jul 29, 2024](/recent2_Jul-29-2024.md)
-* [Juten10x -> juten10x - Jul 27, 2024](/j_Jul-27-2024.md)
-* [最近 - Jul 20, 2024](/recent_Jul-20-2024.md)
-* [Three Sights - Jul 6, 2024](/three_sights_Jul-6-2024.md)
-* [「Gallery」について - Jul 4, 2024](/about_gallery_Jul-4-2024.md)
-* [Departure - Jul 1, 2024](/departure_Jul-1-2024.md)
