@@ -22,6 +22,7 @@
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
 * X: [juten10x](https://x.com/juten10x)
+* Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
