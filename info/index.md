@@ -11,7 +11,7 @@
 
 <img src="../light_white.jpg" width="200px">
 
-いずれ Wikipedia を除く全ての Web サイトにおいて，HNを `juten10x` にします．
+いずれ Wikipedia を除く全ての Web サイトにおいて、HNを `juten10x` にします。
 * GitHub: [juten10x](https://github.com/juten10x)
 * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
