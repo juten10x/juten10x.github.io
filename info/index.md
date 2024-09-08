@@ -1,15 +1,15 @@
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-  <meta property="og:title" content="juten10x">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://juten10x.github.io">
-  <meta property="og:image" content="https://juten10x.github.io/images_for_ogp/IMG_2576.jpeg">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta property="og:title" content="Info">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://juten10x.github.io/info/">
+  <meta property="og:image" content="https://juten10x.github.io/images_for_ogp/IMG_2578.jpeg">
   <meta property="og:site_name" content="juten10x.github.io">
   <meta name="twitter::card" content="summary_large_image">
   <!-- <meta property="og:description" content="ページのディスクリプション" /> -->
   <!-- <meta property="og:locale" content="ローカル言語" /> -->
 </head>
 
-<img src="light_white.jpg" width="200px" alt="アイコン．快晴の空を背景に，白い柱の上に双頭の電灯が載っている．">
+<img src="../light_white.jpg" width="200px" alt="アイコン．快晴の空を背景に，白い柱の上に双頭の電灯が載っている．">
 
 いずれ Wikipedia を除く全ての Web サイトにおいて、HNを `juten10x` にします。
 * GitHub: [juten10x](https://github.com/juten10x)
