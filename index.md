@@ -4,7 +4,7 @@
   <meta property="og:url" content="https://juten10x.github.io">
   <meta property="og:image" content="https://juten10x.github.io/images_for_ogp/IMG_2576.jpeg">
   <meta property="og:site_name" content="juten10x.github.io">
-  <meta name="twitter::card" content="summary_large_image">
+  <meta name="x::card" content="summary_large_image">
   <!-- <meta property="og:description" content="ページのディスクリプション" /> -->
   <!-- <meta property="og:locale" content="ローカル言語" /> -->
 </head>
