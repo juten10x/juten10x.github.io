@@ -8,6 +8,7 @@
 * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
 * Wikipedia: [Juten](https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Juten)
 * note: [juten10x](https://note.com/juten10x)
+* Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
 * X: [juten10x](https://x.com/juten10x)
