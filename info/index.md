@@ -1,6 +1,11 @@
 <img src="../light_white.jpg" width="200px" alt="アイコン．快晴の空を背景に，白い柱の上に双頭の電灯が載っている．">
 
 いずれ Wikipedia を除く全ての Web サイトにおいて、HNを `juten10x` にします。
+
+### 資格
+* 基本情報技術者（2024年8月取得）
+
+### リンク
 * GitHub: [juten10x](https://github.com/juten10x)
 * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
