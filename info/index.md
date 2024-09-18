@@ -11,7 +11,7 @@
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
 * AOJ: [juten10x](https://onlinejudge.u-aizu.ac.jp/status/users/juten10x)
 * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
-* Wikipedia: [Juten](https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Juten)
+* Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
 * note: [juten10x](https://note.com/juten10x)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
