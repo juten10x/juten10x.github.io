@@ -15,6 +15,7 @@
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
+<!-- https://steamcommunity.com/id/juten10x/ -->
 * Misskey.design: [juten10x](https://misskey.design/@Juten10x)
 * Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
