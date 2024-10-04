@@ -1,12 +1,12 @@
 <img src="light_white.jpg" width="200px" alt="アイコン．快晴の空を背景に，白い柱の上に双頭の電灯が載っている．">
 
 いずれ Wikipedia を除く全ての Web サイトにおいて、HNを `juten10x` にします。
+* Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
 * GitHub: [juten10x](https://github.com/juten10x)
 * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
 * AOJ: [juten10x](https://onlinejudge.u-aizu.ac.jp/status/users/juten10x)
 * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
-* Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
 * note: [juten10x](https://note.com/juten10x)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
