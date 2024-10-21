@@ -22,12 +22,14 @@
     while (true) {
       let t = getRandomInt(N);
       if (tf_array[t-1] == 0) {
-        document.getElementById('output').textContent = t + "<br>---------<br>";
+        rd_n += t + "<br>---------<br>";
         tf_array[t-1] = 1;
         cnt++;
       }
       if (cnt == N) break;
     }
+
+    return rd_n;
   }
   
   document.getElementById('form').onsubmit = function(event) {
@@ -38,9 +40,14 @@
     
     if (N == "") {
       alert("値を入力してください");
-    } else {
+    }
+    else if (isFinite(N)) {
+      alert("数値を入力してください");
+    }
+    else {
       let M = Number(N);
-      rd(M);
+      let rd_n = rd(M);
+      document.getElementById('output').textContent = rd_n;
     }
   }
 </script>
