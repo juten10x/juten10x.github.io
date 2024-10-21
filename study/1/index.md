@@ -1,13 +1,13 @@
 <h1 id="_title">乱数ジェネレータ</h1>
 
 <form action="#" id="rd_form">  
-  何人?: <input type="text" id="rd">
+  <input type="text" name="content">
   <input type="submit" value="OK">
   <p id="output"></p>
 </form>
 
-<script type="text/javascript">
-  function getRandomInt(max) {
+<script>
+  /*function getRandomInt(max) {
       return Math.floor(Math.random() * max);
     }
 
@@ -35,13 +35,13 @@
     } else {
       return 12;
     }
-  }
+  }*/
   
-  document.getElementById('rd_form').onsubmit = function(event) {
+  document.getElementById('form').onsubmit = function(event) {
     event.preventDefault();
     
-    let inputForm = document.getElementById('rd_form').content.value;
-    let N = '${inputForm}';
+    let inputForm = document.getElementById('form').content.value;
+    // let N = '${inputForm}';
 
     document.getElementById('output').textContent = '${inputForm}';
   }
