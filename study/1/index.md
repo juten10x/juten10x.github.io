@@ -1,6 +1,6 @@
 <h1 id="_title">乱数ジェネレータ</h1>
 
-<form action="#" id="rd_form">  
+<form action="#" id="form">  
   <input type="text" name="content">
   <input type="submit" value="OK">
   <p id="output"></p>
