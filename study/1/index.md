@@ -1,7 +1,7 @@
 <h1 id="_title">乱数ジェネレータ</h1>
 
-<form action="#" name="rd_form">  
-  何人?: <input type="text" name="rd">
+<form action="#" id="rd_form">  
+  何人?: <input type="text" id="rd">
   <input type="submit" value="OK">
   <p id="output"></p>
 </form>
