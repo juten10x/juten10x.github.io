@@ -20,6 +20,6 @@
 * Misskey.design: [juten10x](https://misskey.design/@Juten10x)
 * Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
 * Qiita: [juten10x](https://qiita.com/juten10x)
-* MUUSEO: [juten10x](https://muuseo.com/juten10x/owner)
+* Muuseo: [juten10x](https://muuseo.com/juten10x/owner)
 * Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
 * [juten10x / juten10x.github.io](https://github.com/Juten10x/juten10x.github.io)
