@@ -41,7 +41,7 @@
     if (N == "") {
       alert("値を入力してください");
     }
-    else if (isFinite(N)) {
+    else if (!isFinite(N)) {
       alert("数値を入力してください");
     }
     else {
