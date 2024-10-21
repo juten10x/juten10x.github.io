@@ -43,6 +43,6 @@
     let inputForm = document.getElementById('form').content.value;
     // let N = '${inputForm}';
 
-    document.getElementById('output').textContent = '${inputForm}';
+    document.getElementById('output').textContent = `${inputForm}`;
   }
 </script>
