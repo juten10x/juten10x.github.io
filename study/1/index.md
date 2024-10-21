@@ -37,10 +37,10 @@
     }
   }
   
-  document.getElementById('form').onsubmit = function(event) {
+  document.getElementById('rd_form').onsubmit = function(event) {
     event.preventDefault();
     
-    let inputForm = document.getElementById('form').content.value;
+    let inputForm = document.getElementById('rd_form').content.value;
     let N = '${inputForm}';
 
     document.getElementById('output').textContent = '${inputForm}';
