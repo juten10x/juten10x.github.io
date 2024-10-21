@@ -7,7 +7,7 @@
 </form>
 
 <script>
-  /*function getRandomInt(max) {
+  function getRandomInt(max) {
       return Math.floor(Math.random() * max);
     }
 
@@ -18,32 +18,29 @@
     }
 
     let cnt = 0;
+    let rd_n = "";
     while (true) {
       let t = getRandomInt(N);
       if (tf_array[t-1] == 0) {
-        document.write(t + "<br>");
+        document.getElementById('output').textContent = t + "<br>---------<br>";
         tf_array[t-1] = 1;
         cnt++;
       }
       if (cnt == N) break;
     }
   }
-
-  function _main(N) {
-    if (N == "") {
-      return "値を入力してください";
-    } else {
-      return 12;
-    }
-  }*/
   
   document.getElementById('form').onsubmit = function(event) {
     event.preventDefault();
     
     let inputForm = document.getElementById('form').content.value;
     let N = `${inputForm}`;
-    let M = Number(N);
-
-    document.getElementById('output').textContent = M + 1;
+    
+    if (N == "") {
+      alert("値を入力してください");
+    } else {
+      let M = Number(N);
+      rd(M);
+    }
   }
 </script>
