@@ -16,7 +16,7 @@
 
       let cnt = 0;
       while (true) {
-        let t = getRandomInt(N);
+        let t = getRandomInt(N) - 1;
         if (tf_array[t] == 0) {
           document.write(t + "<br>");
           tf_array[t] = 1;
