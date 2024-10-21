@@ -41,8 +41,9 @@
     event.preventDefault();
     
     let inputForm = document.getElementById('form').content.value;
-    // let N = '${inputForm}';
+    let N = `${inputForm}`;
+    let M = Number(N);
 
-    document.getElementById('output').textContent = `${inputForm}`;
+    document.getElementById('output').textContent = M + 1;
   }
 </script>
