@@ -44,8 +44,6 @@ THE SOFTWARE. -->
         width: 400px;
       }
       #_image_zoomback {
-        display: none;
-        
         position: absolute;
         top: 0;
 
@@ -57,12 +55,23 @@ THE SOFTWARE. -->
         display: flex;
         justify-content: center;
         align-items: center;
+
+        display: none;
       }
       #_image_zooming {
-        width: 75vw;
+        width: 50%;
       }
         
     </style>
+    <script>
+      const zoom = document.querySelectorAll(".zoom");
+      const zoomback = document.getElementById("zoomback");
+      const zoomimg = document.getElementById("zoomimg");
+
+      zoom.forEach(function(value) {
+        value.addEventListener("click",kakudai);
+      });
+    </script>
     {% include head-custom.html %}
   </head>
   <body>
