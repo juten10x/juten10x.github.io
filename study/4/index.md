@@ -1,7 +1,7 @@
-<p>
+<div>
   <img src="../pile_of_images/me-15.jpg" id="_image2">
   <small>謎の建造物。煙が見えますが、野焼きでしょうか</small>
-</p>
+</div>
 
 いずれ Wikipedia を除く全ての Web サイトにおいて、HNを `juten10x` にします。
 
