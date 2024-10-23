@@ -11,7 +11,7 @@
 まず、やっぱり観れて良かったです、本当に。私は最近まで現実世界のタスクが非常に多く、さらにはそれは重いものでもあったので、そもそも当日は観れず、もしかするとアーカイブ配信期間中にも観れないのでは…？という状況でしたが、何とかタスクをこなし、観れる時間を見つけられました。いやはや…。
 
 <figure>
-  <img src="../pile_of_images/me-15.jpg" id="_image2" />
+  <img class="zoom" src="../pile_of_images/me-15.jpg" id="_image2" />
   <figcaption><small>謎の建造物。煙が見えますが、野焼きでしょうか</small></figcaption>
 </figure>
 
