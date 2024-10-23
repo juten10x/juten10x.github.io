@@ -1,4 +1,4 @@
-<img src="light_white.jpg" width="200px" alt="アイコン。快晴の空を背景に、白い柱の上に双頭の電灯が載っている。">
+<img src="light_white.jpg" width="200px">
 
 <!-- CodeforcesのHNを変更し、更新する -->
 いずれ Wikipedia を除く全ての Web サイトにおいて、HNを `juten10x` にします。
