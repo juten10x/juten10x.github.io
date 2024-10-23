@@ -31,9 +31,6 @@ THE SOFTWARE. -->
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <style>
-      body {
-        position: relative;
-      }
       img {
         border-radius: 0.3em;
       }
@@ -43,47 +40,7 @@ THE SOFTWARE. -->
       #_image2 {
         width: 400px;
       }
-      #zoomback {
-        position: absolute;
-        top: 0;
-
-        width: 100vw;
-        height: 100vh;
-
-        background-color: rgba(0,0,0,0.8);
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        display: none;
-      }
-      #zooming {
-        width: 50%;
-      }
-        
     </style>
-    <!-- This below code is a partial modification of the original code. Original code: https://fuuno.net/web02/click_zoom/click_zoom.html -->
-    <script>
-      const zoom = document.querySelectorAll(".zoom");
-      const zoomback = document.getElementById("zoomback");
-      const zoomimg = document.getElementById("zoomimg");
-
-      zoom.forEach(function(value) {
-        value.addEventListener("click",kakudai);
-      });
-
-      function kakudai(e) {
-        zoomback.style.display = "flex";
-        zoomimg.setAttribute("src",e.target.getAttribute("src"));
-      }
-
-      zoomback.addEventListener("click",modosu);
-
-      function modosu() {
-        zoomback.style.display = "none";
-      }
-    </script>
     {% include head-custom.html %}
   </head>
   <body>
