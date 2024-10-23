@@ -63,6 +63,7 @@ THE SOFTWARE. -->
       }
         
     </style>
+    <!-- This below code is a partial modification of the original code. Original code: https://fuuno.net/web02/click_zoom/click_zoom.html -->
     <script>
       const zoom = document.querySelectorAll(".zoom");
       const zoomback = document.getElementById("zoomback");
@@ -71,6 +72,17 @@ THE SOFTWARE. -->
       zoom.forEach(function(value) {
         value.addEventListener("click",kakudai);
       });
+
+      function kakudai(e) {
+        zoomback.style.display = "flex";
+        zoomimg.setAttribute("src",e.target.getAttribute("src"));
+      }
+
+      zoomback.addEventListener("click",modosu);
+
+      function modosu() {
+        zoomback.style.display = "none";
+      }
     </script>
     {% include head-custom.html %}
   </head>
