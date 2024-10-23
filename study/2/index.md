@@ -1,9 +1,6 @@
 <h1 id="_title">名取さな1stLive（昼・マルチアングル）感想 - Oct 23, 2024</h1>
 
-<figure>
-  <img id="_image2" src="../pile_of_images/37_.jpg" />
-  <figcaption><small>謎の建造物。煙が立っていますが、野焼きでしょうか</small></figcaption>
-</figure>
+<img id="_image2" src="../pile_of_images/37_.jpg" />
 
 こんにちは。
 
