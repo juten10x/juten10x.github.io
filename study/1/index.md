@@ -1,4 +1,4 @@
-<h1 id="_title">乱数ジェネレータ</h1>
+## 乱数ジェネレータ（製作中）
 
 <form action="#" id="form">  
   <input type="text" name="content">
@@ -45,9 +45,10 @@
       alert("数値を入力してください");
     }
     else {
-      let M = Number(N);
+      alert("すみません、まだ製作中です");
+      /* let M = Number(N);
       let rd_n = rd(M);
-      document.getElementById('output').textContent = rd_n;
+      document.getElementById('output').textContent = rd_n; */
     }
   }
 </script>
