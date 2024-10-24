@@ -51,3 +51,5 @@
     }
   }
 </script>
+
+<style>#ccby4 { display: none; }</style>
