@@ -1,4 +1,4 @@
-###### Info
+##### Info
 
 <img src="../light_white.jpg" width="200px" alt="アイコン。快晴の空を背景に、白い柱の上に双頭の電灯が載っている。">
 
