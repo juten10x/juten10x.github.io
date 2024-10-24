@@ -4,6 +4,5 @@
 ## License
 * HTMLやJavaScriptなどのコードは、 MIT License で公開しています。詳細は [LICENSE](LICENSE) ファイルをご覧ください。
 * 文章や画像は、ページ最下部に [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) の表記があるページのものについては当該ライセンスで公開しています。ページ最下部に全くライセンスの表記がないものについては、特にライセンスを指定していない状態です。
-
 * The code, including HTML and JavaScript, is released under the MIT License. See the LICENSE file for details.
 * Texts and images on pages that have a CC-BY 4.0 license at the bottom of the page are released under that license. For those with no license at the bottom of the page, no particular license is specified.
