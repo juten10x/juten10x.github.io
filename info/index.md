@@ -28,7 +28,7 @@
 * Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
 * Qiita [juten10x](https://qiita.com/juten10x)
 * Muuseo [juten10x](https://muuseo.com/juten10x/owner)
-* Xfolio: [juten10x](https://xfolio.jp/portfolio/juten10x)
+* Xfolio: [juten10x](https://xfolio.jp/users/THkWP3ukzRzn)
 * Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
 * [juten10x / juten10x.github.io](https://github.com/Juten10x/juten10x.github.io)
 
