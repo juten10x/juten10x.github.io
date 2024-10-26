@@ -1,4 +1,4 @@
-## 名取さな1stLive（昼・マルチアングル）感想 - Oct 23, 2024
+## 名取さな1stLive（昼・マルチアングル）感想 - Oct 25, 2024
 
 <img id="_image2" src="../pile_of_images/37_.jpg" />
 
