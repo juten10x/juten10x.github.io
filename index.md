@@ -25,5 +25,3 @@
 * Xfolio: [juten10x](https://xfolio.jp/users/THkWP3ukzRzn)
 * Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
 * [juten10x / juten10x.github.io](https://github.com/Juten10x/juten10x.github.io)
-
-<style>#ccby4 { display: none; }</style>
