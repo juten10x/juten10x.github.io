@@ -88,7 +88,7 @@ THE SOFTWARE. -->
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
-    <!-- <script>
+    <script>
       const zoom = document.querySelectorAll(".zoom");
       const zoomback = document.getElementById("zoomback");
       const zooming = document.getElementById("zooming");
@@ -99,13 +99,14 @@ THE SOFTWARE. -->
 
       function kakudai(e) {
         zoomback.style.display = "flex";
-        zoomimg.setAttribute("src",e.target.getAttribute("src"));
+        zooming.setAttribute("src", e.target.getAttribute("src"));
       }
 
       zoomback.addEventListener("click", modosu);
 
-      function modosu(e) {
-        
-    </script> -->
+      function modosu() {
+        zoomback.style.display = "none";
+      }
+    </script>
   </body>
 </html>
