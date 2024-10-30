@@ -20,7 +20,7 @@
   <figcaption><small>謎の建造物。中央右には煙が立っていますが、野焼きでしょうか</small></figcaption>
 </figure> -->
 
-<img id="_image2" class="zoom" src="../pile_of_images/me-15.jpg">
+<img id="_image2" class="zoom" src="../pile_of_images/me-15.jpg" />
 
 <div id="zoomback">
   <img id="zooming" src="../pile_of_images/me-15.jpg">
