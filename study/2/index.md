@@ -1,6 +1,6 @@
 ## 名取さな1stLive（昼・マルチアングル）感想 - Oct 25, 2024
 
-<img id="_image2" src="../pile_of_images/37_.jpg" />
+<img id="_image2" class="zoom" src="../pile_of_images/37_.jpg" />
 
 （以下の文章は、私が[noteに書いた感想](https://note.com/juten10x/n/na2fb3fca5fb4)と同じものです。ここでは、長文をこのサイト内に表示した場合のサンプルとして、またはブログにおける画像の使い方の練習として使っています。なので、関係ない風景の画像とかを文章中に挟んでいたりしますし、タイミングによっては構造が崩れていることがあります。）
 
@@ -20,10 +20,10 @@
   <figcaption><small>謎の建造物。中央右には煙が立っていますが、野焼きでしょうか</small></figcaption>
 </figure> -->
 
-<img id="_image2" class="zoom" src="../pile_of_images/me-15.jpg" />
+<img id="_image2" class="zoom" src="../pile_of_images/me-15.jpg">
 
 <div id="zoomback">
-  <img id="zooming" src="../pile_of_images/me-15.jpg">
+  <img id="zooming" src="">
 </div>
 
 そんな感じで当日を過ごしていたわけですが、実際には私はまだ曲をあまり聴けてない状態であるということを思い出し、その日から特に数日間は、いとまを見つけては曲を聴くことを繰り返していました。正直、私はそれまでには「モンダイナイトリッパー！」や「パラレルサーチライト」くらいしか聴けていなかったのですが、「PINK,ALL,PINK!」や「アニマルま〜る」、「オヒトリサマ」などを聴き、名取さんにはこんな表情もあって、こういった表現もしたりするのか〜と驚きましたし、特に「いっかい書いてさようなら」を聴いたときの衝撃はすごかったです。長くなりますが、以下に書きます。
