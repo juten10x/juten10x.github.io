@@ -8,6 +8,7 @@
 * AOJ: [juten10x](https://onlinejudge.u-aizu.ac.jp/status/users/juten10x)
 * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
 * Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
+* cluster: [juten10x](https://cluster.mu/u/3lPRvcgw25rSC8zH)
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
