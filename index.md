@@ -11,6 +11,7 @@
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
+* Mastodon: [juten10x](https://mstdn.jp/@juten10x)
 * X: [juten10x](https://x.com/juten10x)
 * SoundCloud: [juten10x](https://soundcloud.com/juten10x)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
