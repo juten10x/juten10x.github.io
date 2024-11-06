@@ -9,6 +9,7 @@
 * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
 * Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
 * cluster: [juten10x](https://cluster.mu/u/3lPRvcgw25rSC8zH)
+* VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
