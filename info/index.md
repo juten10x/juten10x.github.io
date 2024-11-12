@@ -31,6 +31,7 @@
 * note: [juten10x](https://note.com/juten10x)
 * Misskey.design: [juten10x](https://misskey.design/@Juten10x)
 * Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
+* Reddit: [_juten10x](https://reddit.com/user/_juten10x)
 * Qiita [juten10x](https://qiita.com/juten10x)
 * Muuseo [juten10x](https://muuseo.com/juten10x/owner)
 * Xfolio: [juten10x](https://xfolio.jp/users/THkWP3ukzRzn)
