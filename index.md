@@ -1,7 +1,5 @@
 <img src="light_white.jpg" width="200px">
 
-<!-- CodeforcesのHNを変更し、更新する -->
-いずれ Wikipedia を除く全ての Web サイトにおいて、HNを `juten10x` にします。
 * GitHub: [juten10x](https://github.com/juten10x)
 * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
@@ -15,6 +13,7 @@
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
 * Mastodon: [juten10x](https://mstdn.jp/@juten10x)
+* Reddit: [_juten10x](https://reddit.com/user/_juten10x)
 * X: [juten10x](https://x.com/juten10x)
 * SoundCloud: [juten10x](https://soundcloud.com/juten10x)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
