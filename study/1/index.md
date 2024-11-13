@@ -88,24 +88,6 @@ document.write(S);
 
 以下にコード（これとは関係ない）がどのように表示されるのかを試す
 
-<pre>
-  <code>
-    #include <iostream>
-    using namespace std;
-
-    int main() {
-      ios::sync_with_stdio(false);
-      cin.tie(nullptr);
-
-      cout << "Hello" << '\n';
-
-      return 0;
-    }
-  </code>
-</pre>
-
-
-
 ```cpp
 #include <iostream>
 #include <algorithm>
