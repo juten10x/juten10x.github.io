@@ -1,13 +1,24 @@
 /* baku89. "settings". glisp. https://scrapbox.io/glisp/settings , (accessdate=2024-09-20) より、一部を改変 */
 
 body {
+  --terminal-background: #f9f9f9;
+  --terminal-foreground: #020202;
+  --terminal-ansiBlack: #020202;
   --terminal-ansiRed: #cd3232;
   --terminal-ansiGreen: #00bc00;
   --terminal-ansiYellow: #a5a900;
   --terminal-ansiBlue: #0752a8;
   --terminal-ansiMagenta: #bc05bc;
   --terminal-ansiCyan: #0598bc;
+  --terminal-ansiWhite: #343434;
   --terminal-ansiBrightBlack: #5e5e5e;
+  --terminal-ansiBrightRed: #cd3333;
+  --terminal-ansiBrightGreen: #1bce1a;
+  --terminal-ansiBrightYellow: #adbb5b;
+  --terminal-ansiBrightBlue: #0752a8;
+  --terminal-ansiBrightMagenta: #c451ce;
+  --terminal-ansiBrightCyan: #52a8c7;
+  --terminal-ansiBrightWhite: #a6a3a6;
 }
 
 code.highlight .hljs-title,
