@@ -56,7 +56,7 @@
 <style>#ccby4 { display: none; }</style>
 
 以下にコード（これとは関係ない）がどのように表示されるのかを試す
-```cpp:a.cpp
+```cpp
 #include <iostream>
 #include <algorithm>
 using namespace std;
