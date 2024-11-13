@@ -6,7 +6,7 @@ for文で $i=1, \ldots, 100$ まで回しましょう．そして，各 $i$ に�
 
 JavaScriptによる解答例を以下に示します．
 
-<code class="highlight">
+```js
 let cnt = 0;
 
 for (let i = 1; i <= 100; i++) {
@@ -14,7 +14,7 @@ for (let i = 1; i <= 100; i++) {
 }
 
 document.write(cnt);
-</code>
+```
 
 ### 別解（素因数分解する）
 ここから先は少し難しい内容のため，読み飛ばしていただいても構いません．
