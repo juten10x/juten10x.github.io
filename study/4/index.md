@@ -5,7 +5,7 @@ for文で $i=1, \ldots, 100$ まで回しましょう．そして，各 $i$ に�
 よって答えは```9```であると求めることができます．
 
 JavaScriptによる解答例を以下に示します．
-```js:count_divisors_1.js
+```js
 let cnt = 0;
 
 for (let i = 1; i <= 100; i++) {
@@ -25,7 +25,7 @@ document.write(cnt);
 
 以上により，JavaScriptで以下のように書くことができます．
 
-```js:count_divisors_2.js
+```js
 let cnt = 0, ans = 1, N = 100;
 
 for (let i = 2; N != 1; i++) {
