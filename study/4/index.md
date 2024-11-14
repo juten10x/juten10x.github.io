@@ -26,7 +26,7 @@ document.write(cnt);
 
 以上により，JavaScriptで以下のように書くことができます．
 
-```js:count_divisors_2.js
+```js
 let cnt = 0, ans = 1, N = 100;
 
 for (let i = 2; N != 1; i++) {
