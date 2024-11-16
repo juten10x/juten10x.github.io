@@ -15,7 +15,7 @@
 * QCoder: [juten10x](https://www.qcoder.jp/ja/users/juten10x)
 * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
 * Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
-* cluster: [juten10x](https://cluster.mu/u/3lPRvcgw25rSC8zH)
+* cluster: [juten10x](https://cluster.mu/u/10x)
 * VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
