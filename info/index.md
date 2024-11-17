@@ -1,8 +1,6 @@
 ## Info
 
-<img src="../light_white.jpg" width="200px" alt="アイコン。快晴の空を背景に、白い柱の上に双頭の電灯が載っている。">
-
-いずれ Wikipedia を除く全ての Web サイトにおいて、HNを `juten10x` にします。
+<img src="../light_white.jpg" width="200px">
 
 ### 資格
 * 基本情報技術者（2024年8月取得）
@@ -35,4 +33,4 @@
 * Muuseo [juten10x](https://muuseo.com/juten10x/owner)
 * Xfolio: [juten10x](https://xfolio.jp/users/THkWP3ukzRzn)
 * Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
-* [juten10x / juten10x.github.io](https://github.com/Juten10x/juten10x.github.io)
+* [juten10x / juten10x.github.io](https://github.com/juten10x/juten10x.github.io)
