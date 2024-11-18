@@ -2,6 +2,8 @@
 
 <img src="../light_white.jpg" width="200px">
 
+juten10x<img src="../blog/pile_of_images/_at_.jpg" width="32px">
+
 ### 資格
 * 基本情報技術者（2024年8月取得）
 
