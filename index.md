@@ -1,4 +1,4 @@
-<img src="light_white.jpg" width="200px">
+<a href="light_white.jpg" data-lightboc="icon"><img src="light_white.jpg" width="200px"></a>
 
 * GitHub: [juten10x](https://github.com/juten10x)
 * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
