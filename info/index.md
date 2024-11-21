@@ -2,6 +2,8 @@
 
 <a href="../light_white.jpg" data-lightbox="icon"><img src="../light_white.jpg" width="200px"></a>
 
+juten10x@gmail.com
+
 ### 資格
 * 基本情報技術者（2024年8月取得）
 
