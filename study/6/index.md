@@ -23,9 +23,6 @@
 
 <figure>
   <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2555.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2555.jpeg"></a>
-  <figcaption><small>ここにも！</small></figcaption>
   <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2558.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2558.jpeg"></a>
-  <figcaption><small>ここにも書いてみよう</small></figcaption>
   <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2585.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2585.jpeg"></a>
-  <figcaption><small>ここに書いたらどうなるんかいね</small></figcaption>
 </figure>
