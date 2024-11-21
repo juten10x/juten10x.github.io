@@ -25,4 +25,5 @@
   <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2555.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2555.jpeg"></a>
   <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2558.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2558.jpeg"></a>
   <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2585.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2585.jpeg"></a>
+  <figcaption><small>もう一度ここに書いてみよう</small></figcaption>
 </figure>
