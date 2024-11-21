@@ -22,8 +22,10 @@
 そして2024年7月、私は「 Juten10x 」の先頭が大文字であることに悩んでいました。例えば競プロでいえば、tourist さんや jiangly さんなど、先頭を小文字にしている人の方が多いように思います。また、この HPは 「 juten10x.github.io 」というドメインですが、見かけ上は Juten10x.github.io と書くことができても、結局ブラウザ上で表示されるのは先頭が小文字のものです。それに、なんとなく、先頭が小文字のほうがスタイリッシュにも思えます。そんな感じの理由から、全てのサービスにおいて、使っている HN を「 **juten10x** 」にすることにしました。
 
 <figure>
-  <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2555.jpeg" data-lightbox="username_at"><img id="_image2" src="https://juten10x.github.io/blog/pile_of_images/IMG_2555.jpeg"></a>
-  <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2558.jpeg" data-lightbox="username_at"><img id="_image2" src="https://juten10x.github.io/blog/pile_of_images/IMG_2558.jpeg"></a>
-  <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2585.jpeg" data-lightbox="username_at"><img id="_image2" src="https://juten10x.github.io/blog/pile_of_images/IMG_2585.jpeg"></a>
+  <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2555.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2555.jpeg"></a>
+  <figcaption><small>ここにも！</small></figcaption>
+  <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2558.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2558.jpeg"></a>
+  <figcaption><small>ここにも書いてみよう</small></figcaption>
+  <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2585.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2585.jpeg"></a>
   <figcaption><small>ここに書いたらどうなるんかいね</small></figcaption>
 </figure>
