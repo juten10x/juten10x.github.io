@@ -13,7 +13,6 @@
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
 * Mastodon: [juten10x](https://mstdn.jp/@juten10x)
-* X: [juten10x](https://x.com/juten10x)
 * SoundCloud: [juten10x](https://soundcloud.com/juten10x)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
@@ -27,4 +26,5 @@
 * Muuseo: [juten10x](https://muuseo.com/juten10x/owner)
 * Xfolio: [juten10x](https://xfolio.jp/users/THkWP3ukzRzn)
 * Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
+* X: [juten10x](https://x.com/juten10x)
 * [juten10x / juten10x.github.io](https://github.com/juten10x/juten10x.github.io)
