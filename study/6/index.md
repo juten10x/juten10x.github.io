@@ -25,7 +25,7 @@
   <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2555.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2555.jpeg"></a>
   <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2558.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2558.jpeg"></a>
   <a href="https://juten10x.github.io/blog/pile_of_images/IMG_2585.jpeg" data-lightbox="username_at"><img width="256px" src="https://juten10x.github.io/blog/pile_of_images/IMG_2585.jpeg"></a>
-  <figcaption><small>AtCoder でユーザ名変更した際のスクリーンショット</small></figcaption>
+  <figcaption><small>AtCoder でユーザ名を変更した際のスクリーンショット</small></figcaption>
 </figure>
 
 AtCoder のユーザ名もこのとき変更しました。上の画像をご覧になればおわかりかと思いますが、 Juten10x から juten10x へ、つまり文字は変えずに、大文字から小文字へとだけ変更しようとすると、「このユーザ名はすでに使用されています」と×印が出ます。しかし、それを無視して「変更」ボタンをクリックすると、なんと変更することができました。これは結構驚きました。
