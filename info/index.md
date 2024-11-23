@@ -5,7 +5,7 @@
 juten10x<img src="../blog/pile_of_images/IMG_3635.jpeg" width="85">
 
 ### 資格
-* 基本情報技術者試験　合格（2024年8月）
+* 基本情報技術者試験 合格（2024年8月）
 
 ### リンク
 * GitHub: [juten10x](https://github.com/juten10x)
