@@ -2,9 +2,8 @@
 
 <a href="../light_white.jpg" data-lightbox="icon"><img src="../light_white.jpg" width="200px"></a>
 
-juten10x<img src="../blog/pile_of_images/IMG_3635.jpeg" width="85">
-
-Discord: juten10x
+* juten10x<img src="../blog/pile_of_images/IMG_3635.jpeg" width="85">
+* Discord: juten10x
 
 ### 資格
 * 基本情報技術者試験 合格（2024年8月）
