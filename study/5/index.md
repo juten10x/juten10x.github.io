@@ -1,9 +1,38 @@
-## FEを受験しました - Jul 31, 2024
-###### last modified: Sep 4, 2024
-昨日、[基本情報技術者試験（FE）](https://www.ipa.go.jp/shiken/kubun/fe.html)を受験しました。
+## C++コードがどのように表示されるか
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
 
-### 追記（8月15日）
-合格しました。
+int main() {
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+  
+  int N, K;
+  string S;
+  cin >> N >> K >> S;
+  
+  vector<pair<char, int> > R;
+  for (char c : S) {
+    if (!R.empty() && R.back().first == c) R.back().second++;
+    else R.push_back(make_pair(c, 1));
+  }
+  
+  for (int i = 0; i < (int)R.size(); i++) {
+    if (R[i].first == '1') {
+      K--;
+      if (K == 0) {
+        swap(R[i-1], R[i]);
+      }
+    }
+  }
+  
+  for (auto [k, v] : R) {
+    while (v--) cout << k;
+  }
+  cout << '\n';
+  
+  return 0;
+}
 
-### 追記（9月4日）
-記念に、9月2日の官報（号外第204号）を購入しました。
+```
