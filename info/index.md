@@ -4,6 +4,8 @@
 
 juten10x<img src="../blog/pile_of_images/IMG_3635.jpeg" width="85">
 
+Discord: juten10x
+
 ### 資格
 * 基本情報技術者試験 合格（2024年8月）
 
@@ -14,6 +16,7 @@ juten10x<img src="../blog/pile_of_images/IMG_3635.jpeg" width="85">
 * AOJ: [juten10x](https://onlinejudge.u-aizu.ac.jp/status/users/juten10x)
 * QCoder: [juten10x](https://www.qcoder.jp/ja/users/juten10x)
 * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
+* AlpacaHack: [juten10x](https://alpacahack.com/users/juten10x)
 * Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
 * cluster: [juten10x](https://cluster.mu/u/10x)
 * VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
@@ -28,10 +31,11 @@ juten10x<img src="../blog/pile_of_images/IMG_3635.jpeg" width="85">
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
 * Steam: [juten10x](https://steamcommunity.com/id/juten10x/)
 * note: [juten10x](https://note.com/juten10x)
+* Gravatar: [juten10x](https://gravatar.com/juten10x)
 * Misskey.design: [juten10x](https://misskey.design/@Juten10x)
 * Reddit: [_juten10x](https://reddit.com/user/_juten10x)
-* Qiita [juten10x](https://qiita.com/juten10x)
-* Muuseo [juten10x](https://muuseo.com/juten10x/owner)
+* Qiita: [juten10x](https://qiita.com/juten10x)
+* Muuseo: [juten10x](https://muuseo.com/juten10x/owner)
 * Xfolio: [juten10x](https://xfolio.jp/users/THkWP3ukzRzn)
 * Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
 * X: [juten10x](https://x.com/juten10x)
