@@ -13,7 +13,7 @@ Discord: juten10x
 * GitHub: [juten10x](https://github.com/juten10x)
 * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
-* AOJ: [juten10x](https://onlinejudge.u-aizu.ac.jp/status/users/juten10x)
+* AOJ: [juten10x](https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x)
 * QCoder: [juten10x](https://www.qcoder.jp/ja/users/juten10x)
 * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
 * AlpacaHack: [juten10x](https://alpacahack.com/users/juten10x)
