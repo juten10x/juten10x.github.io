@@ -13,15 +13,15 @@
 * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
 * Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
-* cluster: [juten10x](https://cluster.mu/u/10x)
-* VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
-* Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
+* Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
+* cluster: [juten10x](https://cluster.mu/u/10x)
+* VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
 * [juten10x / juten10x.github.io](https://github.com/juten10x/juten10x.github.io)
 
 ---
