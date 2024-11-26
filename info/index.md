@@ -27,6 +27,7 @@
 ---
 * AOJ: [juten10x](https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x)
 * QCoder: [juten10x](https://www.qcoder.jp/ja/users/juten10x)
+* CodeChef: [juten10x](https://www.codechef.com/users/juten10x)
 * TLX: [juten10x](https://tlx.toki.id/profiles/juten10x)
 * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
 * AlpacaHack: [juten10x](https://alpacahack.com/users/juten10x)
