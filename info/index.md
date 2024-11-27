@@ -27,7 +27,12 @@
   <li>Misskey競プロ鯖: <a href="https://misskey.kyoupro.com/@Juten10x">juten10x</a></li>
   <li>cluster: <a href="https://cluster.mu/u/10x">juten10x</a></li>
   <li>VRChat: <a href="https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e">juten10x</a></li>
-  ---
+</ul>
+<details>
+
+<summary>more</summary>
+
+<ul>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
   <li>QCoder: <a href="https://www.qcoder.jp/ja/users/juten10x">juten10x</a></li>
   <li>CodeChef: <a href="https://www.codechef.com/users/juten10x">juten10x</a></li>
@@ -47,6 +52,8 @@
   <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
   <li>X: <a href="https://x.com/juten10x">juten10x</a></li>
 </ul>
+
+</details>
 
 </details>
 
