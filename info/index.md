@@ -62,4 +62,4 @@
 * 文章や画像は、ページ最下部に [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) の表記があるページのものについては当該ライセンスで公開しています。ページ最下部に全くライセンスの表記がないものについては、特にライセンスを指定していない状態です。
 
 ### リポジトリ
-* このWebサイトは、 GitHub Pages を用いて公開しています。 GitHub 上のリポジトリは次です : https://github.com/juten10x/juten10x.github.io
+* このWebサイトは、 GitHub Pages を用いて公開しています。 GitHub 上のリポジトリは次です : [https://github.com/juten10x/juten10x.github.io](https://github.com/juten10x/juten10x.github.io)
