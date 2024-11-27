@@ -13,24 +13,30 @@
 * Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
 * cluster: [juten10x](https://cluster.mu/u/10x)
 * VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
-* [juten10x / juten10x.github.io](https://github.com/juten10x/juten10x.github.io)
 
----
-* AOJ: [juten10x](https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x)
-* QCoder: [juten10x](https://www.qcoder.jp/ja/users/juten10x)
-* CodeChef: [juten10x](https://www.codechef.com/users/juten10x)
-* TLX: [juten10x](https://tlx.toki.id/profiles/juten10x)
-* OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
-* AlpacaHack: [juten10x](https://alpacahack.com/users/juten10x)
-* Mastodon: [juten10x](https://mstdn.jp/@juten10x)
-* SoundCloud: [juten10x](https://soundcloud.com/juten10x)
-* Steam: [juten10x](https://steamcommunity.com/id/juten10x/)
-* note: [juten10x](https://note.com/juten10x)
-* Gravatar: [juten10x](https://gravatar.com/juten10x)
-* Misskey.design: [juten10x](https://misskey.design/@Juten10x)
-* Reddit: [_juten10x](https://reddit.com/user/_juten10x)
-* Qiita: [juten10x](https://qiita.com/juten10x)
-* Muuseo: [juten10x](https://muuseo.com/juten10x/owner)
-* Xfolio: [juten10x](https://xfolio.jp/users/THkWP3ukzRzn)
-* Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
-* X: [juten10x](https://x.com/juten10x)
+<details>
+
+<summary>more</summary>
+
+<ul>
+  <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
+  <li>QCoder: <a href="https://www.qcoder.jp/ja/users/juten10x">juten10x</a></li>
+  <li>CodeChef: <a href="https://www.codechef.com/users/juten10x">juten10x</a></li>
+  <li>TLX: <a href="https://tlx.toki.id/profiles/juten10x">juten10x</a></li>
+  <li>OMC: <a href="https://onlinemathcontest.com/users/juten10x">juten10x</a></li>
+  <li>AlpacaHack: <a href="https://alpacahack.com/users/juten10x">juten10x</a></li>
+  <li>Mastodon: <a href="https://mstdn.jp/@juten10x">juten10x</a></li>
+  <li>SoundCloud: <a href="https://soundcloud.com/juten10x">juten10x</a></li>
+  <li>Steam: <a href="https://steamcommunity.com/id/juten10x/">juten10x</a></li>
+  <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
+  <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
+  <li>Misskey.design: <a href="https://misskey.design/@Juten10x">juten10x</a></li>
+  <li>Reddit: <a href="https://reddit.com/user/_juten10x">_juten10x</a></li>
+  <li>Qiita: <a href="https://qiita.com/juten10x">juten10x</a></li>
+  <li>Muuseo: <a href="https://muuseo.com/juten10x/owner">juten10x</a></li>
+  <li>Xfolio: <a href="https://xfolio.jp/users/THkWP3ukzRzn">juten10x</a></li>
+  <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
+  <li>X: <a href="https://x.com/juten10x">juten10x</a></li>
+</ul>
+
+</details>
