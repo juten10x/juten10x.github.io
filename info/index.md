@@ -8,42 +8,51 @@
 ### 資格
 * 基本情報技術者試験 合格（2024年8月）
 
+### 各種アカウント
+<details>
+  <summary>展開する</summary>
+
+  * GitHub: [juten10x](https://github.com/juten10x)
+  * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
+  * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
+  * Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
+  * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
+  * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
+  * Instagram: [juten10x](https://www.instagram.com/juten10x)
+  * YouTube: [juten10x](https://www.youtube.com/@juten10x)
+  * niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
+  * Vimeo: [juten10x](https://vimeo.com/juten10x)
+  * Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
+  * cluster: [juten10x](https://cluster.mu/u/10x)
+  * VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
+
+  以上は使用頻度が高いものです。
+  
+  ---
+  以下は使用頻度が低いものです。
+  * AOJ: [juten10x](https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x)
+  * QCoder: [juten10x](https://www.qcoder.jp/ja/users/juten10x)
+  * CodeChef: [juten10x](https://www.codechef.com/users/juten10x)
+  * TLX: [juten10x](https://tlx.toki.id/profiles/juten10x)
+  * OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
+  * AlpacaHack: [juten10x](https://alpacahack.com/users/juten10x)
+  * Mastodon: [juten10x](https://mstdn.jp/@juten10x)
+  * SoundCloud: [juten10x](https://soundcloud.com/juten10x)
+  * Steam: [juten10x](https://steamcommunity.com/id/juten10x/)
+  * note: [juten10x](https://note.com/juten10x)
+  * Gravatar: [juten10x](https://gravatar.com/juten10x)
+  * Misskey.design: [juten10x](https://misskey.design/@Juten10x)
+  * Reddit: [_juten10x](https://reddit.com/user/_juten10x)
+  * Qiita: [juten10x](https://qiita.com/juten10x)
+  * Muuseo: [juten10x](https://muuseo.com/juten10x/owner)
+  * Xfolio: [juten10x](https://xfolio.jp/users/THkWP3ukzRzn)
+  * Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
+  * X: [juten10x](https://x.com/juten10x)
+</details>
+
 ### ライセンス
 * このWebサイト（ juten10x.github.io ）を構成している HTML コードは、 MIT License で公開しています。このライセンスの詳細については [LICENSE](https://github.com/juten10x/juten10x.github.io/blob/main/LICENSE) ファイルをご覧ください。
 * 文章や画像は、ページ最下部に [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) の表記があるページのものについては当該ライセンスで公開しています。ページ最下部に全くライセンスの表記がないものについては、特にライセンスを指定していない状態です。
 
-### リンク
-* GitHub: [juten10x](https://github.com/juten10x)
-* AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
-* Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
-* Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
-* Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
-* Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
-* Instagram: [juten10x](https://www.instagram.com/juten10x)
-* YouTube: [juten10x](https://www.youtube.com/@juten10x)
-* niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
-* Vimeo: [juten10x](https://vimeo.com/juten10x)
-* Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
-* cluster: [juten10x](https://cluster.mu/u/10x)
-* VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
-* [juten10x / juten10x.github.io](https://github.com/juten10x/juten10x.github.io)
-
----
-* AOJ: [juten10x](https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x)
-* QCoder: [juten10x](https://www.qcoder.jp/ja/users/juten10x)
-* CodeChef: [juten10x](https://www.codechef.com/users/juten10x)
-* TLX: [juten10x](https://tlx.toki.id/profiles/juten10x)
-* OMC: [juten10x](https://onlinemathcontest.com/users/juten10x)
-* AlpacaHack: [juten10x](https://alpacahack.com/users/juten10x)
-* Mastodon: [juten10x](https://mstdn.jp/@juten10x)
-* SoundCloud: [juten10x](https://soundcloud.com/juten10x)
-* Steam: [juten10x](https://steamcommunity.com/id/juten10x/)
-* note: [juten10x](https://note.com/juten10x)
-* Gravatar: [juten10x](https://gravatar.com/juten10x)
-* Misskey.design: [juten10x](https://misskey.design/@Juten10x)
-* Reddit: [_juten10x](https://reddit.com/user/_juten10x)
-* Qiita: [juten10x](https://qiita.com/juten10x)
-* Muuseo: [juten10x](https://muuseo.com/juten10x/owner)
-* Xfolio: [juten10x](https://xfolio.jp/users/THkWP3ukzRzn)
-* Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
-* X: [juten10x](https://x.com/juten10x)
+### リポジトリ
+* このWebサイトは、 GitHub Pages を用いて公開しています。 GitHub 上のリポジトリは次です : https://github.com/juten10x/juten10x.github.io
