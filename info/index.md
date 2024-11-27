@@ -16,7 +16,7 @@
 <ul>
   <li>GitHub: <a href="https://github.com/juten10x">juten10x</a></li>
   <li>AtCoder: <a href="https://atcoder.jp/users/juten10x">juten10x</a></li>
-  <li>Codeforces: <a href="https://codeforces.com/profile/Juten10x">juten10x</a></li>
+  <li>Codeforces: <a href="https://codeforces.com/profile/Juten10x">Juten10x</a></li>
   <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
   <li>Scrapbox: <a href="https://scrapbox.io/juten10x/">juten10x</a></li>
   <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a></li>
