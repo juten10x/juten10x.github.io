@@ -11,7 +11,7 @@
 ### 各種アカウント
 <details>
   <summary>展開する</summary>
-  
+
   * GitHub: [juten10x](https://github.com/juten10x)
   * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
   * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
@@ -45,6 +45,7 @@
   * Xfolio: [juten10x](https://xfolio.jp/users/THkWP3ukzRzn)
   * Hatena Blog: [juten10x](https://juten10x.hatenablog.com)
   * X: [juten10x](https://x.com/juten10x)
+
 </details>
 
 ### ライセンス
