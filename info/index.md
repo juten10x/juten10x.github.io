@@ -17,7 +17,7 @@
   <li>GitHub: <a href="https://github.com/juten10x">juten10x</a></li>
   <li>AtCoder: <a href="https://atcoder.jp/users/juten10x">juten10x</a></li>
   <li>Codeforces: <a href="https://codeforces.com/profile/Juten10x">juten10x</a></li>
-  <li>Wikipedia<a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
+  <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
   <li>Scrapbox: <a href="https://scrapbox.io/juten10x/">juten10x</a></li>
   <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a></li>
   <li>Instagram: <a href="https://www.instagram.com/juten10x">juten10x</a></li>
@@ -40,7 +40,7 @@
   <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
   <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
   <li>Misskey.design: <a href="https://misskey.design/@Juten10x">juten10x</a></li>
-  <li>Reddit: [<a href="https://reddit.com/user/_juten10x">juten10x</a></li>
+  <li>Reddit: <a href="https://reddit.com/user/_juten10x">_juten10x</a></li>
   <li>Qiita: <a href="https://qiita.com/juten10x">juten10x</a></li>
   <li>Muuseo: <a href="https://muuseo.com/juten10x/owner">juten10x</a></li>
   <li>Xfolio: <a href="https://xfolio.jp/users/THkWP3ukzRzn">juten10x</a></li>
