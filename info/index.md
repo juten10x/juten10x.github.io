@@ -17,7 +17,7 @@
   <li>GitHub: <a href="https://github.com/juten10x">juten10x</a></li>
   <li>AtCoder: <a href="https://atcoder.jp/users/juten10x">juten10x</a></li>
   <li>Codeforces: <a href="https://codeforces.com/profile/Juten10x">juten10x</a></li>
-  <li>Wikipedi<a href="https://ja.wikipedia.org/wiki/?curid=4687335">juten10x</a></li>
+  <li>Wikipedia<a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
   <li>Scrapbox: <a href="https://scrapbox.io/juten10x/">juten10x</a></li>
   <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a></li>
   <li>Instagram: <a href="https://www.instagram.com/juten10x">juten10x</a></li>
@@ -27,6 +27,7 @@
   <li>Misskey競プロ鯖: <a href="https://misskey.kyoupro.com/@Juten10x">juten10x</a></li>
   <li>cluster: <a href="https://cluster.mu/u/10x">juten10x</a></li>
   <li>VRChat: <a href="https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e">juten10x</a></li>
+  ---
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
   <li>QCoder: <a href="https://www.qcoder.jp/ja/users/juten10x">juten10x</a></li>
   <li>CodeChef: <a href="https://www.codechef.com/users/juten10x">juten10x</a></li>
