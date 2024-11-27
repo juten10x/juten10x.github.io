@@ -8,7 +8,7 @@
 ### 資格
 * 基本情報技術者試験 合格（2024年8月）
 
-## ライセンス
+### ライセンス
 * このWebサイト（ juten10x.github.io ）を構成している HTML コードは、 MIT License で公開しています。このライセンスの詳細については [LICENSE](https://github.com/juten10x/juten10x.github.io/blob/main/LICENSE) ファイルをご覧ください。
 * 文章や画像は、ページ最下部に [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) の表記があるページのものについては当該ライセンスで公開しています。ページ最下部に全くライセンスの表記がないものについては、特にライセンスを指定していない状態です。
 
