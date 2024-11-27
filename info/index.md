@@ -11,7 +11,7 @@
 ### 各種アカウント
 <details>
   <summary>展開する</summary>
-
+  
   * GitHub: [juten10x](https://github.com/juten10x)
   * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
   * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
