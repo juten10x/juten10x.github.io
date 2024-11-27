@@ -25,11 +25,8 @@
   * Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
   * cluster: [juten10x](https://cluster.mu/u/10x)
   * VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
-
-  以上は使用頻度が高いものです。
   
   ---
-  以下は使用頻度が低いものです。
   * AOJ: [juten10x](https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x)
   * QCoder: [juten10x](https://www.qcoder.jp/ja/users/juten10x)
   * CodeChef: [juten10x](https://www.codechef.com/users/juten10x)
