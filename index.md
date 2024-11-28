@@ -3,7 +3,6 @@
 * GitHub: [juten10x](https://github.com/juten10x)
 * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
-* Wikipedia: [Juten](https://ja.wikipedia.org/wiki/?curid=4687335)
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
@@ -19,6 +18,7 @@
 <summary>more</summary>
 
 <ul>
+  <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
   <li>QCoder: <a href="https://www.qcoder.jp/ja/users/juten10x">juten10x</a></li>
   <li>CodeChef: <a href="https://www.codechef.com/users/juten10x">juten10x</a></li>
