@@ -13,7 +13,7 @@
 * Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
 * cluster: [juten10x](https://cluster.mu/u/10x)
 * VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
-<br><div sytle="color:white;">木下樹巓</div>
+<br><span sytle="color:white;">木下樹巓</span>
 
 <details>
 
