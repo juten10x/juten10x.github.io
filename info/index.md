@@ -10,7 +10,6 @@
 
 ### 各種アカウント
 <details>
-
 <summary>展開する</summary>
 
 <ul>
@@ -28,7 +27,6 @@
   <li>VRChat: <a href="https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e">juten10x</a></li>
 </ul>
 <details>
-
 <summary>more</summary>
 
 <ul>
@@ -54,12 +52,18 @@
 </ul>
 
 </details>
-
 </details>
 
 ### ライセンス
-* このWebサイト（ juten10x.github.io ）を構成している HTML コードは、 MIT License で公開しています。このライセンスの詳細については [LICENSE](https://github.com/juten10x/juten10x.github.io/blob/main/LICENSE) ファイルをご覧ください。
+* HTML コードは、 MIT License で公開しています。このライセンスの詳細については [LICENSE](https://github.com/juten10x/juten10x.github.io/blob/main/LICENSE) ファイルをご覧ください。
 * 文章や画像は、ページ最下部に [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) の表記があるページのものについては当該ライセンスで公開しています。ページ最下部に全くライセンスの表記がないものについては、特にライセンスを指定していない状態です。
+<details>
+<summary>en</summary>
+<ul>
+  <li>The HTML code is released under the MIT License. See the LICENSE file for more information about this license.</li>
+  <li>Texts and images on pages that have a "CC BY 4.0" at the bottom of the page are released under that license. For those without a license at the bottom of the page, no particular license is specified.</li>
+</ul>
+</details>
 
 ### リポジトリ
 * このWebサイトは、 GitHub Pages を用いて公開しています。 GitHub 上のリポジトリは次です : [https://github.com/juten10x/juten10x.github.io](https://github.com/juten10x/juten10x.github.io)
