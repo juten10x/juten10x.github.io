@@ -39,6 +39,7 @@
   <li>AlpacaHack: <a href="https://alpacahack.com/users/juten10x">juten10x</a></li>
   <li>Mastodon: <a href="https://mstdn.jp/@juten10x">juten10x</a></li>
   <li>SoundCloud: <a href="https://soundcloud.com/juten10x">juten10x</a></li>
+  <li>Twitch: <a href="https://www.twitch.tv/juten10x">juten10x</a></li>
   <li>Steam: <a href="https://steamcommunity.com/id/juten10x/">juten10x</a></li>
   <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
   <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
