@@ -25,6 +25,8 @@
   <li>TLX: <a href="https://tlx.toki.id/profiles/juten10x">juten10x</a></li>
   <li>OMC: <a href="https://onlinemathcontest.com/users/juten10x">juten10x</a></li>
   <li>AlpacaHack: <a href="https://alpacahack.com/users/juten10x">juten10x</a></li>
+  <li>CryptoHack: <a href="https://cryptohack.org/user/juten10x/">juten10x</a></li>
+  <li>DreamHack: <a href="https://dreamhack.io/users/70164">juten10x</a></li>
   <li>Mastodon: <a href="https://mstdn.jp/@juten10x">juten10x</a></li>
   <li>SoundCloud: <a href="https://soundcloud.com/juten10x">juten10x</a></li>
   <li>Twitch: <a href="https://www.twitch.tv/juten10x">juten10x</a></li>
