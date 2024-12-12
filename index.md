@@ -9,7 +9,6 @@
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
-* Misskey競プロ鯖: [juten10x](https://misskey.kyoupro.com/@Juten10x)
 * cluster: [juten10x](https://cluster.mu/u/10x)
 * VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
 
@@ -20,6 +19,7 @@
 <ul>
   <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
+  <li>yukicoder: <a href="https://yukicoder.me/users/21972">juten10x</a></li>
   <li>QCoder: <a href="https://www.qcoder.jp/ja/users/juten10x">juten10x</a></li>
   <li>CodeChef: <a href="https://www.codechef.com/users/juten10x">juten10x</a></li>
   <li>TLX: <a href="https://tlx.toki.id/profiles/juten10x">juten10x</a></li>
@@ -35,6 +35,7 @@
   <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
   <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
   <li>Misskey.design: <a href="https://misskey.design/@Juten10x">juten10x</a></li>
+  <li>Misskey競プロ鯖: <a href="https://misskey.kyoupro.com/@Juten10x">juten10x</a></li>
   <li>Reddit: <a href="https://reddit.com/user/_juten10x">_juten10x</a></li>
   <li>Qiita: <a href="https://qiita.com/juten10x">juten10x</a></li>
   <li>Muuseo: <a href="https://muuseo.com/juten10x/owner">juten10x</a></li>
