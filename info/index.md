@@ -29,7 +29,6 @@
 <summary>more</summary>
 
 <ul>
-  <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
   <li>yukicoder: <a href="https://yukicoder.me/users/21972">juten10x</a></li>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
   <li>QCoder: <a href="https://www.qcoder.jp/ja/users/juten10x">juten10x</a></li>
@@ -52,6 +51,7 @@
   <li>Qiita: <a href="https://qiita.com/juten10x">juten10x</a></li>
   <li>Muuseo: <a href="https://muuseo.com/juten10x/owner">juten10x</a></li>
   <li>Xfolio: <a href="https://xfolio.jp/users/THkWP3ukzRzn">juten10x</a></li>
+  <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
   <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
   <li>X: <a href="https://x.com/juten10x">juten10x</a></li>
 </ul>
