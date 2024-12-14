@@ -17,8 +17,8 @@
 <summary>more</summary>
 
 <ul>
-  <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
   <li>yukicoder: <a href="https://yukicoder.me/users/21972">juten10x</a></li>
+  <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
   <li>QCoder: <a href="https://www.qcoder.jp/ja/users/juten10x">juten10x</a></li>
   <li>CodeChef: <a href="https://www.codechef.com/users/juten10x">juten10x</a></li>
   <li>TLX: <a href="https://tlx.toki.id/profiles/juten10x">juten10x</a></li>
