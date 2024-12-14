@@ -18,12 +18,12 @@
 <a href="pile_of_images/lake_biwa.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/lake_biwa.jpg"></a>
 <a href="pile_of_images/tree.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/tree.jpg"></a>
 <a href="pile_of_images/s_.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/s_.jpg"></a>
-<a href="pile_of_images/seta_river.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/seta-river.jpg"></a>
+<a href="pile_of_images/seta_river.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/seta_river.jpg"></a>
 <a href="pile_of_images/k_.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/k_.jpg"></a>
 <a href="pile_of_images/move-4.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/move-4.jpg"></a>
-<a href="pile_of_images/move-2.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/move-2jpg"></a>
+<a href="pile_of_images/move-2.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/move-2.jpg"></a>
 <a href="pile_of_images/blue26jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/blue26.jpg"></a>
-<a href="pile_of_images/water-5.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/water-5jpg"></a>
+<a href="pile_of_images/water-5.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/water-5.jpg"></a>
 <a href="pile_of_images/water-3.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/water-3.jpg"></a>
 <a href="pile_of_images/water-1.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/water-1.jpg"></a>
 <a href="pile_of_images/b_.jpg" data-lightbox="images"><img id="_image2" src="pile_of_images/b_.jpg"></a>
