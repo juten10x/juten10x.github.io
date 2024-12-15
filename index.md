@@ -6,7 +6,7 @@
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
-* YouTube: [juten10x](https://www.youtube.com/@juten10x)
+* YouTube: [juten10x](https://www.youtube.com/@juten10x), [_juten10x](https://www.youtube.com/@juten10x)
 * niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
 * cluster: [juten10x](https://cluster.mu/u/10x)
@@ -41,7 +41,7 @@
   <li>Xfolio: <a href="https://xfolio.jp/users/THkWP3ukzRzn">juten10x</a></li>
   <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
   <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
-  <li>X: <a href="https://x.com/juten10x">juten10x</a></li>
+  <li>X: <a href="https://x.com/juten10x">juten10x</a>, <a href="https://x.com/_juten10x">_juten10x</a></li>
 </ul>
 
 </details>
