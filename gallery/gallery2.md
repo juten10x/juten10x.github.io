@@ -22,7 +22,7 @@
 <a href="pile_of_images/k_.jpg" data-lightbox="images"><img id="_image3" src="pile_of_images/k_.jpg"></a>
 <a href="pile_of_images/move-4.jpg" data-lightbox="images"><img id="_image3" src="pile_of_images/move-4.jpg"></a>
 <a href="pile_of_images/move-2.jpg" data-lightbox="images"><img id="_image3" src="pile_of_images/move-2.jpg"></a>
-<a href="pile_of_images/blue26jpg" data-lightbox="images"><img id="_image3" src="pile_of_images/blue26.jpg"></a>
+<a href="pile_of_images/blue26.jpg" data-lightbox="images"><img id="_image3" src="pile_of_images/blue26.jpg"></a>
 <a href="pile_of_images/water-5.jpg" data-lightbox="images"><img id="_image3" src="pile_of_images/water-5.jpg"></a>
 <a href="pile_of_images/water-3.jpg" data-lightbox="images"><img id="_image3" src="pile_of_images/water-3.jpg"></a>
 <a href="pile_of_images/water-1.jpg" data-lightbox="images"><img id="_image3" src="pile_of_images/water-1.jpg"></a>
