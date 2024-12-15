@@ -6,7 +6,7 @@
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.bsky.social)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
-* YouTube: [juten10x](https://www.youtube.com/@juten10x), [_juten10x](https://www.youtube.com/@juten10x)
+* YouTube: [juten10x](https://www.youtube.com/@juten10x), [_juten10x](https://www.youtube.com/@ujuten10x)
 * niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
 * cluster: [juten10x](https://cluster.mu/u/10x)
