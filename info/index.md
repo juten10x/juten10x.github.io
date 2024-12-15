@@ -17,8 +17,8 @@
   <li>AtCoder: <a href="https://atcoder.jp/users/juten10x">juten10x</a></li>
   <li>Codeforces: <a href="https://codeforces.com/profile/Juten10x">Juten10x</a></li>
   <li>Scrapbox: <a href="https://scrapbox.io/juten10x/">juten10x</a></li>
-  <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a></li>
   <li>Instagram: <a href="https://www.instagram.com/juten10x">juten10x</a></li>
+  <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a>, <a href="https://bsky.app/profile/ujuten10x.bsky.social">_juten10x</a></li>
   <li>YouTube: <a href="https://www.youtube.com/@juten10x">juten10x</a>, <a href="https://www.youtube.com/@ujuten10x">_juten10x</a></li>
   <li>niconico: <a href="https://www.nicovideo.jp/user/125236633">juten10x</a></li>
   <li>Vimeo: <a href="https://vimeo.com/juten10x">juten10x</a></li>
