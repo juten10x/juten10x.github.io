@@ -31,7 +31,6 @@
   <li>Bandcamp: <a href="https://bandcamp.com/juten10x">juten10x</a></li>
   <li>Twitch: <a href="https://www.twitch.tv/juten10x">juten10x</a></li>
   <li>Steam: <a href="https://steamcommunity.com/id/juten10x/">juten10x</a></li>
-  <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
   <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
   <li>Misskey.design: <a href="https://misskey.design/@Juten10x">juten10x</a></li>
   <li>Misskey競プロ鯖: <a href="https://misskey.kyoupro.com/@Juten10x">juten10x</a></li>
@@ -41,6 +40,7 @@
   <li>Xfolio: <a href="https://xfolio.jp/users/THkWP3ukzRzn">juten10x</a></li>
   <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
   <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
+  <li>note: <a href="https://note.com/juten10x">juten10x</a>, <a href="https://note.com/_juten10x">_juten10x</a></li>
   <li>X: <a href="https://x.com/juten10x">juten10x</a>, <a href="https://x.com/_juten10x">_juten10x</a></li>
 </ul>
 
