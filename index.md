@@ -17,6 +17,8 @@
 <summary>more</summary>
 
 <ul>
+  <li>SoundCloud: <a href="https://soundcloud.com/juten10x">juten10x</a></li>
+  <li>Bandcamp: <a href="https://bandcamp.com/juten10x">juten10x</a></li>
   <li>yukicoder: <a href="https://yukicoder.me/users/21972">juten10x</a></li>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
   <li>QCoder: <a href="https://www.qcoder.jp/ja/users/juten10x">juten10x</a></li>
@@ -27,8 +29,6 @@
   <li>CryptoHack: <a href="https://cryptohack.org/user/juten10x/">juten10x</a></li>
   <li>DreamHack: <a href="https://dreamhack.io/users/70164">juten10x</a></li>
   <li>Mastodon: <a href="https://mstdn.jp/@juten10x">juten10x</a></li>
-  <li>SoundCloud: <a href="https://soundcloud.com/juten10x">juten10x</a></li>
-  <li>Bandcamp: <a href="https://bandcamp.com/juten10x">juten10x</a></li>
   <li>Twitch: <a href="https://www.twitch.tv/juten10x">juten10x</a></li>
   <li>Steam: <a href="https://steamcommunity.com/id/juten10x/">juten10x</a></li>
   <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
