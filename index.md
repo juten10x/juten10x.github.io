@@ -19,7 +19,7 @@
 <ul>
   <li>SoundCloud: <a href="https://soundcloud.com/juten10x">juten10x</a></li>
   <li>Bandcamp: <a href="https://bandcamp.com/juten10x">juten10x</a></li>
-  <li>mixi2: <a href="https://mixi.social/@juten10x">juten10x</a>, <a href="https://mixi.social/@ujuten10x"></a></li>
+  <li>mixi2: <a href="https://mixi.social/@juten10x">juten10x</a>, <a href="https://mixi.social/@ujuten10x">_juten10x</a></li>
   <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
   <li>yukicoder: <a href="https://yukicoder.me/users/21972">juten10x</a></li>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
