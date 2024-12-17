@@ -66,8 +66,8 @@
 <details>
 <summary>en</summary>
 <ul>
-  <li>The HTML code is released under the MIT License. See the LICENSE file for more information about this license.</li>
-  <li>Texts and images on pages that have a "CC BY 4.0" at the bottom of the page are released under that license. For those without a license at the bottom of the page, no particular license is specified.</li>
+  <li>The HTML code is released under the MIT License. See the <a href="https://github.com/juten10x/juten10x.github.io/blob/main/LICENSE">LICENSE</a> file for more information about this license.</li>
+  <li>Texts and images on pages that have a "<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>" at the bottom of the page are released under that license. For those without a license at the bottom of the page, no particular license is specified.</li>
 </ul>
 </details>
 
