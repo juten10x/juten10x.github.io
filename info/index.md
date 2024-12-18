@@ -32,6 +32,8 @@
   <li>SoundCloud: <a href="https://soundcloud.com/juten10x">juten10x</a></li>
   <li>Bandcamp: <a href="https://bandcamp.com/juten10x">juten10x</a></li>
   <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a>, <a href="https://bsky.app/profile/ujuten10x.bsky.social">_juten10x</a></li>
+  <li>note: <a href="https://note.com/juten10x">juten10x</a>, <a href="https://note.com/_juten10x">_juten10x</a></li>
+  <li>X: <a href="https://x.com/juten10x">juten10x</a>, <a href="https://x.com/_juten10x">_juten10x</a></li>
   <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
   <li>yukicoder: <a href="https://yukicoder.me/users/21972">juten10x</a></li>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
@@ -42,19 +44,17 @@
   <li>AlpacaHack: <a href="https://alpacahack.com/users/juten10x">juten10x</a></li>
   <li>CryptoHack: <a href="https://cryptohack.org/user/juten10x/">juten10x</a></li>
   <li>DreamHack: <a href="https://dreamhack.io/users/70164">juten10x</a></li>
+  <li>Misskey.design: <a href="https://misskey.design/@Juten10x">juten10x</a></li>
+  <li>Misskey競プロ鯖: <a href="https://misskey.kyoupro.com/@Juten10x">juten10x</a></li>
   <li>Mastodon: <a href="https://mstdn.jp/@juten10x">juten10x</a></li>
   <li>Twitch: <a href="https://www.twitch.tv/juten10x">juten10x</a></li>
   <li>Steam: <a href="https://steamcommunity.com/id/juten10x/">juten10x</a></li>
-  <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
-  <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
-  <li>Misskey.design: <a href="https://misskey.design/@Juten10x">juten10x</a></li>
-  <li>Misskey競プロ鯖: <a href="https://misskey.kyoupro.com/@Juten10x">juten10x</a></li>
   <li>Reddit: <a href="https://reddit.com/user/_juten10x">_juten10x</a></li>
   <li>Qiita: <a href="https://qiita.com/juten10x">juten10x</a></li>
   <li>Muuseo: <a href="https://muuseo.com/juten10x/owner">juten10x</a></li>
   <li>Xfolio: <a href="https://xfolio.jp/users/THkWP3ukzRzn">juten10x</a></li>
+  <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
   <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
-  <li>X: <a href="https://x.com/juten10x">juten10x</a>, <a href="https://x.com/_juten10x">_juten10x</a></li>
 </ul>
 
 </details>
