@@ -1,5 +1,5 @@
 ## Gallery2
-撮った写真の一覧です。すべて [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) で公開しています。
+撮った写真の一覧です（撮影日で降順にソートしています）。すべて [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) で公開しています。
 
 <a href="pile_of_images/light__-3.jpg" data-lightbox="images" data-title="light__-3.jpg"><img id="_image3" src="pile_of_images/light__-3.jpg"></a>
 <a href="pile_of_images/light__-1.jpg" data-lightbox="images" data-title="light__-1.jpg"><img id="_image3" src="pile_of_images/light__-1.jpg"></a>
