@@ -39,7 +39,10 @@ AtCoder のユーザ名もこのとき変更しました。上の画像をご覧
 読み方についても書いておきます。特に読みは決めていませんが、私自身は「じゅてんてんくす」と読み、発音しています。ただ、読み方については完全にフリーに考えていて、単に「じゅてん」や「10」とかでも構いません。[はてなブログの about ページ](https://juten10x.hatenablog.com/about)にも書いている通り、「読み方はお任せします」。
 
 ### 追記（12月22日）
-「 _juten10x 」についても書いておきます。こちらは私の
+「 _juten10x 」についても書いておきます。こちらは最近新たに作成した、私のもう一つの HN です。詳しくは以下の私の投稿を参照ください。現在私がこの HN でアカウントを所有しているサービスは YouTube, Bluesky, Twitter, note, Reddit の5つのみです。
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:ot4tlfcpsqd3sdaspe3s5hmq/app.bsky.feed.post/3ldpsankjlk2w" data-bluesky-cid="bafyreibh6lste3ry6gjsf46osgrlr7yhpkxolbo5pdnwuuz3h6zjtaufbu"><p lang="ja">VTuber を推す用のアカウント「_juten10x」をこのように Bluesky をはじめ、 Twitter などに持っており、本当はすべてのサービスにおけるIDも「_juten10x」としたいが、IDを設定する際に先頭の文字を「_」にすることを許可しているサービスとそうでないものがあって（e.g. YouTube, Bluesky では不可、 Twitter, note では可能）、なやみどころ
+とりあえず、先頭を「_」に設定することが可能なサービスにおいてはすべてIDを「_juten10x」、それ以外はすべてIDを「ujuten10x」にすることにしている</p>&mdash; _juten10x (<a href="https://bsky.app/profile/did:plc:ot4tlfcpsqd3sdaspe3s5hmq?ref_src=embed">@ujuten10x.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:ot4tlfcpsqd3sdaspe3s5hmq/post/3ldpsankjlk2w?ref_src=embed">2024年12月20日 15:49</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:ot4tlfcpsqd3sdaspe3s5hmq/app.bsky.feed.post/3ldpska25dk2w" data-bluesky-cid="bafyreiedzypub3o33yjujzg4hxy5ev6g2fplne4q5olf2c3csbsk2ryn5u"><p lang="ja">補足として記しておくが、ujuten10x の「u」は「アンダーバー」または「下線」を表す単語 &quot;underscore&quot;, &quot;underline&quot; の双方に合致する先頭1文字であるから「_」の代わりに採用している</p>&mdash; _juten10x (<a href="https://bsky.app/profile/did:plc:ot4tlfcpsqd3sdaspe3s5hmq?ref_src=embed">@ujuten10x.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:ot4tlfcpsqd3sdaspe3s5hmq/post/3ldpska25dk2w?ref_src=embed">2024年12月20日 15:55</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
 
 ### 脚注
 #### 注釈
