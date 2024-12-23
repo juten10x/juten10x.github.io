@@ -39,6 +39,7 @@
   <li>Steam: <a href="https://steamcommunity.com/id/juten10x/">juten10x</a></li>
   <li>Qiita: <a href="https://qiita.com/juten10x">juten10x</a></li>
   <li>Muuseo: <a href="https://muuseo.com/juten10x/owner">juten10x</a></li>
+  <li>Reddit: <a href="https://www.reddit.com/user/juten10x_/">juten10x_</a></li>
   <li>Xfolio: <a href="https://xfolio.jp/users/THkWP3ukzRzn">juten10x</a></li>
   <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
   <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
