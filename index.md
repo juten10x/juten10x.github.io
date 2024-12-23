@@ -2,7 +2,7 @@
 
 * GitHub: [juten10x](https://github.com/juten10x)
 * AtCoder: [juten10x](https://atcoder.jp/users/juten10x)
-* Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
+* Codeforces: [juten10x](https://codeforces.com/profile/juten10x)
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
@@ -44,5 +44,17 @@
   <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
   <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
 </ul>
+<details>
+<summary>_juten10x</summary>
 
+<ul>
+  <li>YouTube: <a href="https://www.youtube.com/@ujuten10x">_juten10x</a></li>
+  <li>Bluesky: <a href="https://bsky.app/profile/ujuten10x.bsky.social">_juten10x</a></li>
+  <li>Twitter: <a href="https://x.com/_juten10x">_juten10x</a></li>
+  <li>note: <a href="https://note.com/_juten10x">_juten10x</a></li>
+  <li>mixi2: <a href="https://mixi.social/@ujuten10x">_juten10x</a></li>
+  <li>Reddit: <a href="https://reddit.com/user/_juten10x">_juten10x</a></li>
+</ul>
+
+</details>
 </details>
