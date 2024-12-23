@@ -18,7 +18,6 @@
   <li>Codeforces: <a href="https://codeforces.com/profile/Juten10x">Juten10x</a></li>
   <li>Scrapbox: <a href="https://scrapbox.io/juten10x/">juten10x</a></li>
   <li>Instagram: <a href="https://www.instagram.com/juten10x">juten10x</a></li>
-  <li>mixi2: <a href="https://mixi.social/@juten10x">juten10x</a></li>
   <li>YouTube: <a href="https://www.youtube.com/@juten10x">juten10x</a></li>
   <li>niconico: <a href="https://www.nicovideo.jp/user/125236633">juten10x</a></li>
   <li>Vimeo: <a href="https://vimeo.com/juten10x">juten10x</a></li>
@@ -31,6 +30,7 @@
 <ul>
   <li>SoundCloud: <a href="https://soundcloud.com/juten10x">juten10x</a></li>
   <li>Bandcamp: <a href="https://bandcamp.com/juten10x">juten10x</a></li>
+  <li>mixi2: <a href="https://mixi.social/@juten10x">juten10x</a></li>
   <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a></li>
   <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
   <li>X: <a href="https://x.com/juten10x">juten10x</a></li>
@@ -51,6 +51,7 @@
   <li>Steam: <a href="https://steamcommunity.com/id/juten10x/">juten10x</a></li>
   <li>Qiita: <a href="https://qiita.com/juten10x">juten10x</a></li>
   <li>Muuseo: <a href="https://muuseo.com/juten10x/owner">juten10x</a></li>
+  <li>Reddit: <a href="https://www.reddit.com/user/juten10x_/">juten10x_</a></li>
   <li>Xfolio: <a href="https://xfolio.jp/users/THkWP3ukzRzn">juten10x</a></li>
   <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
   <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
