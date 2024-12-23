@@ -5,7 +5,6 @@
 * Codeforces: [Juten10x](https://codeforces.com/profile/Juten10x)
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
-* mixi2: [juten10x](https://mixi.social/@juten10x)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * niconico: [juten10x](https://www.nicovideo.jp/user/125236633)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
@@ -19,6 +18,7 @@
 <ul>
   <li>SoundCloud: <a href="https://soundcloud.com/juten10x">juten10x</a></li>
   <li>Bandcamp: <a href="https://bandcamp.com/juten10x">juten10x</a></li>
+  <li>mixi2: <a href="https://mixi.social/@juten10x">juten10x</a></li>
   <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a></li>
   <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
   <li>X: <a href="https://x.com/juten10x">juten10x</a></li>
