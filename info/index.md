@@ -2,7 +2,7 @@
 
 <a href="../light_white.jpg" data-lightbox="icon"><img src="../light_white.jpg" width="200px"></a>
 
-* juten10x<img src="../blog/pile_of_images/IMG_3700.jpeg" width="85">
+* juten10x<img src="../blog/pile_of_images/IMG_3701.jpeg" width="85">
 * Discord: juten10x
 
 ### 資格
