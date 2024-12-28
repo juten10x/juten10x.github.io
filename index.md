@@ -5,7 +5,7 @@
 * Codeforces: [juten10x](https://codeforces.com/profile/juten10x)
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
-* Twitter: [juten10x](https://x.com/juten10x)
+* Twitter: [juten10x](https://twitter.com/juten10x)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
 * cluster: [juten10x](https://cluster.mu/u/10x)
