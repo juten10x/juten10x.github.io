@@ -6,7 +6,6 @@
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Instagram: [juten10x](https://www.instagram.com/juten10x)
 * Twitter: [juten10x](https://twitter.com/juten10x)
-* Misskey: [juten10x](https://misskey.io/@Juten10x)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
 * cluster: [juten10x](https://cluster.mu/u/10x)
@@ -33,6 +32,7 @@
   <li>AlpacaHack: <a href="https://alpacahack.com/users/juten10x">juten10x</a></li>
   <li>CryptoHack: <a href="https://cryptohack.org/user/juten10x/">juten10x</a></li>
   <li>DreamHack: <a href="https://dreamhack.io/users/70164">juten10x</a></li>
+  <li>Misskey.io: <a href="https://misskey.io/@Juten10x">juten10x</a></li>
   <li>Misskey.design: <a href="https://misskey.design/@Juten10x">juten10x</a></li>
   <li>Misskey競プロ鯖: <a href="https://misskey.kyoupro.com/@Juten10x">juten10x</a></li>
   <li>Mastodon: <a href="https://mstdn.jp/@juten10x">juten10x</a></li>
