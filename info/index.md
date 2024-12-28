@@ -33,7 +33,7 @@
   <li>mixi2: <a href="https://mixi.social/@juten10x">juten10x</a></li>
   <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a></li>
   <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
-  <li>X: <a href="https://x.com/juten10x">juten10x</a></li>
+  <li>Twitter: <a href="https://x.com/juten10x">juten10x</a></li>
   <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
   <li>yukicoder: <a href="https://yukicoder.me/users/21972">juten10x</a></li>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
