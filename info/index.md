@@ -18,8 +18,8 @@
   <li>Codeforces: <a href="https://codeforces.com/profile/juten10x">juten10x</a></li>
   <li>Scrapbox: <a href="https://scrapbox.io/juten10x/">juten10x</a></li>
   <li>Instagram: <a href="https://www.instagram.com/juten10x">juten10x</a></li>
+  <li>Twitter: <a href="https://twitter.com/juten10x">juten10x</a></li>
   <li>YouTube: <a href="https://www.youtube.com/@juten10x">juten10x</a></li>
-  <li>niconico: <a href="https://www.nicovideo.jp/user/125236633">juten10x</a></li>
   <li>Vimeo: <a href="https://vimeo.com/juten10x">juten10x</a></li>
   <li>cluster: <a href="https://cluster.mu/u/10x">juten10x</a></li>
   <li>VRChat: <a href="https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e">juten10x</a></li>
@@ -30,10 +30,10 @@
 <ul>
   <li>SoundCloud: <a href="https://soundcloud.com/juten10x">juten10x</a></li>
   <li>Bandcamp: <a href="https://bandcamp.com/juten10x">juten10x</a></li>
+  <li>niconico: <a href="https://www.nicovideo.jp/user/125236633">juten10x</a></li>
   <li>mixi2: <a href="https://mixi.social/@juten10x">juten10x</a></li>
   <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a></li>
   <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
-  <li>Twitter: <a href="https://x.com/juten10x">juten10x</a></li>
   <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
   <li>yukicoder: <a href="https://yukicoder.me/users/21972">juten10x</a></li>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
