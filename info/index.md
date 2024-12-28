@@ -44,6 +44,7 @@
   <li>AlpacaHack: <a href="https://alpacahack.com/users/juten10x">juten10x</a></li>
   <li>CryptoHack: <a href="https://cryptohack.org/user/juten10x/">juten10x</a></li>
   <li>DreamHack: <a href="https://dreamhack.io/users/70164">juten10x</a></li>
+  <li>Misskey.io: <a href="https://misskey.io/@Juten10x">juten10x</a></li>
   <li>Misskey.design: <a href="https://misskey.design/@Juten10x">juten10x</a></li>
   <li>Misskey競プロ鯖: <a href="https://misskey.kyoupro.com/@Juten10x">juten10x</a></li>
   <li>Mastodon: <a href="https://mstdn.jp/@juten10x">juten10x</a></li>
