@@ -5,12 +5,14 @@
 <a href="pile_of_images/light__-1.jpg" data-lightbox="images" data-title="light__-1.jpg"><img id="_image3" src="pile_of_images/light__-1.jpg"></a>
 <a href="pile_of_images/light_-5.jpg" data-lightbox="images" data-title="light_-5.jpg"><img id="_image3" src="pile_of_images/light_-5.jpg"></a>
 <a href="pile_of_images/light_-3.jpg" data-lightbox="images" data-title="light_-3.jpg"><img id="_image3" src="pile_of_images/light_-3.jpg"></a>
+<a href="pile_of_images/hikone-su-3.jpg" data-lightbox="images" data-title="hikone-su-3.jpg"><img id="_image3" src="pile_of_images/hikone-su-3.jpg"></a>
 <a href="pile_of_images/hi2.jpg" data-lightbox="images" data-title="hi2.jpg"><img id="_image3" src="pile_of_images/hi2.jpg"></a>
 <a href="pile_of_images/hi.jpg" data-lightbox="images" data-title="hi.jpg"><img id="_image3" src="pile_of_images/hi.jpg"></a>
 <a href="pile_of_images/hz.jpg" data-lightbox="images" data-title="hz.jpg"><img id="_image3" src="pile_of_images/hz.jpg"></a>
 <a href="pile_of_images/n_light.jpg" data-lightbox="images" data-title="n_light.jpg"><img id="_image3" src="pile_of_images/n_light.jpg"></a>
 <a href="pile_of_images/am.jpg" data-lightbox="images" data-title="am.jpg"><img id="_image3" src="pile_of_images/am.jpg"></a>
 <a href="pile_of_images/k_museum.jpg" data-lightbox="images" data-title="k_museum.jpg"><img id="_image3" src="pile_of_images/k_museum.jpg"></a>
+<a href="pile_of_images/disappear-1_s.jpg" data-lightbox="images" data-title="disappear-1_s.jpg"><img id="_image3" src="pile_of_images/disappear-1_s.jpg"></a>
 <a href="pile_of_images/toppy3.jpg" data-lightbox="images" data-title="toppy3.jpg"><img id="_image3" src="pile_of_images/toppy3.jpg"></a>
 <a href="pile_of_images/b_line.jpg" data-lightbox="images" data-title="b_line.jpg"><img id="_image3" src="pile_of_images/b_line.jpg"></a>
 <a href="pile_of_images/s__.jpg" data-lightbox="images" data-title="s__.jpg"><img id="_image3" src="pile_of_images/s__.jpg"></a>
