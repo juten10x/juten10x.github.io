@@ -8,8 +8,6 @@
 * Twitter: [juten10x](https://twitter.com/juten10x)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
-* cluster: [juten10x](https://cluster.mu/u/10x)
-* VRChat: [juten10x](https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e)
 
 <details>
 
@@ -23,6 +21,8 @@
   <li>Bluesky: <a href="https://bsky.app/profile/juten10x.bsky.social">juten10x</a></li>
   <li>note: <a href="https://note.com/juten10x">juten10x</a></li>
   <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
+  <li>cluster: <a href="https://cluster.mu/u/10x">juten10x</a></li>
+  <li>VRChat: <a href="https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e">juten10x</a></li>
   <li>yukicoder: <a href="https://yukicoder.me/users/21972">juten10x</a></li>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
   <li>QCoder: <a href="https://www.qcoder.jp/ja/users/juten10x">juten10x</a></li>
