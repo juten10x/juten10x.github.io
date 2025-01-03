@@ -10,7 +10,6 @@
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
 
 <details>
-
 <summary>more</summary>
 
 <ul>
