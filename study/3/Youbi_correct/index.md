@@ -3,7 +3,7 @@
 <details open>
 <summary>C++</summary>
 
-<pre><code>
+<pre><code class="language-cpp">
 #include <iostream>
 #include <vector>
 #include <math.h>
@@ -44,12 +44,13 @@ int main() {
   return 0;
 }
 </code></pre>
+
 </details>
 
 <details open>
 <summary>JavaScript</summary>
 
-<pre><code>
+<pre><code class="language-cpp">
 /*
   * ツェラーの公式を使って、年月日から曜日を計算します。
   * 現在使われている、グレゴリオ暦にのみ対応しています（1582年10月15日以降）。
@@ -87,5 +88,6 @@ let Youbi = Zeller_c(y, m, d);
 
 document.write(y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
 </code></pre>
+
 </details>
 
