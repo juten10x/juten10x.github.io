@@ -29,7 +29,7 @@ for文で $i=1, \ldots, 100$ まで回しましょう．そして，各 $i$ に�
 
 JavaScriptによる解答例を以下に示します．
 
-<pre><code class="language-javascript">
+<pre><code class="language-js">
 let cnt = 0;
 
 for (let i = 1; i <= 100; i++) {
