@@ -90,4 +90,5 @@ document.write(y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。
 </code></pre>
 </details>
 
-<style>#ccby4 { display: none; }</style>
+<style>#cc0 { display: true; }</style>
+

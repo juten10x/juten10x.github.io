@@ -53,8 +53,6 @@
   }
 </script>
 
-<style>#ccby4 { display: none; }</style>
-
 ```js
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -85,3 +83,4 @@ function rd(N) {
 let S = rd(3);
 document.write(S);
 ```
+

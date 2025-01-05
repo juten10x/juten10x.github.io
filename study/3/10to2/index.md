@@ -37,4 +37,4 @@ int main() {
 </code></pre>
 </details>
 
-<style>#ccby4 { display: none; }</style>
+<style>#cc0 { display: true; }</style>

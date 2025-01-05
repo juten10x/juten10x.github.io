@@ -4,4 +4,5 @@
 * 10/21 23:34更新; 少し実行速度を速くしました
 * 12/15 19:58更新; Mersenne Twister を用いたものに変更
 
-<style>#ccby4 { display: none; }</style>
+<style>#cc0 { display: true; }</style>
+

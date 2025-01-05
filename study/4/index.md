@@ -41,4 +41,5 @@ for (let i = 2; N != 1; i++) {
 document.write(ans);
 ```
 
-<style>#ccby4 { display: none; }</style>
+<style>#cc0 { display: true; }</style>
+

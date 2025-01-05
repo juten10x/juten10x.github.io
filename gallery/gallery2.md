@@ -30,3 +30,6 @@
 <a href="pile_of_images/water-1.jpg" data-lightbox="images" data-title="water-1.jpg"><img id="_image3" src="pile_of_images/water-1.jpg"></a>
 <a href="pile_of_images/b_.jpg" data-lightbox="images" data-title="b_.jpg"><img id="_image3" src="pile_of_images/b_.jpg"></a>
 <a href="pile_of_images/practice-10.jpg" data-lightbox="images" data-title="practice-10.jpg"><img id="_image3" src="pile_of_images/practice-10.jpg"></a>
+
+<style>#ccby4 { display: true; }</style>
+
