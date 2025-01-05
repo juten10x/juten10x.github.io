@@ -1,5 +1,8 @@
 ## Youbi_correct
-### C++
+
+<details open>
+<summary>C++</summary>
+
 <pre><code>
 #include <iostream>
 #include <vector>
@@ -42,7 +45,10 @@ int main() {
 }
 </code></pre>
 
-### JavaScript
+
+<details open>
+<summary>JavaScript</summary>
+
 <pre><code>
 /*
   * ツェラーの公式を使って、年月日から曜日を計算します。
@@ -81,3 +87,5 @@ let Youbi = Zeller_c(y, m, d);
 
 document.write(y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
 </code></pre>
+</details>
+
