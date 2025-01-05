@@ -29,7 +29,7 @@ for文で $i=1, \ldots, 100$ まで回しましょう．そして，各 $i$ に�
 
 JavaScriptによる解答例を以下に示します．
 
-<pre><code>
+<pre><code class="language-javascript">
 let cnt = 0;
 
 for (let i = 1; i <= 100; i++) {
@@ -49,7 +49,7 @@ document.write(cnt);
 
 以上により，JavaScriptで以下のように書くことができます．
 
-<pre><code>
+<pre><code class="language-javascript">
 let cnt = 0, ans = 1, N = 100;
 
 for (let i = 2; N != 1; i++) {
@@ -86,7 +86,7 @@ document.write(ans);
 
 JavaScriptによる解答例を以下に示します．
 
-<pre><code>
+<pre><code class="language-javascript">
 let a = [0,0,0,0,0,0,0,0,0,0];
 
 for (let i = 0; i < 10; i++) {
@@ -105,7 +105,7 @@ for (let i = 0; i < 10; i++) {
 
 JavaScriptによる解答例を以下に示します．
 
-<pre><code>
+<pre><code class="language-javascript">
 let a = 0;
 
 for (let i = 0; i < 10; i++) {
@@ -146,7 +146,7 @@ for (let i = 0; i < 10; i++) {
 
 JavaScriptによる解答例を以下に示します．
 
-<pre><code>
+<pre><code class="language-javascript">
 let x = 1, y = 1;
 
 for (let i = 3; i <= 30; i++) {
@@ -160,15 +160,17 @@ document.write(x);
 <h4>解法 $2$ : 配列を用いる方法</h4>
 配列を用いて書いてみましょう．こちらの方が少し短めに書くことができます．まず，それぞれの要素を $a_1, a_2$ で初期化した，要素数 $2$ の配列を宣言します．（ここでは $s$ とします．）次に，解法 $1$ と同様にfor文を回していきます．for文を用いて $i=3, \ldots, 30$ まで回し，例えば以下のように処理していきましょう．
 
-* for文 $(i=3,\ldots, 30)$ 内において，
-  * $i$ を $2$ で割った余りが $0$ ならば $s_0$ に $s_0+s_1$ を代入
-  * $i$ を $2$ で割った余りが $1$ ならば $s_1$ に $s_0+s_1$ を代入
+<ul>
+<li>for文 $(i=3,\ldots, 30)$ 内において，
+  <li>$i$ を $2$ で割った余りが $0$ ならば $s_0$ に $s_0+s_1$ を代入
+  <li></li>$i$ を $2$ で割った余りが $1$ ならば $s_1$ に $s_0+s_1$ を代入
+</ul>
 
 ここで，if文を用いて場合分けしてもよいですが，余りの値をそのまま $s$ の添え字にすることで，より簡単に書くことができます．そして，最後に $a_{30}$ の値になっている $s$ の要素（この場合は $s_0$ ）を出力すればよいですね．
 
 JavaScriptによる解答例を以下に示します．
 
-<pre><code>
+<pre><code class="language-javascript">
 let s = [1, 1];
 
 for (let i = 3; i <= 30; i++) {
