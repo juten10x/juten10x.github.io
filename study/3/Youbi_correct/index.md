@@ -44,7 +44,7 @@ int main() {
   return 0;
 }
 </code></pre>
-
+</details>
 
 <details open>
 <summary>JavaScript</summary>
