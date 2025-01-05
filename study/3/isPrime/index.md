@@ -3,7 +3,7 @@
 <details open>
 <summary>C++</summary>
 
-<pre><code>
+<pre><code class="language-cpp">
 #include <iostream>
 
 /*
@@ -26,12 +26,12 @@ int main() {
   long long t = isPrime(N);
 
   if (t == 1) {
-    std::cout << N << " は素数です。\n";
+    std::cout << N << " は素数です\n";
   }
   else {
-    std::cout << N << " は素数ではありません。\n";
+    std::cout << N << " は素数ではありません\n";
     if (N != 1) {
-      std::cout << N << " ÷ " << isPrime(N) << " = " << N/isPrime(N) << '\n';
+      std::cout << N << " ÷ " << t << " = " << N/t << '\n';
     }
   }
 
@@ -39,5 +39,36 @@ int main() {
 }
 
 </code></pre>
+
+</details>
+
+<details open>
+<summary>JavaScript</summary>
+
+<pre><code class="language-javascript">
+function isPrime(x) {
+  if (N == 1) return 0;
+
+  for (let i = 2; i*i <= N; i++) {
+    if (N%i == 0) return i;
+  }
+
+  return 1;
+}
+
+let N = prompt("数字を入力してください");
+let t = isPrime(N);
+
+if (t == 1) {
+  document.write(N + " は素数です")
+}
+else {
+  document.wirte(N + " は素数ではありません" + "<br>");
+  if (t != 1) {
+    document.write(N + " ÷ " + t + " = " + N/t + "<br>");
+  }
+}
+</code></pre>
+
 </details>
 

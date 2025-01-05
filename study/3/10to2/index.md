@@ -34,8 +34,7 @@ int main() {
 
   return 0;
 }
-
 </code></pre>
-
 </details>
 
+<style>#ccby4 { display: none; }</style>

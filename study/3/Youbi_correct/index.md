@@ -50,7 +50,7 @@ int main() {
 <details open>
 <summary>JavaScript</summary>
 
-<pre><code class="language-cpp">
+<pre><code class="language-javascript">
 /*
   * ツェラーの公式を使って、年月日から曜日を計算します。
   * 現在使われている、グレゴリオ暦にのみ対応しています（1582年10月15日以降）。
@@ -88,6 +88,6 @@ let Youbi = Zeller_c(y, m, d);
 
 document.write(y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
 </code></pre>
-
 </details>
 
+<style>#ccby4 { display: none; }</style>

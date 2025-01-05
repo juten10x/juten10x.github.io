@@ -3,7 +3,7 @@
 <details open>
 <summary>C++</summary>
 
-<pre><code>
+<pre><code class="language-cpp">
 #include <iostream>
 
 /*
@@ -33,5 +33,6 @@ int main() {
 }
 
 </code></pre>
+
 </details>
 
