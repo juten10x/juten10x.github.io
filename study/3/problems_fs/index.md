@@ -2,6 +2,16 @@
 * 問題は簡単な順に並べてあります．後ろへ行くほど難しくなると思います．
 * 全て授業で習った内容のみで，かつ10行以内でプログラムを書くことができるようにしました．
 
+<details>
+<summary>目次</summary>
+
+<ul>
+  <li><a href="#count_divisors">count_divisors</a></li>
+  <li><a href="#out_a">out_a</a></li>
+  <li><a href="#fibonacci">fibonacci</a></li>
+</ul>
+</details>
+
 ## count_divisors
 ### 問題
 $100$ の正の約数の個数を求めてください．
