@@ -1,5 +1,5 @@
 ## caesar_cipher
-```cpp
+<pre><code class="language-cpp">
 #include <iostream>
 
 /*
@@ -27,4 +27,4 @@ int main() {
 
   return 0;
 }
-```
+</code></pre>
