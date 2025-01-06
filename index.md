@@ -59,5 +59,5 @@
 </details>
 </details>
 
-<style>#ccby4 { display: true; }</style>
+<style>#cc0 { display: none; }</style>
 

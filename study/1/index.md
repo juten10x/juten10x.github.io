@@ -84,3 +84,12 @@ let S = rd(3);
 document.write(S);
 ```
 
+<style>
+  #ccby4 {
+    display: none;
+  }
+  #cc0 {
+    display: none;
+  }
+</style>
+

@@ -4,5 +4,5 @@
 
 <a href="pile_of_images/am.jpg" data-lightbox="image" data-title="am.jpg"><img src="pile_of_images/am.jpg"></a>
 
-<style>#ccby4{ display: true; }</style>
+<style>#cc0 { display: none; }</style>
 

@@ -10,5 +10,5 @@ juten10x が高校で行った活動のアーカイブです。
 * [prime_factorization](prime_factorization) : 素因数分解
 * [random_integer](random_integer) : 1 から N までの数字をランダムな順序で出力
 
-<style>#cc0 { display: none; }</style>
+<style>#ccby4 { display: none; }</style>
 

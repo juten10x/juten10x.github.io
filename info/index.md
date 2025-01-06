@@ -87,5 +87,5 @@
 ### リポジトリ
 * このWebサイトは、 GitHub Pages を用いて公開しています。 GitHub 上のリポジトリは次です : [https://github.com/juten10x/juten10x.github.io](https://github.com/juten10x/juten10x.github.io)
 
-<style>#ccby4 { display: true; }</style>
+<style>#cc0 { display: none; }</style>
 

@@ -102,5 +102,5 @@ else if (N != 0) {
 </code></pre>
 </details>
 
-<style>#cc0 { display: true; }</style>
+<style>#ccby4 { display: none; }</style>
 
