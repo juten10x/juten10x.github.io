@@ -34,11 +34,15 @@
   <li>Hatena Blog: <a href="https://juten10x.hatenablog.com">juten10x</a></li>
   <li>cluster: <a href="https://cluster.mu/u/10x">juten10x</a></li>
   <li>VRChat: <a href="https://vrchat.com/home/user/usr_e18448f7-885a-4a0e-b6eb-ccf243c25a5e">juten10x</a></li>
+  <li>p5.js: <a href="https://editor.p5js.org/juten10x/sketches">juten10x</a></li>
+  <li>CLIST: <a href="https://clist.by/coder/juten10x/">juten10x</a></li>
   <li>yukicoder: <a href="https://yukicoder.me/users/21972">juten10x</a></li>
   <li>AOJ: <a href="https://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=juten10x">juten10x</a></li>
   <li>QCoder: <a href="https://www.qcoder.jp/ja/users/juten10x">juten10x</a></li>
   <li>CodeChef: <a href="https://www.codechef.com/users/juten10x">juten10x</a></li>
   <li>TLX: <a href="https://tlx.toki.id/profiles/juten10x">juten10x</a></li>
+  <li>LeetCode: <a href="https://leetcode.com/u/juten10x/">juten10x</a></li>
+  <li>Kaggle: <a href="https://www.kaggle.com/juten10x">juten10x</a></li>
   <li>OMC: <a href="https://onlinemathcontest.com/users/juten10x">juten10x</a></li>
   <li>AlpacaHack: <a href="https://alpacahack.com/users/juten10x">juten10x</a></li>
   <li>CryptoHack: <a href="https://cryptohack.org/user/juten10x/">juten10x</a></li>
