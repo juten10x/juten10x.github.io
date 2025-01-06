@@ -1,9 +1,6 @@
 ## Youbi_correct
-
-<details open>
-<summary>C++</summary>
-
-<pre><code class="language-cpp">
+### C++
+```cpp
 #include <iostream>
 #include <vector>
 #include <math.h>
@@ -43,14 +40,10 @@ int main() {
 
   return 0;
 }
-</code></pre>
+```
 
-</details>
-
-<details open>
-<summary>JavaScript</summary>
-
-<pre><code class="language-javascript">
+### JavaScript
+```js
 /*
   * ツェラーの公式を使って、年月日から曜日を計算します。
   * 現在使われている、グレゴリオ暦にのみ対応しています（1582年10月15日以降）。
@@ -87,8 +80,7 @@ let d = Number(dp);
 let Youbi = Zeller_c(y, m, d);
 
 document.write(y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
-</code></pre>
-</details>
+```
 
 <style>#ccby4 { display: none; }</style>
 

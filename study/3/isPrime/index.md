@@ -1,9 +1,6 @@
 ## isPrime
-
-<details open>
-<summary>C++</summary>
-
-<pre><code class="language-cpp">
+### C++
+```cpp
 #include <iostream>
 
 /*
@@ -37,15 +34,10 @@ int main() {
 
   return 0;
 }
+```
 
-</code></pre>
-
-</details>
-
-<details open>
-<summary>JavaScript</summary>
-
-<pre><code class="language-javascript">
+### JavaScript
+```js
 function isPrime(x) {
   if (N == 1) return 0;
 
@@ -68,9 +60,7 @@ else {
     document.write(N + " ÷ " + t + " = " + N/t + "<br>");
   }
 }
-</code></pre>
-
-</details>
+```
 
 <style>#ccby4 { display: none; }</style>
 

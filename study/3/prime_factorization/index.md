@@ -1,24 +1,19 @@
 ## prime_factorization
-
-<details open>
-<summary>C++</summary>
-
-<pre><code>
+### C++
+```
 #include <iostream>
 #include <map>
-using namespace std;
 
-map<long long, long long> res;
+std::map<long long, long long> res;
 long long t = 0;
 
-template <typename T>
-void pf_mapA(T N) {
+void pf_mapA(long long N) {
   for (long long i = 2; i*i <= N; i++) {
     if (N%i != 0) continue;
     long long cnt = 0;
     while (N%i == 0) {
-        cnt++;
-        N /= i;
+      cnt++;
+      N /= i;
     }
 
     res[i] += cnt;
@@ -29,35 +24,30 @@ void pf_mapA(T N) {
 }
 
 int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-
   long long N;
-  cin >> N;
+  std::cin >> N;
 
   if (N == 1) {
-    cout << "1は素因数を持ちません\n";
+    std::cout << "1は素因数を持ちません\n";
     return 0;
   }
 
   pf_mapA(N);
 
-  cout << N << " = ";
+  std::cout << N << " = ";
   long long r = 0;
   for (auto i : res) {
     r++;
-    cout << i.first << '^' << i.second;
-    if (t > r) cout << " * ";
+    std::cout << i.first << '^' << i.second;
+    if (t > r) std::cout << " * ";
   }
+  std::cout << '\n';
+
   return 0;
 }
-</code></pre>
-</details>
-
-<details open>
-<summary>JavaScript</summary>
-
-<pre><code>
+```
+### JavaScript
+```js
 let N = prompt("10^9 以下の正整数を入力してください");
 
 let pf_array = Array(N).fill(0);
@@ -98,9 +88,7 @@ else if (N != 0) {
     }
   }
 }
-
-</code></pre>
-</details>
+```
 
 <style>#ccby4 { display: none; }</style>
 

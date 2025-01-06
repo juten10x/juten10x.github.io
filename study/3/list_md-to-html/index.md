@@ -1,9 +1,6 @@
 ## list_md-to-html
-
-<details open>
-<summary>C++</summary>
-
-<pre><code class="language-cpp">
+### C++
+```cpp
 #include <iostream>
 
 /*
@@ -41,10 +38,7 @@ int main() {
 
   return 0;
 }
-
-</code></pre>
-
-</details>
+```
 
 <style>#ccby4 { display: none; }</style>
 
