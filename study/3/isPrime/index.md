@@ -55,7 +55,7 @@ if (t == 1) {
   document.write(N + " は素数です")
 }
 else {
-  document.wirte(N + " は素数ではありません" + "<br>");
+  document.write(N + " は素数ではありません" + "<br>");
   if (t != 1) {
     document.write(N + " ÷ " + t + " = " + N/t + "<br>");
   }
