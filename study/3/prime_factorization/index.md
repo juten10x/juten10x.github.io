@@ -92,7 +92,7 @@ else if (N != 0) {
 
 
 <style>
-  #ccby4 {
+  #ccby4, #p_list {
     display: none;
   }
 </style>

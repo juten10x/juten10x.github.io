@@ -52,5 +52,9 @@ AtCoder のユーザ名もこのとき変更しました。上の画像をご覧
 
 3.<a id="note3" href="#_note3">^ </a>ここ（ juten10x.github.io ）の[トップページ](https://juten10x.github.io)をご覧になればわかる通り、 Wikipedia を除いては Codeforces では Juten10x と、異なるものになっています。また、実は cluster の ID は 10x としています。これらには理由があって、競プロerの方々はご存知かと思いますが、 Codeforces は年末年始にのみユーザ名の変更が可能です。また、 cluster については、しばらく cluster を使っていない間に、ログインに使っていた Twitter アカウントへのアクセスを失っていたために仕方なく新たにアカウントを作成したからです。また、以前使っていた際にすでに ID を juten10x にしていたため、新たに作成したアカウントでは他のものにせざるを得なくなりました。実際、今も juten10x という ID の cluster アカウントは存在していますがそちらを使う予定はありません。
 
-<style>#ccby4 { display: none; }</style>
+<style>
+  #cc0, #p_list, #_p_list {
+    display: none;
+  }
+</style>
 

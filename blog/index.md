@@ -6,10 +6,7 @@
 * [FEを受験しました - Jul 31, 2024](https://juten10x.github.io/blog/fe_Jul-31-2024.html)
 
 <style>
-  #ccby4 {
-    display: none;
-  }
-  #cc0 {
+  #ccby4, #cc0, #p_list, #_p_list {
     display: none;
   }
 </style>

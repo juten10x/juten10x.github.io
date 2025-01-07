@@ -11,7 +11,7 @@ juten10x が高校で行った活動のアーカイブです。
 * [random_integer](random_integer) : 1 から N までの数字をランダムな順序で出力
 
 <style>
-  #ccby4 {
+  #ccby4, #_p_list {
     display: none;
   }
 </style>

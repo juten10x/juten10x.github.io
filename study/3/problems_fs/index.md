@@ -214,7 +214,7 @@ document.write(s[0]);
 *1.<a id="note1" href="#_note1">^ </a>Metamoji では「プログラミング問題 by Juten10x」という名称を用いていました
 
 <style>
-  #ccby4 {
+  #ccby4, #p_list {
     display: none;
   }
 </style>
