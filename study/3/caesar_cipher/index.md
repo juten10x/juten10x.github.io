@@ -31,7 +31,7 @@ int main() {
 ```
 
 <style>
-  #ccby4, #p_ilst, #_menu {
+  #ccby4, #p_list, #_menu {
     display: none;
   }
 </style>
