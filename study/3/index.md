@@ -14,8 +14,5 @@ juten10x が高校で行った活動のアーカイブです。
   #ccby4 {
     display: none;
   }
-  #_menu {
-    display: none;
-  }
 </style>
 

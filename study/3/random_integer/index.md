@@ -36,8 +36,5 @@ int main() {
   #ccby4 {
     display: none;
   }
-  #_menu {
-    display: none;
-  }
 </style>
 

@@ -86,8 +86,5 @@ document.write(y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。
   #ccby4 {
     display: none;
   }
-  #_menu {
-    display: none;
-  }
 </style>
 

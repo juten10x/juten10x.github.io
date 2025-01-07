@@ -95,8 +95,5 @@ else if (N != 0) {
   #ccby4 {
     display: none;
   }
-  #_menu {
-    display: none;
-  }
 </style>
 
