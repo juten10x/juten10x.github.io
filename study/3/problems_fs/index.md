@@ -213,5 +213,12 @@ document.write(s[0]);
 <div class="footer border-top border-gray mt-5 pt-3"></div>
 *1.<a id="note1" href="#_note1">^ </a>Metamoji では「プログラミング問題 by Juten10x」という名称を用いていました
 
-<style>#ccby4 { display: none; }</style>
+<style>
+  #ccby4 {
+    display: none;
+  }
+  #_menu {
+    display: none;
+  }
+</style>
 

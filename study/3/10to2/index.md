@@ -33,5 +33,12 @@ int main() {
 }
 ```
 
-<style>#ccby4 { display: none; }</style>
+<style>
+  #ccby4 {
+    display: none;
+  }
+  #_menu {
+    display: none;
+  }
+</style>
 

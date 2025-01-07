@@ -82,5 +82,12 @@ let Youbi = Zeller_c(y, m, d);
 document.write(y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
 ```
 
-<style>#ccby4 { display: none; }</style>
+<style>
+  #ccby4 {
+    display: none;
+  }
+  #_menu {
+    display: none;
+  }
+</style>
 
