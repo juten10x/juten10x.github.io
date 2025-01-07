@@ -63,7 +63,7 @@ else {
 ```
 
 <style>
-  #ccby4, #p_list, #_menu {
+  #ccby4, #_menu {
     display: none;
   }
 </style>

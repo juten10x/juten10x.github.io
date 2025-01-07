@@ -83,7 +83,7 @@ document.write(y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。
 ```
 
 <style>
-  #ccby4, #p_list, #_menu {
+  #ccby4, #_menu {
     display: none;
   }
 </style>

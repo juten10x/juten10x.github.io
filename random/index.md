@@ -5,7 +5,7 @@
 * 12/15 19:58更新; Mersenne Twister を用いたものに変更
 
 <style>
-  #ccby4, #p_list, #_p_list {
+  #ccby4, #_p_list {
     display: none;
   }
 </style>

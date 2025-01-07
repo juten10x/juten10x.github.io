@@ -64,7 +64,7 @@
 </details>
 
 <style>
-  #cc0, #p_list, #_p_list {
+  #cc0, #_p_list {
     display: none;
   }
 </style>
