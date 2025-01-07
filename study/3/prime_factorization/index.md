@@ -48,7 +48,7 @@ int main() {
 ```
 ### JavaScript
 ```js
-let N = prompt("10^9 以下の正整数を入力してください");
+let N = prompt("10^8 以下の正整数を入力してください");
 
 let pf_array = Array(N).fill(0);
 let judge = [];

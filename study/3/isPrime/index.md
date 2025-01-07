@@ -48,7 +48,7 @@ function isPrime(x) {
   return 1;
 }
 
-let N = prompt("数字を入力してください");
+let N = prompt("10^8 以下の数字を入力してください");
 let t = isPrime(N);
 
 if (t == 1) {
