@@ -5,7 +5,6 @@
 * Codeforces: [juten10x](https://codeforces.com/profile/juten10x)
 * Scrapbox: [juten10x](https://scrapbox.io/juten10x/)
 * Bluesky: [juten10x](https://bsky.app/profile/juten10x.github.io)
-* Instagram: [juten10x](https://www.instagram.com/juten10x)
 * YouTube: [juten10x](https://www.youtube.com/@juten10x)
 * Vimeo: [juten10x](https://vimeo.com/juten10x)
 
@@ -47,7 +46,8 @@
   <li>Pixiv: <a href="https://pixiv.me/juten10x">juten10x</a></li>
   <li>Gravatar: <a href="https://gravatar.com/juten10x">juten10x</a></li>
   <li>Wikipedia: <a href="https://ja.wikipedia.org/wiki/?curid=4687335">Juten</a></li>
-  <li>Twitter: <a href="https://twitter.com/juten10x">juten10x</a></li>
+  <li><s>Instagram</s>: <a href="https://www.instagram.com/juten10x">juten10x</a></li>
+  <li><s>X (Twitter)</s>: <a href="https://twitter.com/juten10x">juten10x</a></li>
 </ul>
 <details>
 <summary>_juten10x</summary>
@@ -55,7 +55,7 @@
 <ul>
   <li>YouTube: <a href="https://www.youtube.com/@ujuten10x">_juten10x</a></li>
   <li>Bluesky: <a href="https://bsky.app/profile/ujuten10x.bsky.social">_juten10x</a></li>
-  <li>Twitter: <a href="https://x.com/_juten10x">_juten10x</a></li>
+  <li>Twitter: <a href="https://twitter.com/_juten10x">_juten10x</a></li>
   <li>note: <a href="https://note.com/_juten10x">_juten10x</a></li>
   <li>mixi2: <a href="https://mixi.social/@ujuten10x">_juten10x</a></li>
   <li>Reddit: <a href="https://reddit.com/user/_juten10x">_juten10x</a></li>
@@ -68,4 +68,3 @@
     display: none;
   }
 </style>
-
