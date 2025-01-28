@@ -53,12 +53,14 @@
 <summary>_juten10x</summary>
 
 <ul>
-  <li>YouTube: <a href="https://www.youtube.com/@ujuten10x">_juten10x</a></li>
-  <li>Bluesky: <a href="https://bsky.app/profile/ujuten10x.bsky.social">_juten10x</a></li>
-  <li><s>Twitter</s>: <a href="https://twitter.com/_juten10x">_juten10x</a></li>; Unused (2025/01 - )
+  <li>Bluesky: <a href="https://bsky.app/profile/ujuten10x.github.io">_juten10x</a></li>
   <li>note: <a href="https://note.com/_juten10x">_juten10x</a></li>
   <li>mixi2: <a href="https://mixi.social/@ujuten10x">_juten10x</a></li>
+  <li>YouTube: <a href="https://www.youtube.com/@ujuten10x">_juten10x</a></li>
+  <li>niconico: <a href="https://www.nicovideo.jp/user/138282170">_juten10x</a></li>
+  <li>GitHub: <a href="https://github.com/ujuten10x">_juten10x</a></li>
   <li>Reddit: <a href="https://reddit.com/user/_juten10x">_juten10x</a></li>
+  <li><s>Twitter</s>: <a href="https://twitter.com/_juten10x">_juten10x</a></li>; Unused (2025/01 - )
 </ul>
 </details>
 </details>
