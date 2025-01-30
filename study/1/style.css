@@ -1,6 +1,6 @@
 body {
   margin: 5%;
-  background-color: "../../light_white.jpg" no-repeat right top fixed;
+  background-color:url(../../light_white.jpg) no-repeat right top fixed;
 }
 #breadcrumbs { font-size: 90% }
 #breadcrumbs + h1 { margin-top: 0 }
