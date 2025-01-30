@@ -1,6 +1,6 @@
 body {
   margin: 5%;
-  background: black;
+  background: silver;
 }
 #breadcrumbs { font-size: 90% }
 #breadcrumbs + h1 { margin-top: 0 }
