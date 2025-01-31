@@ -29,13 +29,16 @@ function clock() {
   document.getElementById('out2').textContent = t;
   if (cnt > 0) {
     document.getElementById('count').textContent = cnt + "秒前";
+    cnt--;
   } else {
     document.getElementById('count').textContent = "終了！";
   }
 }
 setInterval(clock, 1000);
 window.addEventlistner('DOMContentLoaded', clock);
+</script>
 
+<script>
 setInterval(function() {
   document.getElementById("out3").innerHTML = new Date().toLocaleString();
 }, 1000);
