@@ -34,5 +34,35 @@
   document.getElementById("out1").textContent = s1;
 </script>
 
+<p id="out2"></p>
+
+<script>
+  let s2 = "";
+  for (let i = 1; i <= 10; i++) {
+    if (i % 2 == 0) {
+      s2 += `${i} は偶数<br>`;
+    } else {
+      s2 += `${i} は奇数<br>`;
+    }
+  }
+  document.getElementById("out2").innerHTML = s2;
+</script>
+
+<p id="out3"></p>
+
+<script>
+  let s3 = "";
+  for (let i = 1; i <= 100; i++) {
+    if (i%3 == 0) {
+      s3 += "Fizz<br>";
+    } else if (i%5 == 0) {
+      s3 += "Buzz<br>";
+    } else {
+      s3 += "${i}<br>";
+    }
+  }
+  document.getElementById("out3").innerHTML = s3;
+</script>
+
 </body>
 </html>
