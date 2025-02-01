@@ -1,0 +1,19 @@
+body {
+  margin: 5%;
+}
+#menu {
+  float: left;
+  widht: 20%;
+}
+#main {
+  float: right;
+  width: 70%;
+}
+/*
+#footer {
+  clear: both;
+}
+*/
+#breadcrumbs { font-size: 90% }
+#breadcrumbs + h1 { margin-top: 0 }
+#breadcrumbs + h2 { margin-top: 0 }
