@@ -36,15 +36,15 @@ function clock() {
     document.getElementById('count').textContent = "終了！";
   }
   if (cnt2 > 0) {
-    let t = "";
+    let tt = "";
     if (cnt2 > 60) {
-      t += cnt2/60 + "分"
+      tt += cnt2/60 + "分"
     }
     cnt2--;
   } else {
-    t = "終了！";
+    tt = "終了！";
   }
-  document.getElementById('count2').textContent = t;
+  document.getElementById('count2').textContent = tt;
 }
 setInterval(clock, 1000);
 window.addEventlistner('DOMContentLoaded', clock);
