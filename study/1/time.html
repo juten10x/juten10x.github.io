@@ -11,6 +11,7 @@
 <nav id="breadcrumbs">
 <a href="../../">ホーム</a> &gt;
 <a href="../">study</a> &gt;
+<a href="./">1</a> &gt;
 </nav>
 
 <h2>time</h2>
@@ -35,11 +36,15 @@ function clock() {
     document.getElementById('count').textContent = "終了！";
   }
   if (cnt2 > 0) {
-    document.getElementById('count2').textContent = cnt2 + "秒前";
+    let t = "";
+    if (cnt2 > 60) {
+      t += cnt2/60 + "分"
+    }
     cnt2--;
   } else {
-    document.getElementById('count2').textContent = "終了！";
+    t = "終了！";
   }
+  document.getElementById('count2').textContent = t;
 }
 setInterval(clock, 1000);
 window.addEventlistner('DOMContentLoaded', clock);
