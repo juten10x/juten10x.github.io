@@ -16,7 +16,7 @@
 
 <h2>年月日から曜日計算</h2>
 
-<p>1</p>
+<p>2</p>
 
 <p><a href="https://ja.wikipedia.org/wiki/?curid=690086">ツェラーの公式</a>を使って、年月日から、その日の曜日を計算します。</p>
 
@@ -33,9 +33,6 @@
 <p><span id="test"></span></p>
 
 <script>
-let hoge2 = document.getElementById('hoge1');
-hoge2.addEventlistner('click', calc);
-
 function floor(a, b) {
   return Math.floor(a/b);
 }
@@ -69,6 +66,9 @@ function calc() {
 
   document.getElementById('out').textContent = y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
 }
+
+let hoge2 = document.getElementById('hoge1');
+hoge2.addEventlistner('click', calc);
 </script>
 
 </body>
