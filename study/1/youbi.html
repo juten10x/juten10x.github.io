@@ -36,6 +36,10 @@ function floor(a, b) {
 }
 
 function Zeller_c(y, m, d) {
+  if (y <= 1582 && m <= 10 && d <= 15) {
+    return "すみません、1582年10月15日より前には対応していません";
+  }
+
   let Youbi_str = "土日月火水木金";
 
   if (m < 3) {
@@ -50,13 +54,13 @@ function Zeller_c(y, m, d) {
 }
 
 function calc() {
-  const y = document.getElementById('year').value;
-  const m = document.getElementById('month').value;
-  const d = document.getElementById('day').value;
+  const y = document.getElementById('year');
+  const m = document.getElementById('month');
+  const d = document.getElementById('day');
   
   let Youbi = Zeller_c(y, m, d);
 
-  document.getElementById('test').textContent = "hello";
+  document.getElementById('test').textContent = "ok";
 
   document.getElementById('out').textContent = y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
 }
