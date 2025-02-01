@@ -26,7 +26,7 @@
 <label>何日？: <input id="day"></label>
 </p>
 
-<input type="button" value="計算する" id="hoge1">
+<input type="button" value="計算する" id="hoge">
 
 <h3>計算結果</h3>
 <p><span id="out"></span></p>
@@ -62,13 +62,11 @@ function calc() {
   
   let Youbi = Zeller_c(y, m, d);
 
-  document.getElementById('test').textContent = "ok";
-
   document.getElementById('out').textContent = y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
 }
 
-let hoge2 = document.getElementById('hoge1');
-hoge2.addEventlistner('click', calc);
+let hoge = document.getElementById('hoge');
+hoge.addEventlistner('click', calc);
 </script>
 
 </body>
