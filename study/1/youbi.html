@@ -31,6 +31,9 @@
 <p><span id="test"></span></p>
 
 <script>
+let hoge = document.getElementById('out');
+hoge.addEventlistner('click', calc);
+
 function floor(a, b) {
   return Math.floor(a/b);
 }
