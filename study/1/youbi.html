@@ -24,15 +24,15 @@
 <label>何日？: <input id="day"></label>
 </p>
 
-<button onclick="calc()">計算する</button>
+<input type="button" value="計算する" id="hoge1">
 
 <h3>計算結果</h3>
 <p><span id="out"></span></p>
 <p><span id="test"></span></p>
 
 <script>
-let hoge = document.getElementById('out');
-hoge.addEventlistner('click', calc);
+let hoge2 = document.getElementById('hoge1');
+hoge2.addEventlistner('click', calc);
 
 function floor(a, b) {
   return Math.floor(a/b);
