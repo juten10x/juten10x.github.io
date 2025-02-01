@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>_</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+<nav id="breadcrumbs">
+<a href="../../">ホーム</a> &gt;
+<a href="../">study</a> &gt;
+<a href="./">1</a> &gt;
+</nav>
+
+<h2>年月日から曜日計算</h2>
+
+<p><a href="https://ja.wikipedia.org/wiki/?curid=690086">ツェラーの公式</a>を使って、年月日から、その日の曜日を計算します。</p>
+
+<label>西暦何年？: <input id="year"></label>
+<label>何月？ (例: <code>9</code>): <input id="month"></label>
+<label>何日？: <input id="day"></label>
+
+<button onclick="calc()">計算する</button>
+
+<script>
+function floor(a, b) {
+  return Math.floor(a/b);
+}
+
+function Zeller_c(y, m, d) {
+  let Youbi_str = "土日月火水木金";
+
+  if (m < 3) {
+    m += 12;
+    y -= 1;
+  }
+  let Y = y%100;
+
+  let ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - (2*floor(y, 100))%7 + floor(y, 400)%7;
+
+  return Youbi_str[ans%7];
+}
+
+function calc() {
+  const y = document.getElementById('year').value;
+  const m = document.getElementById('month').value;
+  const d = document.getElementById('day').value;
+  
+  let Youbi = Zeller_c(y, m, d);
+
+  document.getElementById('out').textContent = y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
+}
+</script>
+
+</body>
+</html>
