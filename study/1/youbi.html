@@ -8,30 +8,6 @@
 </head>
 <body> 
 
-<nav id="breadcrumbs">
-<a href="../../">ホーム</a> &gt;
-<a href="../">study</a> &gt;
-<a href="./">1</a> &gt;
-</nav>
-
-<h2>年月日から曜日計算</h2>
-
-<p>2</p>
-
-<p><a href="https://ja.wikipedia.org/wiki/?curid=690086">ツェラーの公式</a>を使って、年月日から、その日の曜日を計算します。</p>
-
-<p>
-<label>西暦何年？: <input id="year"></label><br>
-<label>何月？: <input id="month"></label><br>
-<label>何日？: <input id="day"></label>
-</p>
-
-<input type="button" value="計算する" id="hoge">
-
-<h3>計算結果</h3>
-<p><span id="out"></span></p>
-<p><span id="test"></span></p>
-
 <script>
 function floor(a, b) {
   return Math.floor(a/b);
@@ -64,10 +40,36 @@ function calc() {
 
   document.getElementById('out').textContent = y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
 }
-
+/*
 let hoge = document.getElementById('hoge');
 hoge.addEventlistner('click', calc);
+*/
 </script>
+
+<nav id="breadcrumbs">
+<a href="../../">ホーム</a> &gt;
+<a href="../">study</a> &gt;
+<a href="./">1</a> &gt;
+</nav>
+
+<h2>年月日から曜日計算</h2>
+
+<p>2</p>
+
+<p><a href="https://ja.wikipedia.org/wiki/?curid=690086">ツェラーの公式</a>を使って、年月日から、その日の曜日を計算します。</p>
+
+<p>
+<label>西暦何年？: <input id="year"></label><br>
+<label>何月？: <input id="month"></label><br>
+<label>何日？: <input id="day"></label>
+</p>
+
+<input type="button" value="計算する" onclick="calc()" id="hoge">
+
+<h3>計算結果</h3>
+<p><span id="out"></span></p>
+<p><span id="test"></span></p>
+
 
 </body>
 </html>
