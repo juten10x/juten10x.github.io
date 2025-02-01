@@ -25,6 +25,7 @@
 <script>
 "use strict";
 let cnt = 30, cnt2 = 180;
+let tt = "";
 function clock() {
   const t = new Date().toLocaleTimeString([], {hour12: false})
   document.getElementById('out1').value = t;
@@ -36,10 +37,10 @@ function clock() {
     document.getElementById('count').textContent = "終了！";
   }
   if (cnt2 > 0) {
-    let tt = "";
     if (cnt2 > 60) {
       tt += cnt2/60 + "分"
     }
+    tt += cnt2%60 + "秒前";
     cnt2--;
   } else {
     tt = "終了！";
