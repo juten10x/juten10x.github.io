@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>_</title>
+<title>年月日から曜日計算</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -18,9 +18,14 @@
 
 <p><a href="https://ja.wikipedia.org/wiki/?curid=690086">ツェラーの公式</a>を使って、年月日から、その日の曜日を計算します。</p>
 
-<label>西暦何年？: <input id="year"></label>
-<label>何月？ (例: <code>9</code>): <input id="month"></label>
+<p>
+<label>西暦何年？: <input id="year"></label><br>
+<label>何月？: <input id="month"></label><br>
 <label>何日？: <input id="day"></label>
+</p>
+
+<h3>計算結果</h3>
+<p><span id="out"></span></p>
 
 <button onclick="calc()">計算する</button>
 
