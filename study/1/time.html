@@ -36,11 +36,12 @@ function clock() {
   } else {
     document.getElementById('count').textContent = "終了！";
   }
+  tt ="";
   if (cnt2 > 0) {
     if (cnt2 > 60) {
-      tt += cnt2/60 + "分"
+      tt += Math.floor(cnt2/60) + "分"
     }
-    tt += cnt2%60 + "秒前";
+    tt += Math.floor(cnt2%60) + "秒前";
     cnt2--;
   } else {
     tt = "終了！";
