@@ -10,3 +10,4 @@ button.hoge {
 }
 #breadcrumbs { font-size: 90% }
 #breadcrumbs + h1 { margin-top: 0 }
+#breadcrumbs + h2 { margin-top: 0 }
