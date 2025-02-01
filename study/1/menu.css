@@ -10,7 +10,11 @@ body {
   width: 70%;
 }
 #footer {
+/*
   clear: both;
+*/
+  float: right;
+  width: 70%;
 }
 /*
 #footer {
