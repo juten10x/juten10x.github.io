@@ -24,10 +24,11 @@
 <label>何日？: <input id="day"></label>
 </p>
 
+<button onclick="calc()">計算する</button>
+
 <h3>計算結果</h3>
 <p><span id="out"></span></p>
-
-<button onclick="calc()">計算する</button>
+<p><span id="test"></span></p>
 
 <script>
 function floor(a, b) {
@@ -54,6 +55,8 @@ function calc() {
   const d = document.getElementById('day').value;
   
   let Youbi = Zeller_c(y, m, d);
+
+  document.getElementById('test').textContent = "hello";
 
   document.getElementById('out').textContent = y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
 }
