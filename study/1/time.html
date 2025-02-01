@@ -18,11 +18,12 @@
 <div><span>out1: </span><input id="out1"></div>
 <p>out2: <span id="out2"></span></p>
 <p>out3: <span id="out3"></span></p>
-<p>カウントダウン: <span id="count"></span></p>
+<p>カウントダウン (30秒): <span id="count"></span></p>
+<p>カウントダウン (3分): <span id="count2"></span></p>
 
 <script>
 "use strict";
-let cnt = 30;
+let cnt = 30, cnt2 = 180;
 function clock() {
   const t = new Date().toLocaleTimeString([], {hour12: false})
   document.getElementById('out1').value = t;
@@ -32,6 +33,12 @@ function clock() {
     cnt--;
   } else {
     document.getElementById('count').textContent = "終了！";
+  }
+  if (cnt2 > 0) {
+    document.getElementById('count2').textContent = cnt2 + "秒前";
+    cnt2--;
+  } else {
+    document.getElementById('count2').textContent = "終了！";
   }
 }
 setInterval(clock, 1000);
