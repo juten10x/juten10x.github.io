@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>_</title>
+<title>ライフゲーム</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 <script>
@@ -33,7 +33,7 @@ function update() {
       let k = i * 41 + j;
       if (a[k]) {
         b[k-42]++; b[k-41]++; b[k-40]++;
-        b[k- 1]++;            b[k- 1]++;
+        b[k- 1]++;            b[k+ 1]++;
         b[k+40]++; b[k+41]++; b[k+42]++;
       }
     }
@@ -67,9 +67,11 @@ window.addEventListener('DOMContentLoaded', draw);
 <a href="./">1</a> &gt;
 </nav>
 
-<h2><a href="https://ja.wikipedia.org/wiki/?curid=16010">ライフゲーム (Conway's Game of Life)</a></h2>
+<h2><a href=">ライフゲーム (Conway's Game of Life)</a></h2>
 
-<p>under construction</p>
+<p><a href="https://ja.wikipedia.org/wiki/?curid=16010">details</a></p>
+
+<p>(under construction)</p>
 
 <pre id="board"></pre>
 
