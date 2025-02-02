@@ -12,11 +12,26 @@ pre {
   font-family: 'Fira Code';
   overflow: auto;
 }
+#select {
+  float: right;
+  width: 50%
+}
+#main {
+  float: left;
+  width: 50%
+}
 </style>
 <script>
 "use strict";
 
-let g = 0, d = 500, a = [], b = [];
+let g = 0, dt = 500, a = [], b = [];
+let t = 0;
+
+/*
+function check() {
+  dt = document.getElementById('change_duration').value;
+}
+*/
 
 function draw() {
   let s = '';
@@ -35,6 +50,7 @@ function draw() {
 }
 
 function update() {
+  //dt = document.getElementById('change_duration').value;
   g++;
 
   for (let i = 1; i <= 25; i++) {
@@ -64,18 +80,12 @@ a[14*41+25] = true;
 a[13*41+24] = true;
 a[12*41+26] = true;
 
-/*
-const t = getElementById('change_duration').value;
-t = Number(t);
-if (t != d && t != null)
-  d = t;
-  
-const dt = d;
-*/
+function auto() {
+  draw();
+  setInterval(update, dt);
+}
 
-setInterval(update, 100);
-
-window.addEventListener('DOMContentLoaded', draw);
+//window.addEventListener('DOMContentLoaded', draw);
 </script>
 </head>
 <body>
@@ -88,14 +98,28 @@ window.addEventListener('DOMContentLoaded', draw);
 
 <h2>ライフゲーム (Conway's Game of Life)</a></h2>
 
-<p><a href="https://ja.wikipedia.org/wiki/?curid=16010">details (Wikipedia)</a></p>
+<!--<p><a href="https://ja.wikipedia.org/wiki/?curid=16010">(Wikipedia)</a></p>-->
 
-<p>(under construction)</p>
-
-<label>duration: <input id="input" value="500" id="change_duration"></label>
+<div id="select">
+<!--<label>duration: <input id="change_duration" value="500"></label>-->
+<label>手動:&nbsp;
 <input type="button" value="Start" onclick="draw()">
+<input type="button" value="Next" onclick="update()">
+</label><br>
+<label>自動:&nbsp;
+<input type="button" value="Start" onclick="auto()">
+<br><span>&nbsp;&nbsp;間隔を選択 (既定値: 500):</span>
+<input type="button" value="10" onclick="dt = 10">
+<input type="button" value="100" onclick="dt = 100">
+<input type="button" value="500" onclick="dt = 500">
+<input type="button" value="1000" onclick="dt = 1000">
+<!--<input type="input" value="500" id="change_duration" onchange="check()">-->
+</label>
+</div>
 
+<div id="main">
 <pre id="board"></pre>
+</div>
 
 </body>
 </html>
