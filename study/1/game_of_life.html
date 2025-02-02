@@ -64,12 +64,16 @@ a[14*41+25] = true;
 a[13*41+24] = true;
 a[12*41+26] = true;
 
+/*
 const t = getElementById('change_duration').value;
+t = Number(t);
 if (t != d && t != null)
   d = t;
   
 const dt = d;
-setInterval(update, dt);
+*/
+
+setInterval(update, 100);
 
 window.addEventListener('DOMContentLoaded', draw);
 </script>
@@ -86,7 +90,7 @@ window.addEventListener('DOMContentLoaded', draw);
 
 <p><a href="https://ja.wikipedia.org/wiki/?curid=16010">details (Wikipedia)</a></p>
 
-<p>(under construction) 1</p>
+<p>(under construction)</p>
 
 <label>duration: <input id="input" value="500" id="change_duration"></label>
 <input type="button" value="Start" onclick="draw()">
