@@ -35,6 +35,10 @@ function draw() {
 
 function update() {
   g++;
+
+  if (getElementById('change_duration').value != null)
+    d = getElementById('change_duration').value;
+  
   for (let i = 1; i <= 25; i++) {
     for (let j = 1; j <= 40; j++) {
       let k = i * 41 + j;
@@ -62,13 +66,9 @@ a[14*41+25] = true;
 a[13*41+24] = true;
 a[12*41+26] = true;
 
-function duration() {
-  d = getElementById('change_duration').value;
-}
-  
 const dt = d;
-setInterval(update, d);
-window.addEventListener('DOMContentLoaded', draw);
+setInterval(update, dt);
+//window.addEventListener('DOMContentLoaded', draw);
 </script>
 </head>
 <body>
@@ -81,11 +81,12 @@ window.addEventListener('DOMContentLoaded', draw);
 
 <h2>ライフゲーム (Conway's Game of Life)</a></h2>
 
-<p><a href="https://ja.wikipedia.org/wiki/?curid=16010">details</a></p>
+<p><a href="https://ja.wikipedia.org/wiki/?curid=16010">details (Wikipedia)</a></p>
 
 <p>(under construction)</p>
 
-<input id="input" onchange="duration()">
+<label>duration: <input id="input" id="change_duration"></label>
+<input type="button" value="Start" onclick="draw()">
 
 <pre id="board"></pre>
 
