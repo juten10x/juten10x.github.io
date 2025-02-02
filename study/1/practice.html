@@ -11,6 +11,8 @@
 <script>
 window.onload = function() { alert("Hello!"); };
 window.onbeforeunload = function() { return true; };
+window.onselect = function() { alert("テキストが選択されました"); };
+document.oncontextmenu = function() { alert("右クリック禁止 (のテスト)"); return false; }
 </script>
 </head>
 <body> 
@@ -24,6 +26,8 @@ window.onbeforeunload = function() { return true; };
 <h2>practice</h2>
 
 <img src="../../light_white.jpg" alt="Click me!" title="Click me!!" width="200" height="200" onmouseover="this.src='../pile_of_images/practice-10_h_square.jpg'" onmouseout="this.src='../../light_white.jpg'" onmousedown="alert('Hi!')">
+
+<p>ページを訪れた際には "Hello!" と表示され、ページを離脱する際には警告ダイアログが表示されるようにしています。</p>
 
 <p onmouseover="this.textContent='onmouseover'" onmouseout="this.textContent='onmouseout'" onmousedown="this.textContent='onmousedown'">text</p>
 

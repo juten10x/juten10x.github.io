@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>_</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script>
+"use strict";
+
+let g = 0, a = [], b = [];
+
+function draw() {
+  let s = '';
+  for (let i = 1; i <= 25; i++) {
+    for (let j = 1; j <= 40; j++) {
+      let k = i * 41 + j;
+      if (a[k])
+        s += 'o';
+      else
+        s += ' ';
+    }
+    s += '\n';
+  }
+  s += "Generation: " + g;
+  document.getElementById("board").textContent = s;
+}
+
+function update() {
+  g++;
+  for (let i = 1; i <= 25; i++) {
+    for (let j = 1; j <= 40; j++) {
+      let k = i * 41 + j;
+      if (a[k]) {
+        b[k-42]++; b[k-41]++; b[k-40]++;
+        b[k- 1]++;            b[k- 1]++;
+        b[k+40]++; b[k+41]++; b[k+42]++;
+      }
+    }
+  }
+  for (let k = 0; k < 26 * 40 + 42; k++) {
+    if (b[k] != 2) a[k] = (b[k] == 3);
+    b[k] = 0;
+  }
+  draw();
+}
+
+for (let k = 0; k < 26 * 40 + 42; k++) {
+  a[k] = false; b[k] = 0;
+}
+
+a[13*41+25] = true;
+a[12*41+25] = true;
+a[14*41+25] = true;
+a[13*41+24] = true;
+a[12*41+26] = true;
+
+setInterval(update, 500);
+window.addEventListener('DOMContentLoaded', draw);
+</script>
+</head>
+<body>
+
+<nav id="breadcrumbs">
+<a href="../../">ホーム</a> &gt;
+<a href="../">study</a> &gt;
+<a href="./">1</a> &gt;
+</nav>
+
+<h2><a href="https://ja.wikipedia.org/wiki/?curid=16010">ライフゲーム (Conway's Game of Life)</a></h2>
+
+<p>under construction</p>
+
+<pre id="board"></pre>
+
+</body>
+</html>
