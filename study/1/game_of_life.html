@@ -14,6 +14,12 @@ pre {
   font-family: 'Fira Code';
   overflow: auto;
 }
+button.hoge {
+  /*font-weight: bold;*/
+  /*padding: 0.5em 1em;*/
+  background-color: #EEE;
+  border-radius: 0.5em;
+}
 #select {
   float: right;
   width: 50%
@@ -104,16 +110,27 @@ function auto() {
 <h2>ライフゲーム (<a href="https://ja.wikipedia.org/wiki/?curid=16010">Wikipedia</a>)</h2>
 
 <label>手動:&nbsp;
+<button type="button" class="hoge" onclick="draw()">Start</button>
+<button type="button" class="hoge" onclick="update()">Next</button>
+<!--
 <input type="button" value="Start" onclick="draw()">
 <input type="button" value="Next" onclick="update()">
+-->
 </label><br>
 <label>自動:&nbsp;
-<input type="button" value="Start" onclick="auto()">
-<br><span>&nbsp;&nbsp;間隔を選択 (既定値: 500):</span>
+<button type="button" class="hoge" onclick="auto()">Start</button>
+<!--<input type="button" value="Start" onclick="auto()">-->
+<br><span>&nbsp;&nbsp;間隔を選択 (既定値: 500ms):</span>
+<button type="button" class="hoge" onclick="dt = 10">10ms</button>
+<button type="button" class="hoge" onclick="dt = 100">100ms</button>
+<button type="button" class="hoge" onclick="dt = 500">500ms</button>
+<button type="button" class="hoge" onclick="dt = 1000">1000ms</button>
+<!--
 <input type="button" value="10" onclick="dt = 10">
 <input type="button" value="100" onclick="dt = 100">
 <input type="button" value="500" onclick="dt = 500">
 <input type="button" value="1000" onclick="dt = 1000">
+-->
 </label>
 </div>
 
