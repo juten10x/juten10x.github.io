@@ -14,7 +14,7 @@ pre {
 <script>
 "use strict";
 
-let g = 0, a = [], b = [];
+let g = 0, d = 500, a = [], b = [];
 
 function draw() {
   let s = '';
@@ -61,7 +61,12 @@ a[14*41+25] = true;
 a[13*41+24] = true;
 a[12*41+26] = true;
 
-setInterval(update, 500);
+function duration() {
+  d = getElementById('change_duration').value;
+}
+  
+const dt = d;
+setInterval(update, d);
 window.addEventListener('DOMContentLoaded', draw);
 </script>
 </head>
@@ -78,6 +83,8 @@ window.addEventListener('DOMContentLoaded', draw);
 <p><a href="https://ja.wikipedia.org/wiki/?curid=16010">details</a></p>
 
 <p>(under construction)</p>
+
+<input id="input" onchange="duration()">
 
 <pre id="board"></pre>
 
