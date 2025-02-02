@@ -7,7 +7,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 body {
-  margin: 0 5%;
+  margin: 3% 5% 5% 5%;
 }
 pre {
   color: blue;
@@ -22,6 +22,7 @@ pre {
   float: left;
   width: 50%
 }
+#board { font-size: 90% }
 #breadcrumbs { font-size: 90% }
 </style>
 <script>
@@ -93,18 +94,14 @@ function auto() {
 </head>
 <body>
 
-<h2>ライフゲーム (<a href="https://ja.wikipedia.org/wiki/?curid=16010">Wikipedia</a>)</h2>
-
-<!--<p><a href="https://ja.wikipedia.org/wiki/?curid=16010">(Wikipedia)</a></p>-->
-
 <div id="select">
-
 <nav id="breadcrumbs">
 <a href="../../">ホーム</a> &gt;
 <a href="../">study</a> &gt;
 <a href="./">1</a> &gt;
 </nav>
-<br>
+
+<h2>ライフゲーム (<a href="https://ja.wikipedia.org/wiki/?curid=16010">Wikipedia</a>)</h2>
 
 <label>手動:&nbsp;
 <input type="button" value="Start" onclick="draw()">
