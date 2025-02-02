@@ -28,7 +28,7 @@ function Zeller_c(y, m, d) {
   return Youbi_str[ans%7];
 }
 
-function calc() {
+document.addEventListener("click", function calc() {
   const y = document.getElementById('year');
   const m = document.getElementById('month');
   const d = document.getElementById('day');
@@ -36,11 +36,7 @@ function calc() {
   let Youbi = Zeller_c(y, m, d);
 
   document.getElementById('out').textContent = y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
-}
-/*
-let hoge = document.getElementById('hoge');
-hoge.addEventlistner('click', calc);
-*/
+});
 </script>
 </head>
 <body> 
@@ -63,7 +59,7 @@ hoge.addEventlistner('click', calc);
 <label>何日？: <input id="day"></label>
 </p>
 
-<input type="button" value="計算する" onclick="calc()" id="hoge">
+<input type="button" value="計算する" id="hoge">
 
 <h3>計算結果</h3>
 <p><span id="out"></span></p>
