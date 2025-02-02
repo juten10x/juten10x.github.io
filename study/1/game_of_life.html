@@ -10,6 +10,7 @@
 pre {
   color: blue;
   font-family: 'Fira Code';
+  overflow: auto;
 }
 </style>
 <script>
@@ -63,8 +64,9 @@ a[14*41+25] = true;
 a[13*41+24] = true;
 a[12*41+26] = true;
 
-if (getElementById('change_duration').value != null)
-  d = getElementById('change_duration').value;
+const t = getElementById('change_duration').value;
+if (t != d && t != null)
+  d = t;
   
 const dt = d;
 setInterval(update, dt);
@@ -86,7 +88,7 @@ setInterval(update, dt);
 
 <p>(under construction)</p>
 
-<label>duration: <input id="input" id="change_duration"></label>
+<label>duration: <input id="input" value="500" id="change_duration"></label>
 <input type="button" value="Start" onclick="draw()">
 
 <pre id="board"></pre>
