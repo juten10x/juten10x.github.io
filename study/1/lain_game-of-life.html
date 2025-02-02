@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>玲音/lain</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+body {
+  background: black;
+}
+pre {
+  font-family: 'Fira Code', sans-serif;
+  color: green;
+  overflow: auto;
+}
+a:link { color: green; }
+a:visited { color: green; }
+a:hover { color: green; }
+a:active { color: green; }
+#code-font {
+  color: green;
+  font-family: 'Fira Code', sans-serif
+}
+</style>
+<script>
+"use strict";
+let y = 100;
+function larger() { y *= 1.1; document.getElementById('board').style.fontSize = y + '%'; }
+function smaller() { y /= 1.1; document.getElementById('board').style.fontSize = y + '%'; }
+
+let g = 0, dt = 500, a = [], b = [];
+let t = 0;
+let lain_v = false;
+let lain_array = ['玲', '音', 'ｌ', 'ａ', 'ｉ', 'ｎ'];
+let iv_id, st = false;
+let H = 40, W = 75;
+
+function draw() {
+  let s = '';
+  for (let i = 1; i <= H; i++) {
+    for (let j = 1; j <= W; j++) {
+      let k = i * (W + 1) + j;
+      if (a[k])
+        s += lain_array[Math.floor((Math.random() * 100) % 6)];
+      else
+        s += '　';
+    }
+    s += '\n';
+  }
+  s += "Generation: " + g;
+  document.getElementById("board").textContent = s;
+}
+
+function update() {
+  g++;
+
+  for (let i = 1; i <= H; i++) {
+    for (let j = 1; j <= W; j++) {
+      let k = i * (W + 1) + j;
+      if (a[k]) {
+        b[k-(W + 2)]++; b[k-(W + 1)]++; b[k   -   W]++;
+        b[k   -   1]++;                 b[k   +   1]++;
+        b[k   +   W]++; b[k+(W + 1)]++; b[k+(W + 2)]++;
+      }
+    }
+  }
+  for (let k = 0; k < (H + 1) * W + (W + 2); k++) {
+    if (b[k] != 2) a[k] = (b[k] == 3);
+    b[k] = 0;
+  }
+  draw();
+}
+
+for (let k = 0; k < (H + 1) * W + (W + 2); k++) {
+  a[k] = false; b[k] = 0;
+}
+
+a[13*(W + 1)+H] = true;
+a[12*(W + 1)+H] = true;
+a[14*(W + 1)+H] = true;
+a[13*(W + 1)+(H - 1)] = true;
+a[12*(W + 1)+(H + 1)] = true;
+
+function play() {
+  draw();
+  iv_id = setInterval(update, dt);
+}
+
+function stop() {
+  clearInterval(iv_id);
+  st = true;
+}
+
+function cd10() {
+  clearInterval(iv_id);
+  dt = 10;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+function cd100() {
+  clearInterval(iv_id);
+  dt = 100;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+function cd500() {
+  clearInterval(iv_id);
+  dt = 500;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+function cd1000() {
+  clearInterval(iv_id);
+  dt = 1000;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+window.addEventListener('DOMContentLoaded', play);
+</script>
+</head>
+<body>
+
+<pre id="board"></pre>
+
+<br>
+<span id="code-font">Play/Stop:&nbsp;</span>
+<span id="code-font">[<a href="javascript:play()">Play</a>]</span>
+<span id="code-font">[<a href="javascript:stop()">Stop</a>]</span>
+
+<br>
+<span id="code-font">Select Duration:&nbsp;</span>
+<span id="code-font">[<a href="javascript:cd10()">10ms</a>]</span>
+<span id="code-font">[<a href="javascript:cd100()">100ms</a>]</span>
+<span id="code-font">[<a href="javascript:cd500()">500ms</a>]</span>
+<span id="code-font">[<a href="javascript:cd1000()">1000ms</a>]</span>
+<br>
+
+<span id="code-font">Change Size:&nbsp;</span>
+<span id="code-font">[<a href="javascript:larger()">Larger</a>]</span>
+<span id="code-font">[<a href="javascript:smaller()">Smaller</a>]</span>
+
+</body>
+</html>
