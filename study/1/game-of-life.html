@@ -160,6 +160,13 @@ function cd100() {
     iv_id = setInterval(update, dt);
 }
 
+function cd250() {
+  clearInterval(iv_id);
+  dt = 250;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
 function cd500() {
   clearInterval(iv_id);
   dt = 500;
@@ -199,6 +206,7 @@ function cd1000() {
 <br>&nbsp;&nbsp;<span id="text-font">Change Duration:&nbsp;</span>
 <button type="button" onclick="cd10()">10ms</button>
 <button type="button" onclick="cd100()">100ms</button>
+<button type="button" onclick="cd250()">250ms</button>
 <button type="button" onclick="cd500()">500ms</button>
 <button type="button" onclick="cd1000()">1000ms</button>
 <br>
