@@ -34,7 +34,20 @@ button.hoge {
 #code-font: {
   font-family: 'Fira Code', sans-serif;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+  #board { font-size: 50% }
+}
+@media (min-width: 767px) and (max-width: 1100px) {
+  #select {
+    float: right;
+    widht: 40%;
+  }
+  #main {
+    float:left;
+    width: 60%;
+  }
+}
+@media (min-width: 1100px) {
   #select {
     float: right;
     width: 50%
@@ -44,9 +57,6 @@ button.hoge {
     width: 50%
   }
   #board { font-size: 90% }
-}
-@media (max-width: 767px) {
-  #board { font-size: 50% }
 }
 #breadcrumbs { font-size: 90% }
 </style>
