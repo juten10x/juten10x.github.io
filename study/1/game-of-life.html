@@ -4,8 +4,10 @@
 <meta charset="UTF-8">
 <title>ライフゲーム</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/google-light.min.css">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zen+Kaku+Gothic+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 /*:root {
   --text-font: 'Inter', Helvetica, 'Zen Kaku Gothic New', sans-serif;
   --code-font: 'Fira Code', sans-serif;
@@ -13,7 +15,7 @@
 body {
   margin: 3% 5% 5% 5%;
 }
-pre {
+#board {
   /*font-family: 'Fira Code', sans-serif;*/
   font-family: sans-serif;
   color: blue;
@@ -31,13 +33,15 @@ button.hoge {
 #code-font: {
   font-family: 'Fira Code', sans-serif;
 }
-#select {
-  float: right;
-  width: 50%
-}
-#main {
-  float: left;
-  width: 50%
+@media (min-width: 768px) {
+  #select {
+    float: right;
+    width: 50%
+  }
+  #main {
+    float: left;
+    width: 50%
+  }
 }
 #board { font-size: 90% }
 #breadcrumbs { font-size: 90% }
@@ -203,13 +207,243 @@ function cd1000() {
 <span id="text-font">玲音/lain:&nbsp;</span>
 <button type="button" id="text-font" onclick="lain_v = true">ON</button>
 <button type="button" id="text-font" onclick="lain_v = false">OFF</button>
-
 <p id="text-font">Full Screen: <a href="full_game-of-life.html">●</a>, <a href="lain_game-of-life.html">玲音/lain</a></p>
+<br>
+
+<details>
+<summary>Code</summary>
+
+<pre id="code-font"><code language="html">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ja"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;ライフゲーム&lt;/title&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;style&gt;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Zen+Kaku+Gothic+New&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&amp;display=swap');
+/*:root {
+  --text-font: 'Inter', Helvetica, 'Zen Kaku Gothic New', sans-serif;
+  --code-font: 'Fira Code', sans-serif;
+  }*/
+body {
+margin: 3% 5% 5% 5%;
+}
+pre {
+  /*font-family: 'Fira Code', sans-serif;*/
+  font-family: sans-serif;
+color: blue;
+overflow: auto;
+}
+button.hoge {
+  /*font-weight: bold;*/
+  /*padding: 0.5em 1em;*/
+  background-color: #EEE;
+  border-radius: 0.5em;
+}
+#text-font {
+  font-family: 'Inter', Helvetica, /*'Zen Kaku Gothic New',*/sans-serif;
+}
+#code-font: {
+  font-family: 'Fira Code', sans-serif;
+}
+@media (min-width: 768px) {
+#select {
+  float: right;
+  width: 50%
+}
+#main {
+  float: left;
+  width: 50%
+}
+}
+#board { font-size: 90% }
+#breadcrumbs { font-size: 90% }
+&lt;/style&gt;
+&lt;script&gt;
+"use strict";
+let y = 100;
+function larger() { y *= 1.1; document.getElementById('board').style.fontSize = y + '%'; }
+function smaller() { y /= 1.1; document.getElementById('board').style.fontSize = y + '%'; }
+
+let g = 0, dt = 500, a = [], b = [];
+let t = 0, lain_v = false;
+let lain_array = ['玲', '音', 'ｌ', 'ａ', 'ｉ', 'ｎ'];
+let iv_id, st = true;
+let H = 20, W = 30;
+
+/*
+   function check() {
+   dt = document.getElementById('change_duration').value;
+   }
+ */
+
+function draw() {
+  let s = '';
+  for (let i = 1; i &lt;= H; i++) {
+    for (let j = 1; j &lt;= W; j++) {
+      let k = i * (W + 1) + j;
+      if (a[k])
+        s += (lain_v ? lain_array[Math.floor((Math.random() * 100) % 6)] : '●');
+      else
+        s += '　';
+    }
+    s += '\n';
+  }
+  s += "Generation: " + g;
+  document.getElementById("board").textContent = s;
+}
+
+function update() {
+  //dt = document.getElementById('change_duration').value;
+  g++;
+
+  for (let i = 1; i &lt;= H; i++) {
+    for (let j = 1; j &lt;= W; j++) {
+      let k = i * (W + 1) + j;
+      if (a[k]) {
+        b[k-(W + 2)]++; b[k-(W + 1)]++; b[k   -   W]++;
+        b[k   -   1]++;                 b[k   +   1]++;
+        b[k   +   W]++; b[k+(W + 1)]++; b[k+(W + 2)]++;
+      }
+    }
+  }
+  for (let k = 0; k &lt; (H + 1) * W + (W + 2); k++) {
+    if (b[k] != 2) a[k] = (b[k] == 3);
+    b[k] = 0;
+  }
+  draw();
+}
+
+for (let k = 0; k &lt; (H + 1) * W + (W + 2); k++) {
+  a[k] = false; b[k] = 0;
+}
+
+a[13*(W + 1)+H] = true;
+a[12*(W + 1)+H] = true;
+a[14*(W + 1)+H] = true;
+a[13*(W + 1)+(H - 1)] = true;
+a[12*(W + 1)+(H + 1)] = true;
+
+function start() {
+  st = false;
+  draw();
+  iv_id = setInterval(update, dt);
+}
+
+function play() {
+  st = false;
+  clearInterval(iv_id);
+  iv_id = setInterval(update, dt);
+}
+
+function start_or_play() {
+  if (st)
+    start();
+  else
+    play();
+}
+
+function stop() {
+  clearInterval(iv_id);
+  st = true;
+}
+
+function draw_or_stop() {
+  if (!st)
+    stop();
+  else
+    draw();
+}
+
+function cd10() {
+  clearInterval(iv_id);
+  dt = 10;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+function cd100() {
+  clearInterval(iv_id);
+  dt = 100;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+function cd500() {
+  clearInterval(iv_id);
+  dt = 500;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+function cd1000() {
+  clearInterval(iv_id);
+  dt = 1000;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+//window.addEventListener('DOMContentLoaded', draw);
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div id="select"&gt;
+&lt;nav id="breadcrumbs"&gt;
+&lt;a id="text-font" href="../../"&gt;ホーム&lt;/a&gt; &amp;gt;
+&lt;a id="text-font" href="../"&gt;study&lt;/a&gt; &amp;gt;
+&lt;a id="text-font" href="./"&gt;1&lt;/a&gt; &amp;gt;
+&lt;/nav&gt;
+
+&lt;h2&gt;&lt;span id="text-font"&gt;ライフゲーム (&lt;/span&gt;&lt;a href="https://ja.wikipedia.org/wiki/?curid=16010"&gt;&lt;span id="text-font"&gt;Wikipedia&lt;/span&gt;&lt;/a&gt;&lt;span id="text-font"&gt;)&lt;/span&gt;&lt;/h2&gt;
+
+&lt;span id="text-font"&gt;Manual:&lt;/span&gt;&amp;nbsp;
+&lt;button type="button" id="text-font" onclick="draw_or_stop()"&gt;Play&lt;/button&gt;
+&lt;button type="button" id="text-font" onclick="update()"&gt;Next&lt;/button&gt;
+&lt;br&gt;
+
+&lt;span id="text-font"&gt;Auto:&lt;/span&gt;&amp;nbsp;
+&lt;button type="button" id="text-font" onclick="start_or_play()"&gt;Play&lt;/button&gt;
+&lt;button type="button" id="text-font" onclick="stop()"&gt;Stop&lt;/button&gt;
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span id="text-font"&gt;Change Duration:&amp;nbsp;&lt;/span&gt;
+&lt;button type="button" onclick="cd10()"&gt;10ms&lt;/button&gt;
+&lt;button type="button" onclick="cd100()"&gt;100ms&lt;/button&gt;
+&lt;button type="button" onclick="cd500()"&gt;500ms&lt;/button&gt;
+&lt;button type="button" onclick="cd1000()"&gt;1000ms&lt;/button&gt;
+&lt;br&gt;
+
+&lt;span id="text-font"&gt;Change Size:&amp;nbsp;&lt;/span&gt;
+&lt;button type="button" onclick="larger()"&gt;Larger&lt;/button&gt;
+&lt;button type="button" onclick="smaller()"&gt;Smaller&lt;/button&gt;
+&lt;br&gt;
+
+&lt;span id="text-font"&gt;玲音/lain:&amp;nbsp;&lt;/span&gt;
+&lt;button type="button" id="text-font" onclick="lain_v = true"&gt;ON&lt;/button&gt;
+&lt;button type="button" id="text-font" onclick="lain_v = false"&gt;OFF&lt;/button&gt;
+&lt;p id="text-font"&gt;Full Screen: &lt;a href="full_game-of-life.html"&gt;●&lt;/a&gt;, &lt;a href="lain_game-of-life.html"&gt;玲音/lain&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;/div&gt;
+
+&lt;div id="main"&gt;
+&lt;pre id="board"&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</details>
 </div>
 
 <div id="main">
 <pre id="board"></pre>
 </div>
+
+<!-- highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/javascript.min.js"></script>
+<script>hljs.highlightAll();</script>
 
 </body>
 </html>
