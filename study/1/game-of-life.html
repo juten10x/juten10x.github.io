@@ -19,7 +19,7 @@ body {
   /*font-family: 'Fira Code', sans-serif;*/
   font-family: sans-serif;
   color: blue;
-  overflow: visible;
+  overflow: auto;
   line-height: 1.0; 
 }
 button.hoge {
@@ -62,12 +62,6 @@ let lain_array = ['玲', '音', 'ｌ', 'ａ', 'ｉ', 'ｎ'];
 let iv_id, st = true;
 let H = 30, W = 40;
 
-/*
-function check() {
-  dt = document.getElementById('change_duration').value;
-}
-*/
-
 function draw() {
   let s = '';
   for (let i = 1; i <= H; i++) {
@@ -85,7 +79,6 @@ function draw() {
 }
 
 function update() {
-  //dt = document.getElementById('change_duration').value;
   g++;
 
   for (let i = 1; i <= H; i++) {
@@ -182,6 +175,137 @@ function cd1000() {
 }
 
 //window.addEventListener('DOMContentLoaded', draw);
+/*
+"use strict";
+let y = 100;
+function larger() { y *= 1.1; document.getElementById('board').style.fontSize = y + '%'; }
+function smaller() { y /= 1.1; document.getElementById('board').style.fontSize = y + '%'; }
+
+let g = 0, dt = 500;
+let t = 0, lain_v = false;
+let lain_array = ['玲', '音', 'ｌ', 'ａ', 'ｉ', 'ｎ'];
+let iv_id, st = true;
+let H = 30, W = 40;
+let a = [H+2][W+2];
+let b = a;
+
+function draw() {
+  let s = '';
+  for (let i = 1; i <= H; i++) {
+    for (let j = 1; j <= W; j++) {
+      if (a[i][j])
+        s += (lain_v ? lain_array[Math.floor((Math.random() * 100) % 6)] : '●');
+      else
+        s += '　';
+    }
+    s += '\n';
+  }
+  s += "Generation: " + g;
+  document.getElementById("board").textContent = s;
+}
+
+function update() {
+  g++;
+
+  for (let i = 1; i <= H; i++) {
+    for (let j = 1; j <= W; j++) {
+      if (a[i][j]) {
+        b[i-1][j-1]++; b[i-1][j]++; b[i-1][j+1]++;
+        b[i][j-  1]++;              b[i][j+  1]++;
+        b[i+1][j-1]++; b[i+1][j]++; b[i+1][j+1]++;
+      }
+    }
+  }
+  for (let i = 0; i <= H+1; i++) {
+    for (let j = 0; j <= W+1; j++) {
+      if (b[i][j] != 2) a[i][j] = (b[i][j] == 3);
+      b[i][j] = 0;
+    }
+  }
+  draw();
+}
+
+for (let i = 0; i <= H+1; i++) {
+  for (let j = 0; j <= W+1; j++) {
+    a[i][j] = false;
+    b[i][j] = 0;
+  }
+}
+
+a[13][13] = true;
+a[13][14] = true;
+a[14][12] = true;
+a[14][13] = true;
+a[15][13] = true;
+
+function start() {
+  st = false;
+  draw();
+  iv_id = setInterval(update, dt);
+}
+
+function play() {
+  st = false;
+  clearInterval(iv_id);
+  iv_id = setInterval(update, dt);
+}
+
+function start_or_play() {
+  if (st)
+    start();
+  else
+    play();
+}
+
+function stop() {
+  clearInterval(iv_id);
+  st = true;
+}
+
+function draw_or_stop() {
+  if (!st)
+    stop();
+  else
+    draw();
+}
+
+function cd10() {
+  clearInterval(iv_id);
+  dt = 10;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+function cd100() {
+  clearInterval(iv_id);
+  dt = 100;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+function cd250() {
+  clearInterval(iv_id);
+  dt = 250;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+function cd500() {
+  clearInterval(iv_id);
+  dt = 500;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+function cd1000() {
+  clearInterval(iv_id);
+  dt = 1000;
+  if (!st)
+    iv_id = setInterval(update, dt);
+}
+
+//window.addEventListener('DOMContentLoaded', draw);
+*/
 </script>
 </head>
 <body>
@@ -261,14 +385,14 @@ button.hoge {
   font-family: 'Fira Code', sans-serif;
 }
 @media (min-width: 768px) {
-#select {
-  float: right;
-  width: 50%
-}
-#main {
-  float: left;
-  width: 50%
-}
+  #select {
+    float: right;
+    width: 50%
+  }
+  #main {
+    float: left;
+    width: 50%
+  }
 }
 #board { font-size: 90% }
 #breadcrumbs { font-size: 90% }
