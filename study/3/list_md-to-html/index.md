@@ -1,39 +1,80 @@
 ## list_md-to-html
 ### C++
 ```cpp
+
 #include <iostream>
 
 /*
-  Markdown 記法で書かれた リンク付きのリスト を、 HTML に変換するプログラムです。
-  [] で囲んでリンクにしている文字列が全て同じである場合に使えます。
-  Wandbox での動作デモ : https://wandbox.org/permlink/iiPNhsw2rB8N8xPm
+  Markdown 記法で書かれた リスト(リンク付きも可) を、 HTML に変換するプログラムです。
+  Wandboxでの動作デモ: https://wandbox.org/permlink/avYYBHDzFt3Ha0ry
 
   使い方
-  1. 変換したい文字列の初めの行よりひとつ上の行に、[]で囲んでリンクにしている文字列を書く。
-  2. （重要！）変換したい文字列の最後にひとつ改行して、 finish と書く（while 文を break するためです。例として、上記の動作デモを参照ください）。
-  3. プログラムを実行して、入力として 変換したい文字列に上記1.2.の操作を加えたもの を与える。
-*/
+  1.(重要！)変換したい文字列の最後にひとつ改行して、 finish と書く(while 文を break するためです。例として、上記の動作デモを参照ください)。
+  2. プログラムを実行して、入力として 変換したい文字列に上記の操作を加えたもの を与える。
+ */
 
 int main() {
-  std::string name;
-  std::cin >> name;
-  
+  int where = 0, pre = 0;
+
   std::cout << "<ul>" << '\n';
+  int ul = 1;
+
   while (true) {
     std::string S;
     getline(std::cin, S);
-    
-    if (S == "finish") break;
 
-    S = S.substr(2, (int)S.size());
-
-    int a = 0, b = 0;
-    for (int i = 0; i < (int)S.size(); i++) {
-      if (S.at(i) == '(') a = i;
-      if (S.at(i) == ')') b = i;
+    if (S == "finish") {
+      if (ul) {
+        std::cout << std::string(where, ' ') << "</ul>" << '\n';
+        ul--;
+      }
+      break;
     }
-    std::cout << "  <li>" << S.substr(0, a-(int)name.size()-2) << "<a href=\"" << S.substr(a+1, b-a-1) << "\">" << name << "</a></li>" << '\n';
+
+    where = 0;
+    for (int i = 0; i < (int)S.size(); i++) {
+      if (S[i] == '*') {
+        where = i;
+        break;
+      }
+    }
+    std::string St = S.substr(where + 2, (int)S.size());
+
+    if (where > pre) {
+      std::cout << std::string(pre + 2, ' ') << "<ul>" << '\n';
+      ul++;
+    }
+    if (where < pre) {
+      int cnt = pre;
+      for (int i = 0; i < (pre-where)/2; i++) {
+        std::cout << std::string(where - 2 + cnt, ' ') << "</ul>" << '\n';
+        cnt -= 2;
+        ul -= 2;
+      }
+    }
+    pre = where;
+
+    bool link = false;
+    if (S.find("](http") != std::string::npos) {
+      link = true;
+    }
+
+    if (link) {
+      int begin = 0, end = 0;
+      int begin_c = 0, end_c = 0;
+      for (int i = where+1; i < (int)S.size(); i++) {
+        if (St[i] == '[') begin = i;
+        if (St[i] == ']') end = i;
+        if (St[i] == '(') begin_c = i;
+        if (St[i] == ')') end_c = i;
+      }
+      std::cout << std::string(where + 2, ' ')  << "<li>" << St.substr(0, begin) << "<a href=\"" << St.substr(begin_c + 1, end_c - begin_c - 1) << "\">" << St.substr(begin + 1, end - begin - 1) << "</a></li>" << '\n';
+    }
+    else {
+      std::cout << std::string(where + 2, ' ') << "<li>" << St << "</li>" << '\n';
+    }
   }
+
   std::cout << "</ul>" << '\n';
 
   return 0;
