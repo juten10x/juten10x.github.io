@@ -1,6 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zen+Kaku+Gothic+New&display=swap');
+:root {
+  --link-color: royalblue;
+}
 body {
-  margin: 5%;
-  background: white;
+  margin: 3% 5% 5% 5%;
+  font-family: 'Inter', 'Zen Kaku Gothic New', sans-serif;
+  letter-spacing:0.05em;
+  line-height:1.8;
+  color: var(--font-color);
+  background-color: var(--b-color);
+}
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.mya {
+  color: black; 
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+a.mya:hover {
+  color: var(--link-color);
+}
+img {
+  border-radius: 0.3em;
+}
+#_image2 {
+  width: 512px;
+}
+#_image3 {
+  width: 450px;
 }
 button.hoge {
   font-weight: bold;
@@ -8,6 +40,29 @@ button.hoge {
   background-color: #EEE;
   border-radius: 0.7em;
 }
-#breadcrumbs { font-size: 90% }
-#breadcrumbs + h1 { margin-top: 0 }
-#breadcrumbs + h2 { margin-top: 0 }
+#article_title {
+  line-height: 1.0;
+}
+#menu {
+  float: left;
+  width: 20%;
+  line-height: 1.4;
+  user-select: none;
+  position: fixed;
+  top: 7%;
+  bottom: 7%;
+}
+#main {
+  float: right;
+  width: 70%;
+}
+#menu2 {
+  font-size: 90%;
+  font-weight: 300;
+  line-height: 1.6;
+  position: fixed;
+  bottom: 7%;
+}
+#breadcrumbs {
+  font-weight: 300;
+}

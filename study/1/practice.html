@@ -4,10 +4,12 @@
 <meta charset="UTF-8">
 <title>practice</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="screen.css" media="screen">
-<link rel="stylesheet" href="print.css" media="print">
-<link rel="stylesheet" href="handheld.css" media="handheld">
+<link rel="stylesheet" href="style0.css">
+<style>
+body {
+  background-color: silver;
+}
+</style>
 <script>
 window.onload = function() { alert("Hello!"); };
 window.onbeforeunload = function() { return true; };
@@ -27,7 +29,7 @@ document.oncontextmenu = function() { alert("右クリック禁止 (のテスト
 
 <img src="../../light_white.jpg" alt="Click me!" title="Click me!!" width="200" height="200" onmouseover="this.src='../pile_of_images/practice-10_h_square.jpg'" onmouseout="this.src='../../light_white.jpg'" onmousedown="alert('Hi!')">
 
-<p>ページを訪れた際には "Hello!" と表示され、ページを離脱する際には警告ダイアログが表示されるようにしています。</p>
+<p>ページを訪れた際には "Hello!" と表示され、ページを離脱する際には警告ダイアログが表示されるようにしています（Safariでは確認できず）。</p>
 
 <p onmouseover="this.textContent='onmouseover'" onmouseout="this.textContent='onmouseout'" onmousedown="this.textContent='onmousedown'">text</p>
 

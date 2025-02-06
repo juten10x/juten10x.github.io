@@ -4,133 +4,27 @@
 <meta charset="UTF-8">
 <title>menu</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zen+Kaku+Gothic+New&display=swap');
-:root,
-.is-theme-light {
-  --b-color: white;
-  --font-color: black;
-  --link-color: royalblue;
-}
-.is-theme-dark {
-  --b-color: black;
-  --font-color: white;
-}
-body {
-  margin: 3% 5% 5% 5%;
-  font-family: 'Inter', 'Zen Kaku Gothic New', sans-serif;
-  letter-spacing:0.05em;
-  line-height:1.8;
-  color: var(--font-color);
-  background-color: var(--b-color);
-}
-a {
-  color: var(--link-color);
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-a.mya {
-  color: black; 
-  transition: 0.3s ease-in-out;
-  text-decoration: none;
-}
-a.mya:hover {
-  color: var(--link-color);
-}
-#article_title {
-  line-height: 1.0;
-}
-#menu {
-  float: left;
-  width: 20%;
-  line-height: 1.4;
-  user-select: none;
-  position: fixed;
-  top: 7%;
-}
-#main {
-  float: right;
-  width: 70%;
-}
-#menu2 {
-  font-size: 90%;
-  font-weight: 300;
-  line-height: 1.6;
-  position: fixed;
-  bottom: 17%;
-}
-#breadcrumbs {
-  font-weight: 300;
-  position: fixed;
-  bottom: 7%;
-}
-</style>
-<script>
-const applyVisited = (status) => {
-  status = '';
-  sessionStorage.setItem('status', status);
-};
-const applyTheme = (themeName) => {
-  sessionStorage.setItem('theme', themeName);
-  document.documentElement.className = themeName;
-};
-const initialTheme = () => {
-  const prefersColorSchemeDark = matchMedia(
-    '(prefers-color-scheme: dark)'
-  ).matches;
-  
-  if (prefersColorSchemeDark)
-    applyTheme('is-theme-dark');
-  else
-    applyTheme('is-theme-light');
-};
-export const getStorageTheme = () => {
-  const storageTheme = sessionStorage.getItem('theme');
-  if (storageTheme === 'is-theme-dark')
-    applyTheme('is-theme-dark');
-  else if (storageTheme === 'is-theme-light')
-    applyTheme('is-theme-light');
-};
-const switchTheme = () => {
-  const storageTheme = sessionStorage.getItem('theme');
-  if (storageTheme !== 'is-theme-dark')
-    applyTheme('is-theme-dark');
-  else
-    applyTheme('is-theme-light');
-};
-const discriminationTheme = () => {
-  const getStorageVisited = sessionStorage.getItem('status');
-  if (getStorageVisited)
-    getStorageTheme();
-  else
-    initialTheme();
-    applyVisited('visited');
-};
-</script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body class="theme">
 
 <div id="menu">
   <h1 style="font-size: 24px; font-weight: 600"><a class="mya" href="https://juten10x.github.io">juten10x</a></h1>
-
-  <h2 style="position: fixed; top: 23%; font-size: 20px; font-weight: 500; line-height: 1.6"><a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+  <br>
+  <h2 style="font-size: 20px; font-weight: 500; line-height: 1.6"><a class="mya" href="https://juten10x.github.io/info">Info</a><br>
   <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
   <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></h2>
 
   <div id="menu2">
     <a class="mya" href="#">page top</a>
     <br>
-    <a class="mya" href="javascript:switchTheme()">Light</a>&nbsp;/&nbsp;<a class="mya" href="javascript:switchTheme()">Dark</a>
-  </div>
   
-  <nav id="breadcrumbs">
-    <a href="../../">ホーム</a> &gt;
-    <a href="../">study</a> &gt;
-    <a href="./">1</a> &gt;
-    <br><span>&nbsp;</span>
-  </nav>
+    <nav id="breadcrumbs">
+      <a href="../../">ホーム</a> &gt;
+      <a href="../">study</a> &gt;
+      <a href="./">1</a> &gt;
+    </nav>
+  </div>
 </div>
 
 <div id="main">
