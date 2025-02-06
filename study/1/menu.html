@@ -4,36 +4,162 @@
 <meta charset="UTF-8">
 <title>menu</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="menu.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zen+Kaku+Gothic+New&display=swap');
+:root,
+.is-theme-light {
+  --b-color: white;
+  --font-color: black;
+  --link-color: royalblue;
+}
+.is-theme-dark {
+  --b-color: black;
+  --font-color: white;
+}
+body {
+  margin: 3% 5% 5% 5%;
+  font-family: 'Inter', 'Zen Kaku Gothic New', sans-serif;
+  letter-spacing:0.05em;
+  line-height:1.8;
+  color: var(--font-color);
+  background-color: var(--b-color);
+}
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.mya {
+  color: black; 
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+a.mya:hover {
+  color: var(--link-color);
+}
+#article_title {
+  line-height: 1.0;
+}
+#menu {
+  float: left;
+  width: 20%;
+  line-height: 1.4;
+  user-select: none;
+  position: fixed;
+  top: 7%;
+}
+#main {
+  float: right;
+  width: 70%;
+}
+#menu2 {
+  font-size: 90%;
+  font-weight: 300;
+  line-height: 1.6;
+  position: fixed;
+  bottom: 17%;
+}
+#breadcrumbs {
+  font-weight: 300;
+  position: fixed;
+  bottom: 7%;
+}
+</style>
+<script>
+const applyVisited = (status) => {
+  status = '';
+  sessionStorage.setItem('status', status);
+};
+const applyTheme = (themeName) => {
+  sessionStorage.setItem('theme', themeName);
+  document.documentElement.className = themeName;
+};
+const initialTheme = () => {
+  const prefersColorSchemeDark = matchMedia(
+    '(prefers-color-scheme: dark)'
+  ).matches;
+  
+  if (prefersColorSchemeDark)
+    applyTheme('is-theme-dark');
+  else
+    applyTheme('is-theme-light');
+};
+export const getStorageTheme = () => {
+  const storageTheme = sessionStorage.getItem('theme');
+  if (storageTheme === 'is-theme-dark')
+    applyTheme('is-theme-dark');
+  else if (storageTheme === 'is-theme-light')
+    applyTheme('is-theme-light');
+};
+const switchTheme = () => {
+  const storageTheme = sessionStorage.getItem('theme');
+  if (storageTheme !== 'is-theme-dark')
+    applyTheme('is-theme-dark');
+  else
+    applyTheme('is-theme-light');
+};
+const discriminationTheme = () => {
+  const getStorageVisited = sessionStorage.getItem('status');
+  if (getStorageVisited)
+    getStorageTheme();
+  else
+    initialTheme();
+    applyVisited('visited');
+};
+</script>
 </head>
-<body>
-
-<nav id="breadcrumbs">
-<a href="../../">ホーム</a> &gt;
-<a href="../">study</a> &gt;
-<a href="./">1</a> &gt;
-</nav>
-
+<body class="theme">
 
 <div id="menu">
-  <h1><a href="https://juten10x.github.io">juten10x</a></h1>
-  <br>
-  <span style="font-size: 23px;"><a href="https://juten10x.github.io/info">Info</a></span><br>
-  <span style="font-size: 23px;"><a href="https://juten10x.github.io/blog">Blog</a></span><br>
-  <span style="font-size: 23px;"><a href="https://juten10x.github.io/gallery">Gallery</a></span>
+  <h1 style="font-size: 24px; font-weight: 600"><a class="mya" href="https://juten10x.github.io">juten10x</a></h1>
+
+  <h2 style="position: fixed; top: 23%; font-size: 20px; font-weight: 500; line-height: 1.6"><a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+  <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
+  <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></h2>
+
+  <div id="menu2">
+    <a class="mya" href="#">page top</a>
+    <br>
+    <a class="mya" href="javascript:switchTheme()">Light</a>&nbsp;/&nbsp;<a class="mya" href="javascript:switchTheme()">Dark</a>
+  </div>
+  
+  <nav id="breadcrumbs">
+    <a href="../../">ホーム</a> &gt;
+    <a href="../">study</a> &gt;
+    <a href="./">1</a> &gt;
+    <br><span>&nbsp;</span>
+  </nav>
 </div>
 
 <div id="main">
-  <p>main</p>
-  <hr>
-  <p>footer(main)</p>
+<h1 id="article_title"><a class="mya" href="">juten10xというHN</a><br><span style="font-size: 16px; font-weight: 200">2024-11-22&nbsp;(Last modified: 2024-12-24)</span></h1>
+<p>私のハンドルネーム「 juten10x 」について書きます。以下、「ハンドルネーム」を「 HN 」と書くことにします。</p>
+<h2><a id="1" class="mya" href="#1">変遷</a></h2>
+<p>
+初めからずっと同じ HN を使い続けてきた、という人は少ないと思います。私も結構複雑な変遷を経て現在の HN になっています。まずは以下にこれまで使ってきた HN を矢印でつなげて列挙します。
+</p>
+
+<p>
+木下樹巓 → K.Juten → Juten → Juten10x → juten10x
+</p>
+
+<p>
+中学生の頃にノートに小説を書いていて、そのときに使っていたペンネームが「 <strong>木下樹巓</strong> 」でした。樹巓（じゅてん）というのは木の頂のことです。反する意味の言葉を繋げることで、木の根もとが実は木のてっぺんだった、というような奇想天外なものを書きたい、と意気込んでつけたことを覚えています。また、そのときは同時に競技タイピングにも熱中していました。競技タイピング用ソフトに <a href="https://denasu.com/software/weathertyping.html">Weather Typing</a> というものがあるのですが、それの記録を争う<a href="https://denasu.com/wtranking/ranking.html">ランキングページ</a>が存在していて、みんな英数字の HN を使っているのを見て、憧れていました。ただそのときの自分は漢字表記の小説用のペンネームくらいしか本名以外に自分を表す名義を持っていなかったので、とりあえず「 <strong>K.Juten</strong> 」として登録しました。
+</p>
+
+<p>
+それからしばらく経って、2022年9月に日本語版ウィキペディアに利用者登録しました。利用者登録したというのはつまりアカウントを作成したということであり、「利用者」としてアカウントにログインしている状態だと様々な機能が使えるほか、記事を編集した際にIPアドレスが公開されません。利用者登録する際にはもちろん利用者名も決めるのですが、ここで私は「 <strong>Juten</strong> 」としました。なぜそうしたかはあまり覚えていませんが、<a href="https://ja.wikipedia.org/w/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Juten&diff=prev&oldid=92317067">同年11月の利用者ページの編集</a>では「利用者名は以前個人的に書いていた小説のペンネームに由来するものであり、ほかのものには一切関係ありません。」と当時の私は書いていますし、同じ日に「ペンネームに由来する」から「ペンネームをローマ字表記した」と<a href="https://ja.wikipedia.org/w/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Juten&diff=prev&oldid=92318288">書き直している</a>こと、<a href="https://ja.wikipedia.org/w/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Juten&oldid=102418506">現在のページ</a>には「ヘボン式ローマ字で」と書いていることから、約2年前の私は木下樹巓の「樹巓」をヘボン式ローマ字で表記して利用者名としたことがわかります。</p>
+
+<p>
+またしばらく経って、私は映像制作を始めます。Twitter の映像界隈に入ろうと、当時持っていたアカウントで次々と映像作家をフォローしていきますが、ここで問題が発生します。そのときの私の Twitter のアカウント名は木下樹巓でも Juten でもなく、全く異なるものを使っていたのですが、つづりが異なるだけでそれとほぼ同じ名前の映像作家の方を見つけたのです。そのアカウントは既にフォロワーが8000人くらいいたので、自分がこのアカウント名のままでこのまま映像界隈に参入するのはかなり厳しいように思えました。しかしその HN を捨てきれなかった私は、しかたなく映像用に新たに Twitter アカウントを作成しました。2022年10月のことでした。新たなアカウント名はウィキペディアの利用者名と同じ Juten としましたが、もちろん「 Juten 」なんて ID は既に誰かに取られていました。そうして1日くらいずっと ID をどうするか悩んだ末、「 <strong>Juten10x</strong> 」とすることにしました。これの後半の「 10x 」とは、「 Juten 」を別の書き方で表そうといろいろこねくり回して出てきたものです。 x をギリシャ数字の X と見れば、テンとも読めなくはない、という。「 Juten 」「 Juten10x 」ともに、それに決めるときにはかなり慎重を期しました。特に気にしたのは海外から見て不快な言葉に当てはまらないかどうかです。調べてみると、「 jute 」という英単語で黄麻という植物を表すものがあることを除いて、「 Juten 」は特になにかの言葉と干渉してはいないようでした。「 10x 」についても同様に大丈夫そうでした。</p>
+
+<hr>
+
+<p>footer(main)</p>
+
 </div>
-<!--
-<div id="footer">
-  <hr>
-  footer
-</div>
--->
 
 </body>
 </html>
