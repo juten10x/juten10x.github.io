@@ -23,11 +23,10 @@ a:active { color: green; }
   color: green;
   font-family: 'Fira Code', sans-serif
 }
-/*
-@media (max-width: 767px) {
-  #board { font-size: 50% }
+#gen {
+  font-family: 'Fira Code', sans-serif;
+  color: green;
 }
-*/
 </style>
 <script>
 "use strict";
@@ -54,8 +53,8 @@ function draw() {
     }
     s += '\n';
   }
-  s += "Generation: " + g;
   document.getElementById("board").textContent = s;
+  document.getElementById("gen").textContent = "Generation: " + g;
 }
 
 function update() {
@@ -153,6 +152,7 @@ window.addEventListener('DOMContentLoaded', play);
 <body>
 
 <pre id="board"></pre>
+<p id="gen"></p>
 
 <br>
 <span id="code-font">Play/Stop:&nbsp;</span>

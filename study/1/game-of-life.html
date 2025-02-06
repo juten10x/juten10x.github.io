@@ -6,8 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/google-light.min.css">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zen+Kaku+Gothic+New&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');*/
 /*:root {
   --text-font: 'Inter', Helvetica, 'Zen Kaku Gothic New', sans-serif;
   --code-font: 'Fira Code', sans-serif;
@@ -16,11 +15,14 @@ body {
   margin: 3% 5% 5% 5%;
 }
 #board {
-  /*font-family: 'Fira Code', sans-serif;*/
   font-family: sans-serif;
   color: blue;
   overflow: auto;
   line-height: 1.0; 
+}
+#gen {
+  font-family: 'Inter', sans-serif;
+  color: blue;
 }
 button.hoge {
   /*font-weight: bold;*/
@@ -29,7 +31,7 @@ button.hoge {
   border-radius: 0.5em;
 }
 #text-font {
-  font-family: 'Inter', Helvetica, /*'Zen Kaku Gothic New',*/sans-serif;
+  font-family: 'Inter', Helvetica, sans-serif;
 }
 #code-font: {
   font-family: 'Fira Code', sans-serif;
@@ -74,8 +76,8 @@ function draw() {
     }
     s += '\n';
   }
-  s += "Generation: " + g;
   document.getElementById("board").textContent = s;
+  document.getElementById("gen").textContent = "Generation: " + g;
 }
 
 function update() {
@@ -343,7 +345,7 @@ function cd1000() {
 <span id="text-font">玲音/lain:&nbsp;</span>
 <button type="button" id="text-font" onclick="lain_v = true">ON</button>
 <button type="button" id="text-font" onclick="lain_v = false">OFF</button>
-<p id="text-font">Full Screen: <a href="full_game-of-life.html">●</a>, <a href="lain_game-of-life.html">玲音/lain</a></p>
+<p id="text-font">Full Screen: <a href="dot_game-of-life.html">●</a>, <a href="lain_game-of-life.html">玲音/lain</a></p>
 <br>
 
 <details>
@@ -574,6 +576,7 @@ function cd1000() {
 
 <div id="main">
 <pre id="board"></pre>
+<p id="gen"></p>
 </div>
 
 <!-- highlight.js -->
