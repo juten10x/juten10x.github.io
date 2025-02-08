@@ -6,8 +6,8 @@
 body {
   margin: 3% 5% 5% 5%;
   font-family: 'Inter', 'Zen Kaku Gothic New', sans-serif;
-  letter-spacing:0.05em;
-  line-height:1.8;
+  letter-spacing: 0.05em;
+  line-height: 1.8;
   color: var(--font-color);
   background-color: var(--b-color);
 }
@@ -20,7 +20,7 @@ a:hover {
 }
 a.mya {
   color: black; 
-  transition: 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
   text-decoration: none;
 }
 a.mya:hover {
@@ -47,11 +47,6 @@ button.hoge {
 #article_date {
   font-size: 16px;
   font-weight: 200;
-}
-#license {
-  width: 20em;
-  height: 5em;
-  border: 0;
 }
 @media (min-width: 768px) {
   #menu {
@@ -91,4 +86,9 @@ button.hoge {
 }
 #breadcrumbs {
   font-weight: 300;
+}
+#license {
+  width: 11em;
+  height: 5em;
+  border: 0;
 }
