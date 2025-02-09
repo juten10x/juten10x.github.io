@@ -90,14 +90,14 @@ button.hoge {
   }
   #forPhone-h1 {
     position: fixed;
-    top: 0;
+    top: -7px;
     left: 5%;
     font-size: 22px;
     font-weight: 600;
     height: 15px;
   }
   header {
-    padding: 7.5%;
+    padding: 20px;
   }
   .btn {
     position: fixed;
@@ -134,9 +134,6 @@ button.hoge {
   .i-btn {
     display: none;
   }
-  /*section {
-    padding: 5%;
-  }*/
 
   #_image2 {
     max-width: 100%;
