@@ -54,7 +54,13 @@ button.hoge {
     user-select: none;
     position: fixed;
     top: 54px;
-    bottom: 10px;
+  }
+  #menu2 {
+    font-size: 90%;
+    font-weight: 300;
+    line-height: 1.6;
+    position: fixed;
+    bottom: 39px;
   }
   #main {
     float: right;
@@ -66,7 +72,7 @@ button.hoge {
   #_image3 {
     width: 450px;
   }
-  #forPhone {
+  #menu-forPhone {
     display: none;
   }
 }
@@ -85,7 +91,7 @@ button.hoge {
   #main {
     margin: 20% 0 0 0;
   }
-  #forPhone {
+  #menu-forPhone {
     user-select: none;
   }
   #forPhone-h1 {
@@ -141,13 +147,6 @@ button.hoge {
   #_image3 {
     max-width: 100%;
   }
-}
-#menu2 {
-  font-size: 90%;
-  font-weight: 300;
-  line-height: 1.6;
-  position: fixed;
-  bottom: 7%;
 }
 #license {
   width: 11em;
