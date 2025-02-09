@@ -3,14 +3,6 @@
   --b-color: white;
   --link-color: royalblue;
 }
-body {
-  margin: 3% 5% 5% 5%;
-  font-family: 'Inter', 'Zen Kaku Gothic New', sans-serif;
-  letter-spacing: 0.05em;
-  line-height: 1.8;
-  color: var(--font-color);
-  background-color: var(--b-color);
-}
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -44,6 +36,14 @@ button.hoge {
 }
 
 @media (min-width: 768px) {
+  body {
+    margin: 3% 5% 5% 5%;
+    font-family: 'Inter', 'Zen Kaku Gothic New', sans-serif;
+    letter-spacing: 0.05em;
+    line-height: 1.8;
+    color: var(--font-color);
+    background-color: var(--b-color);
+  }
   #menu {
     float: left;
     width: 20%;
@@ -68,6 +68,14 @@ button.hoge {
   }
 }
 @media (max-width: 768px) {
+  body {
+    margin: 0% 5% 5% 5%;
+    font-family: 'Inter', 'Zen Kaku Gothic New', sans-serif;
+    letter-spacing: 0.05em;
+    line-height: 1.8;
+    color: var(--font-color);
+    background-color: var(--b-color);
+  }
   #menu {
     display: none;
   }
@@ -79,17 +87,18 @@ button.hoge {
   }
   #forPhoneh1 {
     position: fixed;
-    top: -1%;
+    top: 0;
     left: 5%;
-    z-index: 9999;
     font-size: 22px;
     font-weight: 600;
+    height: 15px;
+  }
+  header {
+    padding: 7.5%;
   }
   .btn {
     position: fixed;
-    top: 3.7%;
     right: 5%;
-    z-index: 99999;
     width: 40px;
     height: 15px;
     cursor: pointer;
@@ -122,9 +131,9 @@ button.hoge {
   .i-btn {
     display: none;
   }
-  section {
+  /*section {
     padding: 5%;
-  }
+  }*/
 
   #_image2 {
     max-width: 100%;
