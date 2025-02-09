@@ -27,6 +27,9 @@ button.hoge {
   background-color: #EEE;
   border-radius: 0.7em;
 }
+#breadcrumbs {
+  font-weight: 300;
+}
 #article_title {
   line-height: 1.0;
 }
@@ -47,10 +50,10 @@ button.hoge {
   #menu {
     float: left;
     width: 20%;
-    line-height: 1.4;
+    line-height: 1.5;
     user-select: none;
     position: fixed;
-    top: 7%;
+    top: 9.7%;
     bottom: 7%;
   }
   #main {
@@ -85,7 +88,7 @@ button.hoge {
   #forPhone {
     user-select: none;
   }
-  #forPhoneh1 {
+  #forPhone-h1 {
     position: fixed;
     top: 0;
     left: 5%;
@@ -149,9 +152,6 @@ button.hoge {
   line-height: 1.6;
   position: fixed;
   bottom: 7%;
-}
-#breadcrumbs {
-  font-weight: 300;
 }
 #license {
   width: 11em;
