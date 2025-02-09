@@ -72,7 +72,7 @@ button.hoge {
   #_image3 {
     width: 450px;
   }
-  #menu-forPhone {
+  #forPhone {
     display: none;
   }
 }
@@ -91,7 +91,7 @@ button.hoge {
   #main {
     margin: 20% 0 0 0;
   }
-  #menu-forPhone {
+  #forPhone {
     user-select: none;
   }
   #forPhone-h1 {
