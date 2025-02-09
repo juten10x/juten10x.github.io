@@ -56,6 +56,8 @@ button.hoge {
     top: 54px;
   }
   #menu2 {
+    float: left;
+    width: 20%;
     font-size: 90%;
     font-weight: 300;
     line-height: 1.6;
@@ -72,7 +74,7 @@ button.hoge {
   #_image3 {
     width: 450px;
   }
-  #forPhone {
+  #menu_forPhone {
     display: none;
   }
 }
@@ -85,13 +87,13 @@ button.hoge {
     color: var(--font-color);
     background-color: var(--b-color);
   }
-  #menu {
+  #menu, #menu2 {
     display: none;
   }
   #main {
     margin: 20% 0 0 0;
   }
-  #forPhone {
+  #menu_forPhone {
     user-select: none;
   }
   #forPhone-h1 {
