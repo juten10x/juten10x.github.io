@@ -138,13 +138,21 @@ button.hoge {
     transform-origin: center;
     transition: all .3s ease;
   }
-  .btn {
+  .label-b {
     position: fixed;
     top: 0;
-    right: 5%;
-    width: 25px;
+    right: 0;
+    width: 70px;
     height: 50px;
     cursor: pointer;
+    z-index: 2;
+  }
+  .btn {
+    position: fixed;
+    top: 18px;
+    right: 5%;
+    width: 25px;
+    height: 14px;
     z-index: 1;
   }
   .btn span {
@@ -156,16 +164,15 @@ button.hoge {
     background-color: black;
   }
   .btn span:nth-of-type(1) {
-    top: 18px;
+    top: 0;
   }
   .btn span:nth-of-type(2) {
-    bottom: 18px;
+    bottom: 0;
   }
 
   .i-btn:checked ~ #btn span {
     background-color: royalblue;
   }
-
   .i-btn:checked ~ #btn span:nth-of-type(1) {
     transform: translate(0, 6px) rotate(-35deg);
   }
