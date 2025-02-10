@@ -19,16 +19,16 @@ a.mya:hover {
   color: var(--link-color);
 }
 img {
-  border-radius: 0.3em;
+  border-radius: 0.3rem;
+}
+figcaption {
+  font-size: 12px;
 }
 button.hoge {
   font-weight: bold;
   padding: 0.5em 1em;
   background-color: #EEE;
   border-radius: 0.7em;
-}
-#breadcrumbs {
-  font-weight: 300;
 }
 #article_title {
   line-height: 1.0;
@@ -61,6 +61,7 @@ button.hoge {
     font-size: 90%;
     font-weight: 300;
     line-height: 1.6;
+    user-select: none;
     position: fixed;
     bottom: 39px;
   }
@@ -73,6 +74,9 @@ button.hoge {
   }
   #_image3 {
     width: 450px;
+  }
+  #breadcrumbs {
+    font-weight: 300;
   }
   #menu_forPhone {
     display: none;
@@ -95,32 +99,63 @@ button.hoge {
   }
   #menu_forPhone {
     user-select: none;
-  }
-  #forPhone-h1 {
-    position: fixed;
-    top: -7px;
-    left: 5%;
-    font-size: 22px;
-    font-weight: 600;
-    height: 15px;
-  }
-  header {
     padding: 20px;
+  }
+  #forPhone_h1 {
+    position: fixed;
+    top: 0;
+    left: 12%;
+    height: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    z-index: 1;
+  }
+  #menu_list {
+    list-style: none;
+    position: fixed;
+    top: 30px;
+    left: 3%;
+    opacity: 0;
+    z-index: 1;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: .5s ease;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+  #breadcrumbs {
+    font-size: 70%;
+    line-height: 1.8;
+  }
+  #menu_board {
+    position: fixed;
+    top: 7px;
+    left: 5%;
+    width: 89%;
+    height: 40px;
+    border-radius: 2rem;
+    background-color: white;
+    filter: drop-shadow(0 0 2px white);
+    border: solid black 1.5px;
+    transform-origin: center;
+    transition: .5s ease;
   }
   .btn {
     position: fixed;
-    right: 5%;
+    right: 12%;
     width: 40px;
     height: 15px;
     cursor: pointer;
+    z-index: 1;
   }
   .btn span {
     position: absolute;
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: black;
     transition: all .5s ease;
+    background-color: black;
   }
   .btn span:nth-of-type(1) {
     top: 0;
@@ -139,6 +174,14 @@ button.hoge {
   .i-btn:checked ~ #btn span:nth-of-type(2) {
     transform: translate(0, -6px) rotate(25deg);
   }
+  .i-btn:checked ~ #menu_board {
+    border: solid royalblue 1.5px;
+    height: 190px;
+  }
+  .i-btn:checked ~ #menu_list {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
   .i-btn {
     display: none;
   }
@@ -148,6 +191,9 @@ button.hoge {
   }
   #_image3 {
     max-width: 100%;
+  }
+  figure {
+    margin: 0;
   }
 }
 #license {
