@@ -95,7 +95,7 @@ button.hoge {
     display: none;
   }
   #main {
-    margin: 20% 0 0 0;
+    margin: 12% 0 0 0;
   }
   #menu_forPhone {
     user-select: none;
@@ -103,9 +103,9 @@ button.hoge {
   }
   #forPhone_ju {
     position: fixed;
-    top: 8.5px;
+    top: 10px;
     left: 5%;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     z-index: 1;
   }
@@ -119,7 +119,7 @@ button.hoge {
     transform: scale(1, 0);
     transform-origin: top;
     transition: .5s ease;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 300;
     line-height: 1.4;
   }
@@ -140,10 +140,10 @@ button.hoge {
   }
   .btn {
     position: fixed;
-    top: 17px;
+    top: 18px;
     right: 5%;
-    width: 40px;
-    height: 16px;
+    width: 25px;
+    height: 14px;
     cursor: pointer;
     z-index: 1;
   }
@@ -167,14 +167,14 @@ button.hoge {
   }
 
   .i-btn:checked ~ #btn span:nth-of-type(1) {
-    transform: translate(0, 6px) rotate(-25deg);
+    transform: translate(0, 6px) rotate(-35deg);
   }
   .i-btn:checked ~ #btn span:nth-of-type(2) {
-    transform: translate(0, -6px) rotate(25deg);
+    transform: translate(0, -6px) rotate(35deg);
   }
   .i-btn:checked ~ #menu_board {
     border: solid royalblue 1.5px;
-    height: 192px;
+    height: 220px;
   }
   .i-btn:checked ~ #menu_list {
     opacity: 1;

@@ -55,7 +55,7 @@
 </header>
 
 <div id="main">
-<h1 id="article_title"><a class="mya" href="">juten10xというHN</a><br><span id="article_date"><time datetime="2024-11-22">2024-11-22</time>&nbsp;(Last modified: 2024-12-24)</span></h1>
+<h1 id="article_title"><a class="mya" href="">juten10xというHN</a><br><span id="article_date"><time datetime="2024-11-22">2024-11-22</time>&nbsp;(Last modified: <?php deta_default_timezone_set('Asia/Tokyo'); echo date("Y - m - d");?></span></h1>
 <p>私のハンドルネーム「 juten10x 」について書きます。以下、「ハンドルネーム」を「 HN 」と書くことにします。</p>
 <h2><a id="1" class="mya" href="#1">変遷</a></h2>
 <p>
