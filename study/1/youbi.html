@@ -5,39 +5,6 @@
 <title>年月日から曜日計算</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style0.css">
-<script>
-function floor(a, b) {
-  return Math.floor(a/b);
-}
-
-function Zeller_c(y, m, d) {
-  if (y <= 1582 && m <= 10 && d <= 15) {
-    return "すみません、1582年10月15日より前には対応していません";
-  }
-
-  let Youbi_str = "土日月火水木金";
-
-  if (m < 3) {
-    m += 12;
-    y -= 1;
-  }
-  let Y = y%100;
-
-  let ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - (2*floor(y, 100))%7 + floor(y, 400)%7;
-
-  return Youbi_str[ans%7];
-}
-
-document.addEventListener("click", function calc() {
-  const y = document.getElementById('year');
-  const m = document.getElementById('month');
-  const d = document.getElementById('day');
-  
-  let Youbi = Zeller_c(y, m, d);
-
-  document.getElementById('out').textContent = y + "年" + m + "月" + d + "日は " + Youbi + "曜日 です。");
-});
-</script>
 </head>
 <body> 
 
@@ -65,6 +32,48 @@ document.addEventListener("click", function calc() {
 <p><span id="out"></span></p>
 <p><span id="test"></span></p>
 
+<script>
+function floor(a, b) {
+  return Math.floor(a/b);
+}
+
+function Zeller_c(y, m, d, type) {
+  let Youbi_str = "土日月火水木金";
+
+  if (m < 3) {
+    m += 12;
+    y -= 1;
+  }
+  let Y = y%100;
+
+  let ans;
+
+  if (type == 1)
+    ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - floor(y, 100)%7 + 5;
+  else
+    ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - (2*floor(y, 100))%7 + floor(y, 400)%7;
+
+  return Youbi_str[ans%7];
+}
+
+const t = document.getElementById('hoge');
+t.addEventListener("click", () => {
+  const y = Number(document.getElementById('year').value);
+  const m = Number(document.getElementById('month').value);
+  const d = Number(document.getElementById('day').value);
+
+  let Answer = "";
+
+  if (m == 0 || d == 0)
+    Answer = "月日として扱うことができない値が含まれています。"
+  else if (y <= 1582 && m < 10 && d <= 15)
+    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d, 1) + "曜日 です。";
+  else
+    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d, 2) + "曜日 です。";
+
+  document.getElementById('out').textContent = Answer;
+});
+</script>
 
 </body>
 </html>

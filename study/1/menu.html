@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>menu2</title>
+<title>menu</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -90,7 +90,7 @@
 
 <script>
 const t = new Date(document.lastModified);
-const day = t.getFullYear() + "-" + (t.getMonth() + 1) + "-" + t.getDate();
+const day = t.getFullYear() + "-" + ('0' + (t.getMonth() + 1)).slice(-2) + "-" + ('0' + (t.getDate())).slice(-2);
 document.getElementById('lastModifiedDay').textContent = day;
 </script>
 </body>
