@@ -78,6 +78,7 @@ button.hoge {
   #main {
     float: right;
     width: 70%;
+    margin-bottom: 5%;
   }
   .image1 {
     width: 100%;
@@ -117,7 +118,7 @@ button.hoge {
     display: none;
   }
   #main {
-    margin: 14% 0 0 0;
+    margin: 14% 0 0 5%;
   }
   #menu_forPhone {
     user-select: none;

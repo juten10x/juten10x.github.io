@@ -60,6 +60,22 @@
 
 <div id="main">
 <h1 id="article_title" style="font-size: 28px"><a class="mya" href="">prime_factorization</a></h1>
+<!--
+<h2><a id="1" class="mya" href="#1">JavaScript</a></h2>
+
+<p>
+<math><msup><mn>10</mn><mn>8</mn></msup></math> 以下の正整数を素因数分解します。
+</p>
+
+<p>
+<label>入力: <input id="kz_livetune"></label>
+</p>
+
+<input type="button" value="計算する" id="hoge">
+
+<br>
+<p>計算結果: <span id="out"></span></p>
+-->
 
 <h2><a id="2" class="mya" href="#2">C++</a></h2>
 
@@ -112,12 +128,75 @@ int main() {
 
 <hr>
 
-<iframe id="license" src="../../../assets/cc0.html"></iframe>
+<span><a href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja">CC0 1.0 Universal</a></span>
 </div>
 
-<!-- MathJax -->
+<!--
+<script>
+function pf(N, pf_array, judge, size) {
+  let x = N;
+  for (let i = 2; i <= N; i++) {
+    if (x%i != 0) continue;
+
+    let cnt = 0;
+    while (x%i == 0) {
+      cnt += 1;
+      x /= i;
+    }
+    pf_array[i] = cnt;
+    judge.push(i);
+    size += 1;
+  }
+
+  if (x != 1) pf_array[x] = 1;
+}
+
+const t = document.getElementById('hoge');
+t.addEventListener("click", () => {
+  const N = Number(document.getElementById('kz_livetune').value);
+
+  let pf_array = Array(N).fill(0);
+  let judge = [];
+  let size = 0;
+  let Answer = "";
+
+  if (N <= 0 || 100000000 < N) {
+    Answer += "扱うことができない値です。";
+    document.getElementById('out').textContent = Answer;
+  }
+  else if (N == 1) {
+    Answer += "<math><mn>1</mn></math>" + " は素因数を持ちません。";
+    document.getElementById('out').innerHTML = Answer;
+  }
+  else {
+    pf(N, pf_array, judge, size);
+
+    Answer += "<mn>" + N + "</mn><mo>=</mo>";
+
+    for (let i = 0; i < size; i++) {
+      let v1 = judge[i];
+      let v2 = pf_array[v1];
+
+      Answer += "<msup><mn>" + v1 + "</mn><mn>" + v2 + "</mn>";
+
+      if (i + 1 != size) {
+        Answer += "<mo>*</mo>";
+      }
+    }
+
+    Answer += "</math>";
+    document.getElementById('out').innerHTML = Answer;
+  }
+
+
+});
+</script>
+-->
+
+<!-- MathJax --
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+-->
 
 <!-- highlight.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>

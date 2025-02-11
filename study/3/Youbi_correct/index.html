@@ -64,11 +64,11 @@
 <h2><a id="1" class="mya" href="#1">JavaScript</a></h2>
 
 <p>
-<a href="https://ja.wikipedia.org/wiki/?curid=690086">ツェラーの公式</a>を使って、年月日から、その日の曜日を計算します。
+<a href="https://ja.wikipedia.org/wiki/?curid=690086">ツェラーの公式</a>を使って、年月日からその日の曜日を計算します。
 </p>
 
 <p>
-ここでは、現在使われている<a href="https://ja.wikipedia.org/wiki/?curid=823">グレゴリオ暦</a>が始まるよりも過去の年月日についても、当該暦を過去へ延長して適用するものとします（<a href="https://ja.wikipedia.org/wiki/?curid=2457511">先発グレゴリオ暦</a>）。
+ここでは、現在使われている<a href="https://ja.wikipedia.org/wiki/?curid=823">グレゴリオ暦</a>が始まるより前の年月日についても、当該暦を過去へ延長して適用するものとします（<a href="https://ja.wikipedia.org/wiki/?curid=2457511">先発グレゴリオ暦</a>）。
 </p>
 
 <p>
@@ -128,9 +128,13 @@ t.addEventListener("click", () =&gt; {
   const m = Number(document.getElementById('month').value);
   const d = Number(document.getElementById('day').value);
 
+  let calender = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
   let Answer = "";
 
-  if (m == 0 || d == 0)
+  if (y%4 == 0)
+    calender[1]++;
+
+  if (m &lt;= 0 || 13 &lt;= m || d &lt;= 0 || calender[m-1] &lt; d)
     Answer = "月日として扱うことができない値が含まれています。"
   else
     Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d) + "曜日 です。";
@@ -187,7 +191,7 @@ int main() {
 
 <hr>
 
-<iframe id="license" src="../../../assets/cc0.html"></iframe>
+<span><a href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja">CC0 1.0 Universal</a></span>
 </div>
 
 <script>
@@ -215,12 +219,16 @@ t.addEventListener("click", () => {
   const m = Number(document.getElementById('month').value);
   const d = Number(document.getElementById('day').value);
 
+  let calender = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
   let Answer = "";
 
-  if (m == 0 || d == 0)
-    Answer = "月日として扱うことができない値が含まれています。"
+  if (y%4 == 0)
+    calender[1]++;
+
+  if (m <= 0 || 13 <= m || d <= 0 || calender[m-1] < d)
+    Answer += "月日として扱うことができない値が含まれています。"
   else
-    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d) + "曜日 です。";
+    Answer += y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d) + "曜日 です。";
 
   document.getElementById('out').textContent = Answer;
 });
