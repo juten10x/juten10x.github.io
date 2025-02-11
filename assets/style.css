@@ -118,7 +118,7 @@ button.hoge {
     display: none;
   }
   #main {
-    margin: 14% 0 0 5%;
+    margin: 14% 0 0 0;
   }
   #menu_forPhone {
     user-select: none;
