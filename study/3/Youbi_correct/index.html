@@ -89,7 +89,11 @@
 &lt;h2&gt;&lt;a id="1" class="mya" href="#1"&gt;JavaScript&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;
-&lt;a href="https://ja.wikipedia.org/wiki/?curid=690086"&gt;ツェラーの公式&lt;/a&gt;を使って、年月日から、その日の曜日を計算します。
+&lt;a href="https://ja.wikipedia.org/wiki/?curid=690086"&gt;ツェラーの公式&lt;/a&gt;を使って、年月日からその日の曜日を計算します。
+&lt;/p&gt;
+
+&lt;p&gt;
+ここでは、現在使われている&lt;a href="https://ja.wikipedia.org/wiki/?curid=823"&gt;グレゴリオ暦&lt;/a&gt;が始まるより前の年月日についても、当該暦を過去へ延長して適用するものとします（&lt;a href="https://ja.wikipedia.org/wiki/?curid=2457511"&gt;先発グレゴリオ暦&lt;/a&gt;）。
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -100,8 +104,8 @@
 
 &lt;input type="button" value="計算する" id="hoge"&gt;
 
-&lt;span style="font-size: 20px"&gt;計算結果&lt;/span&gt;
-&lt;p&gt;&lt;span id="out"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;計算結果: &lt;span id="out"&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;script&gt;
 function floor(a, b) {
@@ -135,9 +139,9 @@ t.addEventListener("click", () =&gt; {
     calender[1]++;
 
   if (m &lt;= 0 || 13 &lt;= m || d &lt;= 0 || calender[m-1] &lt; d)
-    Answer = "月日として扱うことができない値が含まれています。"
+    Answer += "月日として扱うことができない値が含まれています。"
   else
-    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d) + "曜日 です。";
+    Answer += y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d) + "曜日 です。";
 
   document.getElementById('out').textContent = Answer;
 });
