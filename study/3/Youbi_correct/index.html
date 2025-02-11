@@ -68,6 +68,10 @@
 </p>
 
 <p>
+ここでは、現在使われている<a href="https://ja.wikipedia.org/wiki/?curid=823">グレゴリオ暦</a>が始まるよりも過去の年月日についても、当該暦を過去へ延長して適用するものとします（<a href="https://ja.wikipedia.org/wiki/?curid=2457511">先発グレゴリオ暦</a>）。
+</p>
+
+<p>
 <label>西暦何年？: <input id="year"></label><br>
 <label>何月？: <input id="month"></label><br>
 <label>何日？: <input id="day"></label>
@@ -104,7 +108,7 @@ function floor(a, b) {
   return Math.floor(a/b);
 }
 
-function Zeller_c(y, m, d, type) {
+function Zeller_c(y, m, d) {
   let Youbi_str = "土日月火水木金";
 
   if (m &lt; 3) {
@@ -113,12 +117,7 @@ function Zeller_c(y, m, d, type) {
   }
   let Y = y%100;
 
-  let ans;
-
-  if (type == 1)
-    ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - floor(y, 100)%7 + 5;
-  else
-    ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - (2*floor(y, 100))%7 + floor(y, 400)%7;
+  let ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - (2*floor(y, 100))%7 + floor(y, 400)%7;
 
   return Youbi_str[ans%7];
 }
@@ -133,10 +132,8 @@ t.addEventListener("click", () =&gt; {
 
   if (m == 0 || d == 0)
     Answer = "月日として扱うことができない値が含まれています。"
-  else if (y &lt;= 1582 &amp;&amp; m &lt; 10 &amp;&amp; d &lt;= 15)
-    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d, 1) + "曜日 です。";
   else
-    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d, 2) + "曜日 です。";
+    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d) + "曜日 です。";
 
   document.getElementById('out').textContent = Answer;
 });
@@ -198,7 +195,7 @@ function floor(a, b) {
   return Math.floor(a/b);
 }
 
-function Zeller_c(y, m, d, type) {
+function Zeller_c(y, m, d) {
   let Youbi_str = "土日月火水木金";
 
   if (m < 3) {
@@ -207,12 +204,7 @@ function Zeller_c(y, m, d, type) {
   }
   let Y = y%100;
 
-  let ans;
-
-  if (type == 1)
-    ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - floor(y, 100)%7 + 5;
-  else
-    ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - (2*floor(y, 100))%7 + floor(y, 400)%7;
+  let ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - (2*floor(y, 100))%7 + floor(y, 400)%7;
 
   return Youbi_str[ans%7];
 }
@@ -227,10 +219,8 @@ t.addEventListener("click", () => {
 
   if (m == 0 || d == 0)
     Answer = "月日として扱うことができない値が含まれています。"
-  else if (y <= 1582 && m < 10 && d <= 15)
-    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d, 1) + "曜日 です。";
   else
-    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d, 2) + "曜日 です。";
+    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d) + "曜日 です。";
 
   document.getElementById('out').textContent = Answer;
 });
