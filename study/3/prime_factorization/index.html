@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="juten10x">
+<link rel="icon" href="../../../assets/favicon.ico">
+<title>prime_factorization | juten10x</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/google-light.min.css">
+</head>
+<body>
+
+<div id="menu">
+  <div style="font-size: 24px; font-weight: 600">
+  <a class="mya" href="https://juten10x.github.io">juten10x</a>
+  </div>
+
+  <br><br>
+  <div style="font-size: 20px; font-weight: 500">
+  <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+  <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
+  <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a>
+  </div>
+</div>
+<div id="menu2">
+  <a class="mya" href="#">page top</a>
+
+  <br>
+  <nav class="breadcrumbs">
+    <a href="../../../">ホーム</a>&nbsp;&gt;
+    <a href="../../">study</a>&nbsp;&gt;
+    <a href="../">3</a>&nbsp;&gt;
+  </nav>
+</div>
+
+<header id="menu_forPhone">
+  <input type="checkbox" class="i-btn" id="i-btn">
+  <label class="label-b" for="i-btn"></label>
+  <span class="btn" id="btn">
+  <span></span>
+  <span></span>
+  </span>
+
+  <div id="forPhone_ju"><a class="mya" href="https://juten10x.github.io">juten10x</a></div>
+
+  <ul id="menu_list">
+    <li><a class="mya" href="https://juten10x.github.io/info">Info</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/blog">Blog</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></li>
+    <li><nav id="breadcrumbs">
+      <a href="../../../">ホーム</a>&nbsp;&gt;
+      <a href="../../">study</a>&nbsp;&gt;
+      <a href="../">3</a>&nbsp;&gt;
+    </nav></li>
+  </ul>
+
+  <span id="menu_board"></span>
+</header>
+
+<div id="main">
+<h1 id="article_title" style="font-size: 28px"><a class="mya" href="">prime_factorization</a></h1>
+
+<h2><a id="2" class="mya" href="#2">C++</a></h2>
+
+<pre><code class="language-cpp">
+#include &lt;iostream&gt;
+#include &lt;map&gt;
+
+std::map&lt;long long, long long&gt; res;
+long long t = 0;
+
+void pf_mapA(long long N) {
+  for (long long i = 2; i*i &lt;= N; i++) {
+    if (N%i != 0) continue;
+    long long cnt = 0;
+    while (N%i == 0) {
+      cnt++;
+      N /= i;
+    }
+
+    res[i] += cnt;
+    t++;
+  }
+
+  if (N != 1) res[N] = 1, t++;
+}
+
+int main() {
+  long long N;
+  std::cin &gt;&gt; N;
+
+  if (N == 1) {
+    std::cout &lt;&lt; "1は素因数を持ちません\n";
+    return 0;
+  }
+
+  pf_mapA(N);
+
+  std::cout &lt;&lt; N &lt;&lt; " = ";
+  long long r = 0;
+  for (auto i : res) {
+    r++;
+    std::cout &lt;&lt; i.first &lt;&lt; '^' &lt;&lt; i.second;
+    if (t &gt; r) std::cout &lt;&lt; " * ";
+  }
+  std::cout &lt;&lt; '\n';
+
+  return 0;
+}
+</code></pre>
+
+<hr>
+
+<iframe id="license" src="../../../assets/cc0.html"></iframe>
+</div>
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<!-- highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+</html>

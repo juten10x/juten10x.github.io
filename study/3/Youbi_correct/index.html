@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="juten10x">
+<link rel="icon" href="../../../assets/favicon.ico">
+<title>Youb_correct | juten10x</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/google-light.min.css">
+</head>
+<body>
+
+<div id="menu">
+  <div style="font-size: 24px; font-weight: 600">
+  <a class="mya" href="https://juten10x.github.io">juten10x</a>
+  </div>
+
+  <br><br>
+  <div style="font-size: 20px; font-weight: 500">
+  <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+  <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
+  <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a>
+  </div>
+</div>
+<div id="menu2">
+  <a class="mya" href="#">page top</a>
+
+  <br>
+  <nav class="breadcrumbs">
+    <a href="../../../">ホーム</a>&nbsp;&gt;
+    <a href="../../">study</a>&nbsp;&gt;
+    <a href="../">3</a>&nbsp;&gt;
+  </nav>
+</div>
+
+<header id="menu_forPhone">
+  <input type="checkbox" class="i-btn" id="i-btn">
+  <label class="label-b" for="i-btn"></label>
+  <span class="btn" id="btn">
+  <span></span>
+  <span></span>
+  </span>
+
+  <div id="forPhone_ju"><a class="mya" href="https://juten10x.github.io">juten10x</a></div>
+
+  <ul id="menu_list">
+    <li><a class="mya" href="https://juten10x.github.io/info">Info</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/blog">Blog</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></li>
+    <li><nav id="breadcrumbs">
+      <a href="../../../">ホーム</a>&nbsp;&gt;
+      <a href="../../">study</a>&nbsp;&gt;
+      <a href="../">3</a>&nbsp;&gt;
+    </nav></li>
+  </ul>
+
+  <span id="menu_board"></span>
+</header>
+
+<div id="main">
+<h1 id="article_title"><a class="mya" href="">Youbi_correct</a></h1>
+
+<h2><a id="1" class="mya" href="#1">JavaScript</a></h2>
+
+<p>
+<a href="https://ja.wikipedia.org/wiki/?curid=690086">ツェラーの公式</a>を使って、年月日から、その日の曜日を計算します。
+</p>
+
+<p>
+<label>西暦何年？: <input id="year"></label><br>
+<label>何月？: <input id="month"></label><br>
+<label>何日？: <input id="day"></label>
+</p>
+
+<input type="button" value="計算する" id="hoge">
+
+<br>
+<p>計算結果: <span id="out"></span></p>
+
+<details>
+<summary>コードを展開する</summary>
+
+<pre><code class="language-html">
+&lt;h2&gt;&lt;a id="1" class="mya" href="#1"&gt;JavaScript&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;a href="https://ja.wikipedia.org/wiki/?curid=690086"&gt;ツェラーの公式&lt;/a&gt;を使って、年月日から、その日の曜日を計算します。
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;label&gt;西暦何年？: &lt;input id="year"&gt;&lt;/label&gt;&lt;br&gt;
+&lt;label&gt;何月？: &lt;input id="month"&gt;&lt;/label&gt;&lt;br&gt;
+&lt;label&gt;何日？: &lt;input id="day"&gt;&lt;/label&gt;
+&lt;/p&gt;
+
+&lt;input type="button" value="計算する" id="hoge"&gt;
+
+&lt;span style="font-size: 20px"&gt;計算結果&lt;/span&gt;
+&lt;p&gt;&lt;span id="out"&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;script&gt;
+function floor(a, b) {
+  return Math.floor(a/b);
+}
+
+function Zeller_c(y, m, d, type) {
+  let Youbi_str = "土日月火水木金";
+
+  if (m &lt; 3) {
+    m += 12;
+    y -= 1;
+  }
+  let Y = y%100;
+
+  let ans;
+
+  if (type == 1)
+    ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - floor(y, 100)%7 + 5;
+  else
+    ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - (2*floor(y, 100))%7 + floor(y, 400)%7;
+
+  return Youbi_str[ans%7];
+}
+
+const t = document.getElementById('hoge');
+t.addEventListener("click", () =&gt; {
+  const y = Number(document.getElementById('year').value);
+  const m = Number(document.getElementById('month').value);
+  const d = Number(document.getElementById('day').value);
+
+  let Answer = "";
+
+  if (m == 0 || d == 0)
+    Answer = "月日として扱うことができない値が含まれています。"
+  else if (y &lt;= 1582 &amp;&amp; m &lt; 10 &amp;&amp; d &lt;= 15)
+    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d, 1) + "曜日 です。";
+  else
+    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d, 2) + "曜日 です。";
+
+  document.getElementById('out').textContent = Answer;
+});
+&lt;/script&gt;
+</code></pre>
+</details>
+
+<h2><a id="2" class="mya" href="#2">C++</a></h2>
+
+<pre><code class="language-cpp">
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;math.h&gt;
+
+/*
+ * ツェラーの公式を使って、年月日から曜日を計算します。
+ * 現在使われている、グレゴリオ暦にのみ対応しています（1582年10月15日以降）。
+ * 年　月　日　の順に、改行または空白区切りで入力して下さい。
+ */
+
+int floor_mine(int a, int b) {
+  return std::floor(a / b);
+}
+
+std::string Zeller_c(int y, int m, int d) {
+  std::vector&lt;std::string&gt; Youbi_vec = {"土", "日", "月", "火", "水", "木", "金"};
+
+  if (m &lt; 3) {
+    m += 12;
+    y -= 1;
+  }
+  int Y = y%100;
+
+  int ans = floor_mine(26*(m+1), 10)%7 + d%7 + Y%7 + floor_mine(Y, 4)%7 - (2*floor_mine(y, 100))%7 + floor_mine(y, 400)%7;
+
+  return Youbi_vec[ans%7];
+}
+
+int main() {
+  int y, m, d;
+  std::cin &gt;&gt; y &gt;&gt; m &gt;&gt; d;
+
+  std::string Youbi = Zeller_c(y, m, d);
+
+  printf("%d年%d月%d日は ", y, m, d);
+  std::cout &lt;&lt; Youbi &lt;&lt; "曜日 です。\n";
+
+  return 0;
+}
+</code></pre>
+
+<hr>
+
+<iframe id="license" src="../../../assets/cc0.html"></iframe>
+</div>
+
+<script>
+function floor(a, b) {
+  return Math.floor(a/b);
+}
+
+function Zeller_c(y, m, d, type) {
+  let Youbi_str = "土日月火水木金";
+
+  if (m < 3) {
+    m += 12;
+    y -= 1;
+  }
+  let Y = y%100;
+
+  let ans;
+
+  if (type == 1)
+    ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - floor(y, 100)%7 + 5;
+  else
+    ans = floor(26*(m+1), 10)%7 + d%7 + Y%7 + floor(Y, 4)%7 - (2*floor(y, 100))%7 + floor(y, 400)%7;
+
+  return Youbi_str[ans%7];
+}
+
+const t = document.getElementById('hoge');
+t.addEventListener("click", () => {
+  const y = Number(document.getElementById('year').value);
+  const m = Number(document.getElementById('month').value);
+  const d = Number(document.getElementById('day').value);
+
+  let Answer = "";
+
+  if (m == 0 || d == 0)
+    Answer = "月日として扱うことができない値が含まれています。"
+  else if (y <= 1582 && m < 10 && d <= 15)
+    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d, 1) + "曜日 です。";
+  else
+    Answer = y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d, 2) + "曜日 です。";
+
+  document.getElementById('out').textContent = Answer;
+});
+</script>
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<!-- highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+</html>

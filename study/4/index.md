@@ -41,9 +41,3 @@ for (let i = 2; N != 1; i++) {
 document.write(ans);
 ```
 
-<style>
-  #cc0, #p_list, #_p_list {
-    display: none;
-  }
-</style>
-

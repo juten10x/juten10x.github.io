@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&display=swap');
 :root {
   --b-color: white;
   --link-color: royalblue;
@@ -19,10 +19,20 @@ a.mya:hover {
   color: var(--link-color);
 }
 img {
-  border-radius: 0.3rem;
+  border-radius: .3rem;
 }
 figcaption {
   font-size: 12px;
+}
+details {
+  margin-bottom: 16px;
+}
+code {
+  font-family: 'Fira Code';
+  font-size: 14px;
+  line-height: 1.4;
+  border: solid lightgray 1px;
+  border-radius: .3rem;
 }
 button.hoge {
   font-weight: bold;
@@ -40,7 +50,7 @@ button.hoge {
 
 @media (min-width: 768px) {
   body {
-    margin: 3% 5% 5% 5%;
+    margin: 2.5% 5% 5% 5%;
     font-family: 'Inter', 'Noto Sans JP', sans-serif;
     letter-spacing: 0.05em;
     line-height: 1.8;
@@ -69,11 +79,14 @@ button.hoge {
     float: right;
     width: 70%;
   }
+  .image1 {
+    width: 100%;
+  }
   .image2 {
     width: 512px;
   }
   .image3 {
-    width: 450px;
+    width: 48%;
   }
   #breadcrumbs {
     font-weight: 300;
@@ -90,6 +103,15 @@ button.hoge {
     line-height: 1.8;
     color: var(--font-color);
     background-color: var(--b-color);
+  }
+  .image1 {
+    width: 100%;
+  }
+  .image2 {
+    width: 100%;
+  }
+  .image3 {
+    width: 100%;
   }
   #menu, #menu2 {
     display: none;
@@ -125,7 +147,7 @@ button.hoge {
   }
   #breadcrumbs {
     font-size: 70%;
-    line-height: 1.8;
+    line-height: 2.4;
   }
   #menu_board {
     position: fixed;
@@ -181,7 +203,7 @@ button.hoge {
   }
   .i-btn:checked ~ #menu_board {
     border: solid royalblue 1.5px;
-    height: 220px;
+    height: 227px;
   }
   .i-btn:checked ~ #menu_list {
     opacity: 1;

@@ -1,6 +1,70 @@
-# Problems_forschool<sup><a id="_note1" href="#note1">*1</a></sup>
-* 問題は簡単な順に並べてあります．後ろへ行くほど難しくなると思います．
-* 全て授業で習った内容のみで，かつ10行以内でプログラムを書くことができるようにしました．
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="juten10x">
+<link rel="icon" href="../../../assets/favicon.ico">
+<title>Problems_forSchool | juten10x</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/google-light.min.css">
+</head>
+<body>
+
+<div id="menu">
+  <div style="font-size: 24px; font-weight: 600">
+  <a class="mya" href="https://juten10x.github.io">juten10x</a>
+  </div>
+
+  <br><br>
+  <div style="font-size: 20px; font-weight: 500">
+  <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+  <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
+  <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a>
+  </div>
+</div>
+<div id="menu2">
+  <a class="mya" href="#">page top</a>
+
+  <br>
+  <nav class="breadcrumbs">
+    <a href="../../../">ホーム</a>&nbsp;&gt;
+    <a href="../../">study</a>&nbsp;&gt;
+    <a href="../">3</a>&nbsp;&gt;
+  </nav>
+</div>
+
+<header id="menu_forPhone">
+  <input type="checkbox" class="i-btn" id="i-btn">
+  <label class="label-b" for="i-btn"></label>
+  <span class="btn" id="btn">
+  <span></span>
+  <span></span>
+  </span>
+
+  <div id="forPhone_ju"><a class="mya" href="https://juten10x.github.io">juten10x</a></div>
+
+  <ul id="menu_list">
+    <li><a class="mya" href="https://juten10x.github.io/info">Info</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/blog">Blog</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></li>
+    <li><nav id="breadcrumbs">
+      <a href="../../../">ホーム</a>&nbsp;&gt;
+      <a href="../../">study</a>&nbsp;&gt;
+      <a href="../">3</a>&nbsp;&gt;
+    </nav></li>
+  </ul>
+
+  <span id="menu_board"></span>
+</header>
+
+<div id="main">
+<h1 id="article_title" style="font-size: 26px"><a class="mya" href="">Problems_forSchool<sup><a id="_note1" href="#note1">*1</a></sup></a></h1>
+
+<ul>
+  <li>問題は簡単な順に並べてあります．後ろへ行くほど難しくなると思います．</li>
+  <li>全て授業で習った内容のみで，かつ10行以内でプログラムを書くことができるようにしました．</li>
+</ul>
 
 <details>
 <summary>目次</summary>
@@ -12,44 +76,61 @@
 </ul>
 </details>
 
-## count_divisors
-### 問題
+<h2><a id="count_divisors" class="mya" href="#count_divisors">count_divisors</a></h2>
+<h3><a id="cd-1" class="mya" href="#cd-1">問題</a></h3>
+
+<p>
 $100$ の正の約数の個数を求めてください．
+</p>
 
-### 出力
+<h3><a id="cd-2" class="mya" href="#cd-2">出力</a></h3>
+<p>
 ブラウザに答えを出力してください．
+</p>
 
-### 解説
+<h3><a id="cd-3" class="mya" href="#cd-3">解説</a></h3>
+
 <details>
 <summary>開く</summary>
 
 <p>
 for文で $i=1, \ldots, 100$ まで回しましょう．そして，各 $i$ について $100$ を $i$ で割った余りを計算し，余りが $0$ になる場合にカウント用の変数を $1$ 増やしていくと， $100$ の正の約数の個数を求めることができます．
-</p><p>
+</p>
+
+<p>
 よって答えは<code>9</code>であると求めることができます．
-</p><p>
+</p>
+
+<p>
 JavaScriptによる解答例を以下に示します．
 </p>
 
 <pre><code class="language-javascript">
 let cnt = 0;
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i &lt;= 100; i++) {
   if (100 % i == 0) cnt += 1;
 }
 
 document.write(cnt);
 </code></pre>
 
-<h4>別解（素因数分解する）</h4>
+<h4><a id="cd-3-1" class="mya" href="#cd-3-1">別解（素因数分解する）</a></h4>
+
 <p>
 ここから先は少し難しい内容のため，読み飛ばしていただいても構いません．
 （また，この方針では，可読性を低下させずにコードを書くと10行を超えてしまいます．ただ，想定解は可読性を確保した上で全て10行以内で書けるようにしていますので，これはあくまでも別解として捉えてください．）
-</p><p>
+</p>
+
+<p>
 素因数分解して，正の約数の個数を求めましょう．まず， $100$ を素因数分解すると $100=2^2\cdot5^2$ ですね．ここで， $100=2^a\cdot5^b\ (a=0,1,2,\ b=0,1,2)$ とすると， $100$ の全ての約数を表すことができます． $a$ の値と $b$ の値の組み合わせを考えると，それぞれ $3$ つの値をとるため， $3\times3=9$ により， $9$ 通り．つまり， $9$ 個の正の約数をもつことがわかります．では、以上のことをプログラムで実装してみましょう．
-</p><p>
+</p>
+
+<p>
 まず，いま求めたいのは $100$ を素因数分解した式そのものではなく， $100$ を素因数分解した式における指数の積です．ゆえに，宣言する変数はカウント用の変数（ここでは $cnt$ とします），答えを保持する変数（ここでは $ans$ ）に $1$ を代入したもの， $100$ を代入した変数（ここでは $N$ ）のみでよいです．次に，for文で $i=2$ に $1$ ずつ加算していき，それぞれの $i$ で $N$ を割れるだけ割ります．その際に， $cnt$ に $N$ は $i$ で何回割れるかを記録していきます．ここで， $cnt$ は $100$ を素因数分解した式における， $i$ の指数を表しています．よって，その処理の後に同じfor文中で毎度 $ans$ に $cnt+1$ を乗算すれば，for文の処理が終わった際には $ans$ の値は $100$ の正の約数の個数となっているはずです．また、このように処理を繰り返していくと $N$ はいずれ $1$ になるため， $N\ne1$ をfor文内の処理が実行される条件とすればよいです．（なお， $N$ を $i$ で一度も割れない場合には $cnt$ の値は $0$ ですが， $ans$ に乗算する際には $cnt(=0)+1=1$ となるため，結局 $1$ をかけることになり， $ans$ の値は変わりません．したがって，その点については場合分けしなくてもよいです．）
-</p><p>
+</p>
+
+<p>
 以上により，JavaScriptで以下のように書くことができます．
 </p>
 
@@ -67,75 +148,98 @@ for (let i = 2; N != 1; i++) {
 
 document.write(ans);
 </code></pre>
-
 </details>
 
-## out_a
-### 問題
+<h2><a id="out_a" class="mya" href="#out_a">out_a</a></h2>
+<h3><a id="oa-1" class="mya" href="#oa-1">問題</a></h3>
+
+<p>
 初項 $1$ ，公差 $2$ の等差数列を $a$ とします．数列 $a$ の初項から第 $10$ 項までを求め，以下の出力形式に従って出力してください．
+</p>
 
-### 出力
+<h3><a id="oa-2" class="mya" href="#oa-2">出力</a></h3>
+
+<p>
 ブラウザに $a_1, a_2, \ldots, a_{10}$ を，空白区切りで出力してください．
+</p>
 
-### 解説
+<h3><a id="oa-3" class="mya" href="#oa-3">解説</a></h3>
+
 <details>
 <summary>開く</summary>
 
-<h4>解法 $1$ : そのまま実装する</h4>
+<h4><a id="oa-3-1" class="mya" href="#oa-3-1">解法 $1$ : そのまま実装する</a></h4>
+
 <p>
 問題文にそって，そのまま書いてみましょう．
 まず，要素数 $10$ の配列を用意します．それぞれの要素について，とりあえず $0$ などで初期化しておきましょう．
-次に，for文を $i=0, \ldots, 9$ まで回し，配列のそれぞれの要素について，一般項からその項にあたる値を求め，代入します．そして最後に，for文を用いて出力しましょう．ここで，各項の間に空白を入れるには，毎度出力したあとに同じfor文のなかで $i<9$ が真である場合に空白を出力すればよいでしょう．
-</p><p>
+次に，for文を $i=0, \ldots, 9$ まで回し，配列のそれぞれの要素について，一般項からその項にあたる値を求め，代入します．そして最後に，for文を用いて出力しましょう．ここで，各項の間に空白を入れるには，毎度出力したあとに同じfor文のなかで $i&lt;9$ が真である場合に空白を出力すればよいでしょう．
+</p>
+
+<p>
 よって答えは<code>1&nbsp;3&nbsp;5&nbsp;7&nbsp;9&nbsp;11&nbsp;13&nbsp;15&nbsp;17&nbsp;19</code>になります．
-</p><p>
+</p>
+
+<p>
 JavaScriptによる解答例を以下に示します．
 </p>
 
 <pre><code class="language-javascript">
 let a = [0,0,0,0,0,0,0,0,0,0];
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i &lt; 10; i++) {
   a[i] = 1 + i*2
 }
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i &lt; 10; i++) {
   document.write(a[i]);
-  if (i < 9) document.write(" ");
+  if (i &lt; 9) document.write(" ");
 }
 </code></pre>
 
-<h4>解法 $2$ : 工夫して実装する</h4>
+<h4><a id="oa-3-2" class="mya" href="#oa-3-2">解法 $2$ : 工夫して実装する</a></h4>
+
 <p>
 工夫して書いてみましょう．
 解法 $1$ では先に各項の値を求めて配列に代入してから出力しましたが，同じfor文中で各項の値を求める処理と出力する処理を同時に行うようにします．また，その場合には配列を用意する必要がなくなりますね．以上により，解法 $1$ よりも短く書くことができます．
-</p><p>
+</p>
+
+<p>
 JavaScriptによる解答例を以下に示します．
 </p>
 
 <pre><code class="language-javascript">
 let a = 0;
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i &lt; 10; i++) {
   a = 1 + i*2;
   document.write(a); 
-  if (i < 9) document.write(" ");
+  if (i &lt; 9) document.write(" ");
 }
 </code></pre>
-
 </details>
 
-## fibonacci
-### 問題
+<h2><a id="fibonacci" class="mya" href="#fibonacci">fibonacci</a></h2>
+<h3><a id="f-1" class="mya" href="#f-1">問題</a></h3>
+
+<p>
 以下の漸化式で定められるフィボナッチ数列の第 $30$ 項 $a_{30}$ を求めてください．
 ただし，宣言するのはfor文中も合わせて変数 $3$ つのみ，または要素数 $2$ の配列 $1$ つおよび変数 $1$ つのみ，であることが望ましいです．
-  * $a_1=1, a_2=1$
-  * $a_n=a_{n-1}+a_{n-2}\ (n\geqq3)$
+</p>
 
-### 出力
+<ul>
+  <li>$a_1=1, a_2=1$</li>
+  <li>$a_n=a_{n-1}+a_{n-2}\ (n\geqq3)$</li>
+</ul>
+
+<h3><a id="f-2" class="mya" href="#f-2">出力</a></h3>
+
+<p>
 ブラウザに答えを出力してください．
+</p>
 
-### 解説
+<h3><a id="f-3" class="mya" href="#f-3">解説</a></h3>
+
 <details>
 <summary>開く</summary>
 
@@ -143,14 +247,14 @@ for (let i = 0; i < 10; i++) {
 問題文中に示されている漸化式の通り，フィボナッチ数列 $a$ において， $a_n\ (n\geqq3)$ はその $1$ つ前の項 $a_{n-1}$ と $2$ つ前の項 $a_{n-2}$ の和で求められます．ここで，要素数 $30$ の配列を宣言したくなりますが，現在授業で習っている範囲だと自らの手で $30$ 個の要素を入力しなければなりません．とても大変です．なので，以下のように工夫しましょう．
 </p>
 
-<h4>解法 $1$ : 変数を用いる方法</h4>
+<h4><a id="f-3-1" class="mya" href="#f-3-1">解法 $1$ : 変数を用いる方法</a></h4>
+
 <p>
 変数を用いて書いてみましょう．まず，問題を解く上で，for文における毎度の処理で保持する必要がある値はfor文中の変数 $i$ を除いて $2$ つであることを確認しましょう．漸化式で示されていた式は $a_n=a_{n-1}+a_{n-2}\ (n\geqq3)$ でしたが， $a_{n-1}, a_{n-2}$ の値を例えばそれぞれ $x, y$ とし， $x$ と $y$ の和を一方の変数に代入することで， $2$ つの変数（とfor文中の変数 $i$ ）のみで問題文の処理を実現することができます．次に，漸化式にそって計算していきましょう．はじめに，それぞれ $a_1, a_2$ の値で初期化した $2$ つの変数を宣言します．（ここでは $x, y$ とします．）あとはfor文を用いて $i=3, \ldots, 30$ まで回し，if文で場合分けして、例えば以下のように処理していきましょう．
 </p>
 
 <ul>
-  <li>
-    for文 $(i=3,\ldots, 30)$ 内において，
+  <li>for文 $(i=3,\ldots, 30)$ 内において，
     <ul>
       <li>$i$ を $2$ で割った余りが $0$ ならば $x$ に $x+y$ を代入</li>
       <li>$i$ を $2$ で割った余りが $1$ ならば $y$ に $x+y$ を代入</li>
@@ -160,16 +264,20 @@ for (let i = 0; i < 10; i++) {
 
 <p>
 そして，最後に $a_{30}$ の値になっている変数（この場合は $x$ ）を出力すればよいですね．
-</p><p>
+</p>
+
+<p>
 以上により，答えは<code>832040</code>であると求めることができます．
-</p><p>
+</p>
+
+<p>
 JavaScriptによる解答例を以下に示します．
 </p>
 
 <pre><code class="language-javascript">
 let x = 1, y = 1;
 
-for (let i = 3; i <= 30; i++) {
+for (let i = 3; i &lt;= 30; i++) {
   if (i%2 == 0) x = x + y;
   else if (i%2 == 1) y = x + y;
 }
@@ -177,14 +285,14 @@ for (let i = 3; i <= 30; i++) {
 document.write(x);
 </code></pre>
 
-<h4>解法 $2$ : 配列を用いる方法</h4>
+<h4><a id="f-3-2" class="mya" href="#f-3-2">解法 $2$ : 配列を用いる方法</a></h4>
+
 <p>
 配列を用いて書いてみましょう．こちらの方が少し短めに書くことができます．まず，それぞれの要素を $a_1, a_2$ で初期化した，要素数 $2$ の配列を宣言します．（ここでは $s$ とします．）次に，解法 $1$ と同様にfor文を回していきます．for文を用いて $i=3, \ldots, 30$ まで回し，例えば以下のように処理していきましょう．
 </p>
 
 <ul>
-  <li>
-    for文 $(i=3,\ldots, 30)$ 内において，
+  <li>for文 $(i=3,\ldots, 30)$ 内において，
     <ul>
       <li>$i$ を $2$ で割った余りが $0$ ならば $s_0$ に $s_0+s_1$ を代入</li>
       <li>$i$ を $2$ で割った余りが $1$ ならば $s_1$ に $s_0+s_1$ を代入</li>
@@ -194,28 +302,40 @@ document.write(x);
 
 <p>
 ここで，if文を用いて場合分けしてもよいですが，余りの値をそのまま $s$ の添え字にすることで，より簡単に書くことができます．そして，最後に $a_{30}$ の値になっている $s$ の要素（この場合は $s_0$ ）を出力すればよいですね．
-</p><p>
+</p>
+
+<p>
 JavaScriptによる解答例を以下に示します．
 </p>
 
 <pre><code class="language-javascript">
 let s = [1, 1];
 
-for (let i = 3; i <= 30; i++) {
+for (let i = 3; i &lt;= 30; i++) {
   s[i%2] = s[0] + s[1];
 }
 
 document.write(s[0]);
 </code></pre>
-
 </details>
 
-<div class="footer border-top border-gray mt-5 pt-3"></div>
+<hr>
+
+<p>
 *1.<a id="note1" href="#_note1">^ </a>Metamoji では「プログラミング問題 by Juten10x」という名称を用いていました
+</p>
 
-<style>
-  #ccby4, #_menu {
-    display: none;
-  }
-</style>
+<hr>
 
+<iframe id="license" src="../../../assets/cc0.html"></iframe>
+</div>
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<!-- highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+</html>

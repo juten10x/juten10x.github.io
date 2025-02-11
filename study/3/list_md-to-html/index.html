@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="juten10x">
+<link rel="icon" href="../../../assets/favicon.ico">
+<title>list_md-to-html | juten10x</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/google-light.min.css">
+</head>
+<body>
+
+<div id="menu">
+  <div style="font-size: 24px; font-weight: 600">
+  <a class="mya" href="https://juten10x.github.io">juten10x</a>
+  </div>
+
+  <br><br>
+  <div style="font-size: 20px; font-weight: 500">
+  <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+  <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
+  <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a>
+  </div>
+</div>
+<div id="menu2">
+  <a class="mya" href="#">page top</a>
+
+  <br>
+  <nav class="breadcrumbs">
+    <a href="../../../">ホーム</a>&nbsp;&gt;
+    <a href="../../">study</a>&nbsp;&gt;
+    <a href="../">3</a>&nbsp;&gt;
+  </nav>
+</div>
+
+<header id="menu_forPhone">
+  <input type="checkbox" class="i-btn" id="i-btn">
+  <label class="label-b" for="i-btn"></label>
+  <span class="btn" id="btn">
+  <span></span>
+  <span></span>
+  </span>
+
+  <div id="forPhone_ju"><a class="mya" href="https://juten10x.github.io">juten10x</a></div>
+
+  <ul id="menu_list">
+    <li><a class="mya" href="https://juten10x.github.io/info">Info</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/blog">Blog</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></li>
+    <li><nav id="breadcrumbs">
+      <a href="../../../">ホーム</a>&nbsp;&gt;
+      <a href="../../">study</a>&nbsp;&gt;
+      <a href="../">3</a>&nbsp;&gt;
+    </nav></li>
+  </ul>
+
+  <span id="menu_board"></span>
+</header>
+
+<div id="main">
+<h1 id="article_title"><a class="mya" href="">list_md-to-html</a></h1>
+
+<h2><a id="2" class="mya" href="#2">C++</a></h2>
+
+<pre><code class="language-cpp">
+#include &lt;iostream&gt;
+
+/*
+   Markdown 記法で書かれた リスト(リンク付きも可) を、 HTML に変換するプログラムです。
+   Wandboxでの動作デモ: https://wandbox.org/permlink/avYYBHDzFt3Ha0ry
+
+   使い方
+   1.(重要！)変換したい文字列の最後にひとつ改行して、 finish と書く(while 文を break するためです。例として、上記の動作デモを参照ください)。
+   2. プログラムを実行して、入力として 変換したい文字列に上記の操作を加えたもの を与える。
+ */
+
+int main() {
+  int where = 0, pre = 0;
+
+  std::cout &lt;&lt; "&lt;ul&gt;" &lt;&lt; '\n';
+  int ul = 1;
+
+  while (true) {
+    std::string S;
+    getline(std::cin, S);
+
+    if (S == "finish") {
+      if (ul) {
+        std::cout &lt;&lt; std::string(where, ' ') &lt;&lt; "&lt;/ul&gt;" &lt;&lt; '\n';
+        ul--;
+      }
+      break;
+    }
+
+    where = 0;
+    for (int i = 0; i &lt; (int)S.size(); i++) {
+      if (S[i] == '*') {
+        where = i;
+        break;
+      }
+    }
+    std::string St = S.substr(where + 2, (int)S.size());
+
+    if (where &gt; pre) {
+      std::cout &lt;&lt; std::string(pre + 2, ' ') &lt;&lt; "&lt;ul&gt;" &lt;&lt; '\n';
+      ul++;
+    }
+    if (where &lt; pre) {
+      int cnt = pre;
+      for (int i = 0; i &lt; (pre-where)/2; i++) {
+        std::cout &lt;&lt; std::string(where - 2 + cnt, ' ') &lt;&lt; "&lt;/ul&gt;" &lt;&lt; '\n';
+        cnt -= 2;
+        ul -= 2;
+      }
+    }
+    pre = where;
+
+    bool link = false;
+    if (S.find("](http") != std::string::npos) {
+      link = true;
+    }
+
+    if (link) {
+      int begin = 0, end = 0;
+      int begin_c = 0, end_c = 0;
+      for (int i = where+1; i &lt; (int)S.size(); i++) {
+        if (St[i] == '[') begin = i;
+        if (St[i] == ']') end = i;
+        if (St[i] == '(') begin_c = i;
+        if (St[i] == ')') end_c = i;
+      }
+      std::cout &lt;&lt; std::string(where + 2, ' ')  &lt;&lt; "&lt;li&gt;" &lt;&lt; St.substr(0, begin) &lt;&lt; "&lt;a href=\"" &lt;&lt; St.substr(begin_c + 1, end_c - begin_c - 1) &lt;&lt; "\"&gt;" &lt;&lt; St.substr(begin + 1, end - begin - 1) &lt;&lt; "&lt;/a&gt;&lt;/li&gt;" &lt;&lt; '\n';
+    }
+    else {
+      std::cout &lt;&lt; std::string(where + 2, ' ') &lt;&lt; "&lt;li&gt;" &lt;&lt; St &lt;&lt; "&lt;/li&gt;" &lt;&lt; '\n';
+    }
+  }
+
+  std::cout &lt;&lt; "&lt;/ul&gt;" &lt;&lt; '\n';
+
+  return 0;
+}
+</code></pre>
+
+<hr>
+
+<iframe id="license" src="../../../assets/cc0.html"></iframe>
+</div>
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<!-- highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+</html>
