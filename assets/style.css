@@ -52,10 +52,6 @@ button.hoge {
 #article_title {
   line-height: 1.0;
 }
-#article_title2 {
-  line-height: 1.0;
-  font-size: 24px;
-}
 #article_date {
   font-size: 16px;
   font-weight: 200;
@@ -110,6 +106,9 @@ button.hoge {
   }
   #menu_forPhone {
     display: none;
+  }
+  #article_title2 {
+    line-height: 1.0;
   }
 }
 @media (max-width: 768px) {
@@ -245,5 +244,9 @@ button.hoge {
   }
   .i-btn {
     display: none;
+  }
+  #article_title2 {
+    line-height: 1.0;
+    font-size: 24px;
   }
 }
