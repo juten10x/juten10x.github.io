@@ -88,26 +88,26 @@ std::map&lt;long long, long long&gt; res;
 long long t = 0;
 
 void pf_mapA(long long N) {
-  for (long long i = 2; i*i <span class="eq">&lt;=</span> N; i++) {
-    if (N%i <span class="eq">!=</span> 0) continue;
+  for (long long i = 2; i*i &lt;= N; i++) {
+    if (N%i != 0) continue;
     long long cnt = 0;
-    while (N%i <span class="eq">==</span> 0) {
+    while (N%i == 0) {
       cnt++;
-      N <span class="eq">/=</span> i;
+      N /= i;
     }
 
     res[i] += cnt;
     t++;
   }
 
-  if (N <span class="eq">!=</span> 1) res[N] = 1, t++;
+  if (N != 1) res[N] = 1, t++;
 }
 
 int main() {
   long long N;
   std::cin &gt;&gt; N;
 
-  if (N <span class="eq">==</span> 1) {
+  if (N == 1) {
     std::cout &lt;&lt; "1は素因数を持ちません\n";
     return 0;
   }

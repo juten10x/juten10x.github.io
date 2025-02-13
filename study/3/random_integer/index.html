@@ -84,12 +84,12 @@ int main() {
   while (true) {
     std::uint32_t t = engine() % N;
 
-    if (tf[t] <span class="eq">==</span> 0) {
+    if (tf[t] == 0) {
       std::cout &lt;&lt; S[t] &lt;&lt; "\n----------\n";
       tf[t] = 1;
       cnt++;
     }
-    if (cnt <span class="eq">==</span> N) break;
+    if (cnt == N) break;
   }
 
   return 0;

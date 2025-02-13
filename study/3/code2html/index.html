@@ -72,13 +72,13 @@ int main() {
     std::string S;
     getline(std::cin, S);
 
-    if (S <span class="eq">==</span> "finish") break;
+    if (S == "finish") break;
 
     for (int i = 0; i &lt; (int)S.size(); i++) {
       char c = S[i];
-      if (c <span class="eq">==</span> '&lt;') std::cout &lt;&lt; "&amp;lt;";
-      else if (c <span class="eq">==</span> '&gt;') std::cout &lt;&lt; "&amp;gt;";
-      else if (c <span class="eq">==</span> '&amp;') std::cout &lt;&lt; "&amp;amp;";
+      if (c == '&lt;') std::cout &lt;&lt; "&amp;lt;";
+      else if (c == '&gt;') std::cout &lt;&lt; "&amp;gt;";
+      else if (c == '&amp;') std::cout &lt;&lt; "&amp;amp;";
       else std::cout &lt;&lt; c;
     }
 

@@ -110,7 +110,7 @@ JavaScriptによる解答例を以下に示します．
 let cnt = 0;
 
 for (let i = 1; i &lt;= 100; i++) {
-  if (100 % i <span class="eq">==</span> 0) cnt += 1;
+  if (100 % i == 0) cnt += 1;
 }
 
 document.write(cnt);
@@ -140,8 +140,8 @@ let cnt = 0, ans = 1, N = 100;
 
 for (let i = 2; N != 1; i++) {
   cnt = 0;
-  while (N%i <span class="eq">==</span> 0) {
-    N <span class="eq">/=</span> i;
+  while (N%i == 0) {
+    N /= i;
     cnt += 1;
   }
   ans *= (cnt + 1);
@@ -278,9 +278,9 @@ JavaScriptによる解答例を以下に示します．
 <pre><code class="language-javascript">
 let x = 1, y = 1;
 
-for (let i = 3; i <span class="eq">&lt;=</span> 30; i++) {
-  if (i%2 <span class="eq">==</span> 0) x = x + y;
-  else if (i%2 <span class="eq">==</span> 1) y = x + y;
+for (let i = 3; i &lt;= 30; i++) {
+  if (i%2 == 0) x = x + y;
+  else if (i%2 == 1) y = x + y;
 }
 
 document.write(x);
@@ -312,7 +312,7 @@ JavaScriptによる解答例を以下に示します．
 <pre><code class="language-javascript">
 let s = [1, 1];
 
-for (let i = 3; i <span class="eq">&lt;=</span> 30; i++) {
+for (let i = 3; i &lt;= 30; i++) {
   s[i%2] = s[0] + s[1];
 }
 
