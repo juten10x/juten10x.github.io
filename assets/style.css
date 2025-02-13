@@ -63,7 +63,7 @@ button.hoge {
 
 @media (min-width: 768px) {
   html {
-    scroll-padding-top: 25px;
+    scroll-padding-top: 15px;
   }
   body {
     margin: 2.5% 5% 5% 5%;
