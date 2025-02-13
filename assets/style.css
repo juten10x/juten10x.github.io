@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 :root {
   --b-color: white;
   --link-color: royalblue;
@@ -33,6 +33,9 @@ code {
   line-height: 1.4;
   border: solid lightgray 1px;
   border-radius: .3rem;
+}
+code .eq {
+  font-family: 'Source Code Pro';
 }
 button.hoge {
   font-weight: bold;
@@ -74,6 +77,15 @@ button.hoge {
     user-select: none;
     position: fixed;
     bottom: 39px;
+  }
+  #menu_t {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  #menu_m {
+    margin-top: 48px;
+    font-size: 20px;
+    font-weight: 500;
   }
   #main {
     float: right;
@@ -146,11 +158,15 @@ button.hoge {
     font-weight: 300;
     line-height: 1.4;
   }
+  #pagetop {
+    font-size: 70%;
+  }
   #breadcrumbs {
     font-size: 70%;
     line-height: 2.4;
   }
-  #menu_board {
+  #menu_board,
+  #menu_board2 {
     position: fixed;
     top: -5px;
     left: -5%;
@@ -204,7 +220,11 @@ button.hoge {
   }
   .i-btn:checked ~ #menu_board {
     border: solid royalblue 1.5px;
-    height: 227px;
+    height: 270px;
+  }
+  .i-btn:checked ~ #menu_board2 {
+    border: solid royalblue 1.5px;
+    height: 230px;
   }
   .i-btn:checked ~ #menu_list {
     opacity: 1;
