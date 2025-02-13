@@ -43,6 +43,15 @@ button.hoge {
   background-color: #EEE;
   border-radius: 0.7em;
 }
+#menu_t {
+  font-size: 24px;
+  font-weight: 600;
+}
+#menu_m {
+  margin-top: 48px;
+  font-size: 20px;
+  font-weight: 500;
+}
 #article_title {
   line-height: 1.0;
 }
@@ -77,15 +86,6 @@ button.hoge {
     user-select: none;
     position: fixed;
     bottom: 39px;
-  }
-  #menu_t {
-    font-size: 24px;
-    font-weight: 600;
-  }
-  #menu_m {
-    margin-top: 48px;
-    font-size: 20px;
-    font-weight: 500;
   }
   #main {
     float: right;
