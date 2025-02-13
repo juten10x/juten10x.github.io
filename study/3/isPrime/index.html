@@ -12,15 +12,15 @@
 <body>
 
 <div id="menu">
-  <div style="font-size: 24px; font-weight: 600">
-  <a class="mya" href="https://juten10x.github.io">juten10x</a>
+  <div id="menu_t">
+    <a class="mya" href="https://juten10x.github.io">juten10x</a>
   </div>
 
-  <br><br>
-  <div style="font-size: 20px; font-weight: 500">
-  <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
-  <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
-  <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a>
+  <div id="menu_m">
+    <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+    <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
+    <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a><br>
+    <a class="mya" href="https://juten10x.github.io/study">study/</a>
   </div>
 </div>
 <div id="menu2">
@@ -48,6 +48,7 @@
     <li><a class="mya" href="https://juten10x.github.io/info">Info</a></li>
     <li><a class="mya" href="https://juten10x.github.io/blog">Blog</a></li>
     <li><a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/study">study/</a></li>
     <li><nav id="breadcrumbs">
       <a href="../../../">ホーム</a>&nbsp;&gt;
       <a href="../../">study</a>&nbsp;&gt;
@@ -72,9 +73,9 @@
  */
 
 long long isPrime(long long x) {
-  if (x == 1) return 0;
-  for (long long i = 2; i*i &lt;= x; i++) {
-    if (x%i == 0) return i;
+  if (x <span class="eq">==</span> 1) return 0;
+  for (long long i = 2; i*i <span class="eq">&lt;=</span> x; i++) {
+    if (x%i <span class="eq">==</span> 0) return i;
   }
   return 1;
 }
@@ -85,12 +86,12 @@ int main() {
 
   long long t = isPrime(N);
 
-  if (t == 1) {
+  if (t <span class="eq">==</span> 1) {
     std::cout &lt;&lt; N &lt;&lt; " は素数です\n";
   }
   else {
     std::cout &lt;&lt; N &lt;&lt; " は素数ではありません\n";
-    if (N != 1) {
+    if (N <span class="eq">!=</span> 1) {
       std::cout &lt;&lt; N &lt;&lt; " ÷ " &lt;&lt; t &lt;&lt; " = " &lt;&lt; N/t &lt;&lt; '\n';
     }
   }

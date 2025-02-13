@@ -12,15 +12,15 @@
 <body>
 
 <div id="menu">
-  <div style="font-size: 24px; font-weight: 600">
-  <a class="mya" href="https://juten10x.github.io">juten10x</a>
+  <div id="menu_t">
+    <a class="mya" href="https://juten10x.github.io">juten10x</a>
   </div>
 
-  <br><br>
-  <div style="font-size: 20px; font-weight: 500">
-  <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
-  <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
-  <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a>
+  <div id="menu_m">
+    <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+    <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
+    <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a><br>
+    <a class="mya" href="https://juten10x.github.io/study">study/</a>
   </div>
 </div>
 <div id="menu2">
@@ -48,6 +48,7 @@
     <li><a class="mya" href="https://juten10x.github.io/info">Info</a></li>
     <li><a class="mya" href="https://juten10x.github.io/blog">Blog</a></li>
     <li><a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/study">study/</a></li>
     <li><nav id="breadcrumbs">
       <a href="../../../">ホーム</a>&nbsp;&gt;
       <a href="../../">study</a>&nbsp;&gt;
@@ -127,7 +128,7 @@ function Zeller_c(y, m, d) {
 }
 
 const t = document.getElementById('hoge');
-t.addEventListener("click", () =&gt; {
+t.addEventListener("click", () <span class="eq">=&gt;</span> {
   const y = Number(document.getElementById('year').value);
   const m = Number(document.getElementById('month').value);
   const d = Number(document.getElementById('day').value);
@@ -135,10 +136,10 @@ t.addEventListener("click", () =&gt; {
   let calender = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
   let Answer = "";
 
-  if (y%4 == 0)
+  if (y%4 <span class="eq">==</span> 0)
     calender[1]++;
 
-  if (m &lt;= 0 || 13 &lt;= m || d &lt;= 0 || calender[m-1] &lt; d)
+  if (m <spna class="eq">&lt;=</span> 0 || 13 <span class="eq">&lt;=</span> m || d <span class="eq">&lt;=</span> 0 || calender[m-1] &lt; d)
     Answer += "月日として扱うことができない値が含まれています。"
   else
     Answer += y + "年" + m + "月" + d + "日は " + Zeller_c(y, m, d) + "曜日 です。";

@@ -12,15 +12,15 @@
 <body>
 
 <div id="menu">
-  <div style="font-size: 24px; font-weight: 600">
-  <a class="mya" href="https://juten10x.github.io">juten10x</a>
+  <div id="menu_t">
+    <a class="mya" href="https://juten10x.github.io">juten10x</a>
   </div>
 
-  <br><br>
-  <div style="font-size: 20px; font-weight: 500">
-  <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
-  <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
-  <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a>
+  <div id="menu_m">
+    <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+    <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
+    <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a><br>
+    <a class="mya" href="https://juten10x.github.io/study">study/</a>
   </div>
 </div>
 <div id="menu2">
@@ -48,6 +48,7 @@
     <li><a class="mya" href="https://juten10x.github.io/info">Info</a></li>
     <li><a class="mya" href="https://juten10x.github.io/blog">Blog</a></li>
     <li><a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/study">study/</a></li>
     <li><nav id="breadcrumbs">
       <a href="../../../">ホーム</a>&nbsp;&gt;
       <a href="../../">study</a>&nbsp;&gt;
@@ -75,11 +76,11 @@ int main() {
   std::string S;
   getline(std::cin, S);
 
-  for (int i = 1; i &lt;= 25; i++) {
+  for (int i = 1; i <span class="eq">&lt;=</span> 25; i++) {
     std::string T = "";
     std::cout &lt;&lt; i &lt;&lt; ": ";
     for (int j = 0; j &lt; (int)S.size(); j++) {
-      if (S[j] == ' ') {
+      if (S[j] <span class="eq">==</span> ' ') {
         T += ' ';
         continue;
       }

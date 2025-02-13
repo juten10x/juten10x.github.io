@@ -12,15 +12,15 @@
 <body>
 
 <div id="menu">
-  <div style="font-size: 24px; font-weight: 600">
-  <a class="mya" href="https://juten10x.github.io">juten10x</a>
+  <div id="menu_t">
+    <a class="mya" href="https://juten10x.github.io">juten10x</a>
   </div>
 
-  <br><br>
-  <div style="font-size: 20px; font-weight: 500">
-  <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
-  <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
-  <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a>
+  <div id="menu_m">
+    <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+    <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
+    <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a><br>
+    <a class="mya" href="https://juten10x.github.io/study">study/</a>
   </div>
 </div>
 <div id="menu2">
@@ -48,6 +48,7 @@
     <li><a class="mya" href="https://juten10x.github.io/info">Info</a></li>
     <li><a class="mya" href="https://juten10x.github.io/blog">Blog</a></li>
     <li><a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/study">study/</a></li>
     <li><nav id="breadcrumbs">
       <a href="../../../">ホーム</a>&nbsp;&gt;
       <a href="../../">study</a>&nbsp;&gt;
@@ -87,26 +88,26 @@ std::map&lt;long long, long long&gt; res;
 long long t = 0;
 
 void pf_mapA(long long N) {
-  for (long long i = 2; i*i &lt;= N; i++) {
-    if (N%i != 0) continue;
+  for (long long i = 2; i*i <span class="eq">&lt;=</span> N; i++) {
+    if (N%i <span class="eq">!=</span> 0) continue;
     long long cnt = 0;
-    while (N%i == 0) {
+    while (N%i <span class="eq">==</span> 0) {
       cnt++;
-      N /= i;
+      N <span class="eq">/=</span> i;
     }
 
     res[i] += cnt;
     t++;
   }
 
-  if (N != 1) res[N] = 1, t++;
+  if (N <span class="eq">!=</span> 1) res[N] = 1, t++;
 }
 
 int main() {
   long long N;
   std::cin &gt;&gt; N;
 
-  if (N == 1) {
+  if (N <span class="eq">==</span> 1) {
     std::cout &lt;&lt; "1は素因数を持ちません\n";
     return 0;
   }

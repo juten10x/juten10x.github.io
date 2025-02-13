@@ -12,15 +12,15 @@
 <body>
 
 <div id="menu">
-  <div style="font-size: 24px; font-weight: 600">
-  <a class="mya" href="https://juten10x.github.io">juten10x</a>
+  <div id="menu_t">
+    <a class="mya" href="https://juten10x.github.io">juten10x</a>
   </div>
 
-  <br><br>
-  <div style="font-size: 20px; font-weight: 500">
-  <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
-  <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
-  <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a>
+  <div id="menu_m">
+    <a class="mya" href="https://juten10x.github.io/info">Info</a><br>
+    <a class="mya" href="https://juten10x.github.io/blog">Blog</a><br>
+    <a class="mya" href="https://juten10x.github.io/gallery">Gallery</a><br>
+    <a class="mya" href="https://juten10x.github.io/study">study/</a>
   </div>
 </div>
 <div id="menu2">
@@ -48,6 +48,7 @@
     <li><a class="mya" href="https://juten10x.github.io/info">Info</a></li>
     <li><a class="mya" href="https://juten10x.github.io/blog">Blog</a></li>
     <li><a class="mya" href="https://juten10x.github.io/gallery">Gallery</a></li>
+    <li><a class="mya" href="https://juten10x.github.io/study">study/</a></li>
     <li><nav id="breadcrumbs">
       <a href="../../../">ホーム</a>&nbsp;&gt;
       <a href="../../">study</a>&nbsp;&gt;
@@ -85,7 +86,7 @@ int main() {
     std::string S;
     getline(std::cin, S);
 
-    if (S == "finish") {
+    if (S <span class="eq">==</span> "finish") {
       if (ul) {
         std::cout &lt;&lt; std::string(where, ' ') &lt;&lt; "&lt;/ul&gt;" &lt;&lt; '\n';
         ul--;
@@ -95,7 +96,7 @@ int main() {
 
     where = 0;
     for (int i = 0; i &lt; (int)S.size(); i++) {
-      if (S[i] == '*') {
+      if (S[i] <span class="eq">==</span> '*') {
         where = i;
         break;
       }
@@ -117,7 +118,7 @@ int main() {
     pre = where;
 
     bool link = false;
-    if (S.find("](http") != std::string::npos) {
+    if (S.find("](http") <span class="eq">!=</span> std::string::npos) {
       link = true;
     }
 
@@ -125,10 +126,10 @@ int main() {
       int begin = 0, end = 0;
       int begin_c = 0, end_c = 0;
       for (int i = where+1; i &lt; (int)S.size(); i++) {
-        if (St[i] == '[') begin = i;
-        if (St[i] == ']') end = i;
-        if (St[i] == '(') begin_c = i;
-        if (St[i] == ')') end_c = i;
+        if (St[i] <span class="eq">==</span> '[') begin = i;
+        if (St[i] <span class="eq">==</span> ']') end = i;
+        if (St[i] <span class="eq">==</span> '(') begin_c = i;
+        if (St[i] <span class="eq">==</span> ')') end_c = i;
       }
       std::cout &lt;&lt; std::string(where + 2, ' ')  &lt;&lt; "&lt;li&gt;" &lt;&lt; St.substr(0, begin) &lt;&lt; "&lt;a href=\"" &lt;&lt; St.substr(begin_c + 1, end_c - begin_c - 1) &lt;&lt; "\"&gt;" &lt;&lt; St.substr(begin + 1, end - begin - 1) &lt;&lt; "&lt;/a&gt;&lt;/li&gt;" &lt;&lt; '\n';
     }
