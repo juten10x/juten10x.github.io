@@ -28,8 +28,8 @@ details {
   margin-bottom: 16px;
 }
 code {
-  font-family: 'Inconsolata';
-  font-size: 14px;
+  font-family: 'Inconsolata', 'Noto Sans JP';
+  font-weight: 500;
   line-height: 1.4;
   border: solid lightgray 1px;
   border-radius: .3rem;
@@ -51,6 +51,10 @@ button.hoge {
 }
 #article_title {
   line-height: 1.0;
+}
+#article_title2 {
+  line-height: 1.0;
+  font-size: 24px;
 }
 #article_date {
   font-size: 16px;
@@ -106,6 +110,9 @@ button.hoge {
   }
 }
 @media (max-width: 768px) {
+  html {
+    scroll-padding-top: 70px;
+  }
   body {
     margin: 0% 5% 5% 5%;
     font-family: 'Inter', 'Noto Sans JP', sans-serif;
@@ -113,6 +120,9 @@ button.hoge {
     line-height: 1.8;
     color: var(--font-color);
     background-color: var(--b-color);
+  }
+  figure {
+    margin: 0;
   }
   .image1 {
     width: 100%;
@@ -229,15 +239,5 @@ button.hoge {
   }
   .i-btn {
     display: none;
-  }
-
-  #_image2 {
-    max-width: 100%;
-  }
-  #_image3 {
-    max-width: 100%;
-  }
-  figure {
-    margin: 0;
   }
 }
