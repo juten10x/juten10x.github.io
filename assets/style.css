@@ -127,6 +127,9 @@ button.hoge {
   figure {
     margin: 0;
   }
+  h2 {
+    line-height: 1.4;
+  }
   .image1 {
     width: 100%;
   }
