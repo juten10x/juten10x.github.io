@@ -61,6 +61,7 @@
 
 <div id="main">
 <h1 id="article_title2"><a class="mya" href="">prime_factorization</a></h1>
+
 <!--
 <h2><a id="1" class="mya" href="#1">JavaScript</a></h2>
 
@@ -69,7 +70,7 @@
 </p>
 
 <p>
-<label>入力: <input id="kz_livetune"></label>
+<label>入力: <input id="livetune"></label>
 </p>
 
 <input type="button" value="計算する" id="hoge">
@@ -79,6 +80,8 @@
 -->
 
 <h2><a id="2" class="mya" href="#2">C++</a></h2>
+
+<p><a href="https://wandbox.org/permlink/epBJQn8FbERWyoa0">以下のコードを Wandbox で実行</a></p>
 
 <pre><code class="language-cpp">
 #include &lt;iostream&gt;
@@ -154,14 +157,15 @@ function pf(N, pf_array, judge, size) {
 
 const t = document.getElementById('hoge');
 t.addEventListener("click", () => {
-  const N = Number(document.getElementById('kz_livetune').value);
+  const Nn = document.getElementById('livetune');
+  const N = Number(Nn.value);
 
   let pf_array = Array(N).fill(0);
   let judge = [];
   let size = 0;
   let Answer = "";
 
-  if (N <= 0 || 100000000 < N) {
+  if (N <= 0 || (N != 100000000 && 8 < Nn.length)) {
     Answer += "扱うことができない値です。";
     document.getElementById('out').textContent = Answer;
   }
