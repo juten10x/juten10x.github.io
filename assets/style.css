@@ -147,6 +147,8 @@ button.hoge {
   #menu_forPhone {
     user-select: none;
     padding: 20px;
+    position: relative;
+    z-index: 1;
   }
   #forPhone_ju {
     position: fixed;
