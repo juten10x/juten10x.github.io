@@ -149,6 +149,7 @@ button.hoge {
     padding: 20px;
     position: relative;
     z-index: 1;
+    -webkit-tap-highlight-color: transparent;
   }
   #forPhone_ju {
     position: fixed;
@@ -157,7 +158,6 @@ button.hoge {
     font-size: 16px;
     font-weight: 500;
     z-index: 1;
-    -webkit-tap-highlight-color: transparent;
   }
   #menu_list {
     list-style: none;
@@ -172,7 +172,6 @@ button.hoge {
     font-size: 28px;
     font-weight: 300;
     line-height: 1.4;
-    -webkit-tap-highlight-color: transparent;
   }
   #pagetop {
     font-size: 70%;
@@ -201,7 +200,6 @@ button.hoge {
     height: 50px;
     cursor: pointer;
     z-index: 2;
-    -webkit-tap-highlight-color: transparent;
   }
   .btn {
     position: fixed;
