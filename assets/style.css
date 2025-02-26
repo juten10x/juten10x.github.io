@@ -34,6 +34,9 @@ code {
   border: solid lightgray 1px;
   border-radius: .3rem;
 }
+summary {
+  cursor: pointer;
+}
 button.hoge {
   font-weight: bold;
   padding: 0.5em 1em;
