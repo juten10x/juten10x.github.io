@@ -30,10 +30,10 @@ button.hoge {
   background-color: #EEE;
   border-radius: 0.5em;
 }
-#text-font {
+.text-font {
   font-family: 'Inter', Helvetica, sans-serif;
 }
-#code-font: {
+.code-font: {
   font-family: 'Fira Code', sans-serif;
 }
 @media (max-width: 767px) {
@@ -314,22 +314,22 @@ function cd1000() {
 
 <div id="select">
 <nav id="breadcrumbs">
-<a id="text-font" href="../../">ホーム</a> &gt;
-<a id="text-font" href="../">study</a> &gt;
-<a id="text-font" href="./">1</a> &gt;
+<a class="text-font" href="../../">ホーム</a> &gt;
+<a class="text-font" href="../">study</a> &gt;
+<a class="text-font" href="./">1</a> &gt;
 </nav>
 
-<h2><span id="text-font">ライフゲーム (</span><a href="https://ja.wikipedia.org/wiki/?curid=16010"><span id="text-font">Wikipedia</span></a><span id="text-font">)</span></h2>
+<h2><span class="text-font">ライフゲーム (</span><a href="https://ja.wikipedia.org/wiki/?curid=16010"><span class="text-font">Wikipedia</span></a><span class="text-font">)</span></h2>
 
-<span id="text-font">Manual:</span>&nbsp;
-<button type="button" id="text-font" onclick="draw_or_stop()">Play</button>
-<button type="button" id="text-font" onclick="update()">Next</button>
+<span class="text-font">Manual:</span>&nbsp;
+<button type="button" class="text-font" onclick="draw_or_stop()">Play</button>
+<button type="button" class="text-font" onclick="update()">Next</button>
 <br>
 
-<span id="text-font">Auto:</span>&nbsp;
-<button type="button" id="text-font" onclick="start_or_play()">Play</button>
-<button type="button" id="text-font" onclick="stop()">Stop</button>
-<br>&nbsp;&nbsp;<span id="text-font">Change Duration:&nbsp;</span>
+<span class="text-font">Auto:</span>&nbsp;
+<button type="button" class="text-font" onclick="start_or_play()">Play</button>
+<button type="button" class="text-font" onclick="stop()">Stop</button>
+<br>&nbsp;&nbsp;<span class="text-font">Change Duration:&nbsp;</span>
 <button type="button" onclick="cd10()">10ms</button>
 <button type="button" onclick="cd100()">100ms</button>
 <button type="button" onclick="cd250()">250ms</button>
@@ -337,21 +337,21 @@ function cd1000() {
 <button type="button" onclick="cd1000()">1000ms</button>
 <br>
 
-<span id="text-font">Change Size:&nbsp;</span>
+<span class="text-font">Change Size:&nbsp;</span>
 <button type="button" onclick="larger()">Larger</button>
 <button type="button" onclick="smaller()">Smaller</button>
 <br>
 
-<span id="text-font">玲音/lain:&nbsp;</span>
-<button type="button" id="text-font" onclick="lain_v = true">ON</button>
-<button type="button" id="text-font" onclick="lain_v = false">OFF</button>
-<p id="text-font">Full Screen: <a href="dot_game-of-life.html">●</a>, <a href="lain_game-of-life.html">玲音/lain</a></p>
+<span class="text-font">玲音/lain:&nbsp;</span>
+<button type="button" class="text-font" onclick="lain_v = true">ON</button>
+<button type="button" class="text-font" onclick="lain_v = false">OFF</button>
+<p class="text-font">Full Screen: <a href="dot_game-of-life.html">●</a>, <a href="lain_game-of-life.html">玲音/lain</a></p>
 <br>
 
 <details>
-<summary id="text-font">Code</summary>
+<summary class="text-font">Code</summary>
 
-<pre id="code-font"><code language="html">
+<pre class="code-font"><code language="html">
 &lt;!DOCTYPE html&gt;
 &lt;html lang="ja"&gt;
 &lt;head&gt;
@@ -530,37 +530,37 @@ function cd1000() {
 
 &lt;div id="select"&gt;
 &lt;nav id="breadcrumbs"&gt;
-&lt;a id="text-font" href="../../"&gt;ホーム&lt;/a&gt; &amp;gt;
-&lt;a id="text-font" href="../"&gt;study&lt;/a&gt; &amp;gt;
-&lt;a id="text-font" href="./"&gt;1&lt;/a&gt; &amp;gt;
+&lt;a class="text-font" href="../../"&gt;ホーム&lt;/a&gt; &amp;gt;
+&lt;a class="text-font" href="../"&gt;study&lt;/a&gt; &amp;gt;
+&lt;a class="text-font" href="./"&gt;1&lt;/a&gt; &amp;gt;
 &lt;/nav&gt;
 
-&lt;h2&gt;&lt;span id="text-font"&gt;ライフゲーム (&lt;/span&gt;&lt;a href="https://ja.wikipedia.org/wiki/?curid=16010"&gt;&lt;span id="text-font"&gt;Wikipedia&lt;/span&gt;&lt;/a&gt;&lt;span id="text-font"&gt;)&lt;/span&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;span class="text-font"&gt;ライフゲーム (&lt;/span&gt;&lt;a href="https://ja.wikipedia.org/wiki/?curid=16010"&gt;&lt;span class="text-font"&gt;Wikipedia&lt;/span&gt;&lt;/a&gt;&lt;span class="text-font"&gt;)&lt;/span&gt;&lt;/h2&gt;
 
-&lt;span id="text-font"&gt;Manual:&lt;/span&gt;&amp;nbsp;
-&lt;button type="button" id="text-font" onclick="draw_or_stop()"&gt;Play&lt;/button&gt;
-&lt;button type="button" id="text-font" onclick="update()"&gt;Next&lt;/button&gt;
+&lt;span class="text-font"&gt;Manual:&lt;/span&gt;&amp;nbsp;
+&lt;button type="button" class="text-font" onclick="draw_or_stop()"&gt;Play&lt;/button&gt;
+&lt;button type="button" class="text-font" onclick="update()"&gt;Next&lt;/button&gt;
 &lt;br&gt;
 
-&lt;span id="text-font"&gt;Auto:&lt;/span&gt;&amp;nbsp;
-&lt;button type="button" id="text-font" onclick="start_or_play()"&gt;Play&lt;/button&gt;
-&lt;button type="button" id="text-font" onclick="stop()"&gt;Stop&lt;/button&gt;
-&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span id="text-font"&gt;Change Duration:&amp;nbsp;&lt;/span&gt;
+&lt;span class="text-font"&gt;Auto:&lt;/span&gt;&amp;nbsp;
+&lt;button type="button" class="text-font" onclick="start_or_play()"&gt;Play&lt;/button&gt;
+&lt;button type="button" class="text-font" onclick="stop()"&gt;Stop&lt;/button&gt;
+&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span class="text-font"&gt;Change Duration:&amp;nbsp;&lt;/span&gt;
 &lt;button type="button" onclick="cd10()"&gt;10ms&lt;/button&gt;
 &lt;button type="button" onclick="cd100()"&gt;100ms&lt;/button&gt;
 &lt;button type="button" onclick="cd500()"&gt;500ms&lt;/button&gt;
 &lt;button type="button" onclick="cd1000()"&gt;1000ms&lt;/button&gt;
 &lt;br&gt;
 
-&lt;span id="text-font"&gt;Change Size:&amp;nbsp;&lt;/span&gt;
+&lt;span class="text-font"&gt;Change Size:&amp;nbsp;&lt;/span&gt;
 &lt;button type="button" onclick="larger()"&gt;Larger&lt;/button&gt;
 &lt;button type="button" onclick="smaller()"&gt;Smaller&lt;/button&gt;
 &lt;br&gt;
 
-&lt;span id="text-font"&gt;玲音/lain:&amp;nbsp;&lt;/span&gt;
-&lt;button type="button" id="text-font" onclick="lain_v = true"&gt;ON&lt;/button&gt;
-&lt;button type="button" id="text-font" onclick="lain_v = false"&gt;OFF&lt;/button&gt;
-&lt;p id="text-font"&gt;Full Screen: &lt;a href="full_game-of-life.html"&gt;●&lt;/a&gt;, &lt;a href="lain_game-of-life.html"&gt;玲音/lain&lt;/a&gt;&lt;/p&gt;
+&lt;span class="text-font"&gt;玲音/lain:&amp;nbsp;&lt;/span&gt;
+&lt;button type="button" class="text-font" onclick="lain_v = true"&gt;ON&lt;/button&gt;
+&lt;button type="button" class="text-font" onclick="lain_v = false"&gt;OFF&lt;/button&gt;
+&lt;p class="text-font"&gt;Full Screen: &lt;a href="full_game-of-life.html"&gt;●&lt;/a&gt;, &lt;a href="lain_game-of-life.html"&gt;玲音/lain&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;/div&gt;
 
