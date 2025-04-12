@@ -67,7 +67,7 @@ button.hoge {
   body {
     margin: 2.5% 5% 5% 5%;
     font-family: 'Inter', 'Noto Sans JP', sans-serif;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
     line-height: 1.8;
     color: var(--font-color);
     background-color: var(--b-color);
