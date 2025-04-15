@@ -115,6 +115,7 @@ button.hoge {
   }
   #article_title2 {
     line-height: 1.0;
+    letter-spacing: 0.01rem;
   }
 }
 @media (max-width: 768px) {
@@ -258,5 +259,6 @@ button.hoge {
   #article_title2 {
     line-height: 1.0;
     font-size: 24px;
+    letter-spacing: 0.01rem;
   }
 }
