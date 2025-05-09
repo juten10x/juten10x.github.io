@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&display=swap');
 :root {
+  --font-color: black;
   --b-color: white;
   --link-color: royalblue;
 }
@@ -127,7 +128,7 @@ button.hoge {
   body {
     margin: 0% 5% 5% 5%;
     font-family: 'Inter', 'Noto Sans JP', sans-serif;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.03rem;
     line-height: 1.8;
     color: var(--font-color);
     background-color: var(--b-color);
