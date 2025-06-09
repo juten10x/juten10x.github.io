@@ -2,10 +2,6 @@
 jQuery JavaScript Library v3.7.1
 https://jquery.com/
 
-Copyright OpenJS Foundation and other contributors
-Released under the MIT license
-https://jquery.org/license
-
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -10736,14 +10732,7 @@ return jQuery;
 
 /*
 Lightbox v2.11.5
-by Lokesh Dhakar
-
-More info:
 http://lokeshdhakar.com/projects/lightbox2/
-
-Copyright Lokesh Dhakar
-Released under the MIT license
-https://github.com/lokesh/lightbox2/blob/master/LICENSE
 
 The MIT License (MIT)
 
