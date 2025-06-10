@@ -128,10 +128,10 @@ body.lb-disable-scrolling {
 
 @media (min-width: 768px) {
   .lb-nav a.lb-prev {
-    width: 40px;
+    width: 100px;
     left: 0;
     float: left;
-    background: url(./images/prev.png) left 48% no-repeat;
+    background: url(./images/prev2.png) left 48% no-repeat;
     margin-left: -100px;
     opacity: 0.7;
     /*
@@ -147,10 +147,10 @@ body.lb-disable-scrolling {
   }
 
   .lb-nav a.lb-next {
-    width: 40px;
+    width: 100px;
     right: 0;
     float: right;
-    background: url(./images/next.png) right 48% no-repeat;
+    background: url(./images/next2.png) right 48% no-repeat;
     margin-right: -100px;
     opacity: 0.7;
     /*
