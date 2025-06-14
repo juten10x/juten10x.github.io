@@ -64,6 +64,9 @@ button.hoge {
   font-size: 16px;
   font-weight: 200;
 }
+h2, h3 {
+  margin: 0 0 -8px 0;
+}
 
 @media (min-width: 768px) {
   html {
