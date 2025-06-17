@@ -27,6 +27,12 @@ figcaption {
   margin-top: -4px;
   font-size: 14px;
 }
+h2 {
+  margin: 0 0 -8px 0;
+}
+h3 {
+  margin: 8px 0 -8px 0;
+}
 details {
   margin: -14px 0 16px 0;
 }
@@ -63,12 +69,6 @@ button.hoge {
 #article_date {
   font-size: 16px;
   font-weight: 200;
-}
-h2 {
-  margin: 0 0 -8px 0;
-}
-h3 {
-  margin: 8px 0 -8px 0;
 }
 
 @media (min-width: 768px) {
@@ -147,8 +147,11 @@ h3 {
   figure {
     margin: 0 0 16px 0;
   }
-  h2 {
-    line-height: 1.4;
+  h2.beforeImage {
+    margin: 0 0 -2px 0;
+  }
+  h3.beforeImage {
+    margin: 8px 0 -2px 0;
   }
   .image1 {
     width: 100%;
