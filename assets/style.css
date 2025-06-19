@@ -36,6 +36,9 @@ h3 {
 details.index {
   margin: -14px 0 16px 0;
 }
+details {
+  margin: 8px 0 24px 0;
+}
 code {
   font-family: 'Inconsolata', 'Noto Sans JP';
   font-weight: 500;
