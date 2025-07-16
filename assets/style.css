@@ -25,7 +25,7 @@ img {
 }
 figcaption {
   margin-top: -4px;
-  font-size: 14px;
+  font-size: 12px;
 }
 h2 {
   margin: 0 0 -8px 0;
@@ -142,6 +142,7 @@ button.hoge {
   body {
     margin: 0% 5% 5% 5%;
     font-family: 'Inter', 'Noto Sans JP', sans-serif;
+    font-size: 15px;
     letter-spacing: 0.03rem;
     line-height: 1.8;
     color: var(--font-color);
@@ -151,7 +152,7 @@ button.hoge {
     margin: 0 0 16px 0;
   }
   h2.beforeImage {
-    margin: 0 0 -2px 0;
+    margin: 0 0 0.5px 0;
   }
   h3.beforeImage {
     margin: 8px 0 -2px 0;
@@ -169,7 +170,7 @@ button.hoge {
     display: none;
   }
   #main {
-    margin: 14% 0 0 0;
+    margin: 10% 0 0 0;
   }
   #menu_forPhone {
     user-select: none;
