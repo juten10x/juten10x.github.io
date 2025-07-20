@@ -268,11 +268,11 @@ button.hoge {
   }
   .i-btn:checked ~ #menu_board {
     border: solid royalblue 1.5px;
-    height: 270px;
+    height: 230px;
   }
   .i-btn:checked ~ #menu_board2 {
     border: solid royalblue 1.5px;
-    height: 230px;
+    height: 190px;
   }
   .i-btn:checked ~ #menu_list {
     opacity: 1;
