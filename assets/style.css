@@ -120,6 +120,10 @@ button.hoge {
   .image3 {
     width: 48%;
   }
+  #_image1 {
+    width: 110px;
+    margin-bottom: -4px;
+  }
   figcaption {
     margin-top: -4px;
     font-size: 14px;
@@ -165,6 +169,10 @@ button.hoge {
   }
   .image3 {
     width: 100%;
+  }
+  #_image1 {
+    width: 105px;
+    margin-bottom: -4px;
   }
   figcaption {
     margin-top: -4px;
