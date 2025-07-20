@@ -183,9 +183,9 @@ body.lb-disable-scrolling {
     */
   }
 
-  .lb-nav a.lb-prev:hover {
+  /*.lb-nav a.lb-prev:hover {
     opacity: 1;
-  }
+  }*/
 
   .lb-nav a.lb-next {
     width: 40px;
@@ -203,9 +203,9 @@ body.lb-disable-scrolling {
     */
   }
 
-  .lb-nav a.lb-next:hover {
+  /*.lb-nav a.lb-next:hover {
     opacity: 1;
-  }
+  }*/
 }
 .lb-dataContainer {
   margin: 0 auto;
