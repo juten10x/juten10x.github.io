@@ -172,8 +172,8 @@ body.lb-disable-scrolling {
     left: 0;
     float: left;
     background: url(./images/prev2.png) right 48% no-repeat;
-    margin: 90% 0 0 -7%;
-    padding: 0 10px 0 50px;
+    margin: 90% 0 0 0;
+    padding: 0 10px 0 40px;
     opacity: 0.7;
     /*
     -webkit-transition: opacity 0.6s;
@@ -192,8 +192,8 @@ body.lb-disable-scrolling {
     right: 0;
     float: right;
     background: url(./images/next2.png) left 48% no-repeat;
-    margin: 90% -7% 0 0;
-    padding: 0 50px 0 10px;
+    margin: 90% 0 0 0;
+    padding: 0 40px 0 10px;
     opacity: 0.7;
     /*
     -webkit-transition: opacity 0.6s;
