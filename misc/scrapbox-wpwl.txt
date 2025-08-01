@@ -1,0 +1,762 @@
+Webページのウォッチリスト
+サイバーセキュリティ
+ https://www.ipa.go.jp/security/security-alert/index.html ~ 重要なセキュリティ情報 | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構
+ https://jvn.jp/ ~ Japan Vulnerability Notes
+ https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/ ~ 国民のためのサイバーセキュリティサイト
+ メディア
+ 　https://www.itmedia.co.jp/news/subtop/security/#Newarticles ~ セキュリティ・ホットトピックス by ITmedia NEWS
+ 　https://internet.watch.impress.co.jp/category/topic/security/ ~ トピック セキュリティ - INTERNET Watch
+  https://piyolog.hatenadiary.jp/ ~ piyolog
+
+メタバース・[xR]関連
+ プラットフォーム
+  https://resonite.com/ ~ Resonite
+   https://wiki.resonite.com/Main_Page/ja ~ メインページ - Resonite Wiki
+   https://github.com/Yellow-Dog-Man/Resonite-Issues ~ Yellow-Dog-Man/Resonite-Issues: Issue repository for Resonite.
+   Resonite非公式ページ
+    https://resonite.love/ ~ resonite.love
+    https://about.uni-pocket.com/ja  ~ UniPocket
+    https://wikiwiki.jp/resonaito/ ~ Resonite技術 Wiki*
+  https://hello.vrchat.com/ ~ VRChat
+   https://wiki.vrchat.com/wiki/Main_Page/ja ~ VRChat Wiki
+   https://ask.vrchat.com/ ~ VRChat Ask Forum - The official VRChat discussion forum.
+  https://cluster.mu/ ~ メタバースプラットフォーム cluster（クラスター）
+  https://virtualcast.jp/ ~ メタバースプラットフォーム | バーチャルキャスト`[`VirtualCast`]`
+  https://holoearth.com/ ~ ホロアース
+ イベント
+ 　https://vket.com/ ~ バーチャルマーケット
+ チャレンジ
+ 　https://ivrc.net/ ~ IVRC | Interverse Virtual Reality Challenge
+ メタバースプラットフォームの企業
+  https://yellowdogman.com/ ~ Yellow Dog Man Studios
+  https://hello.vrchat.com/ ~ VRChat
+ 　https://corp.cluster.mu/ ~ クラスター株式会社｜cluster
+ 　https://corp.virtualcast.jp/ ~ TOPICS | 株式会社バーチャルキャスト VirtualCast, Inc.
+ 　https://cover-corp.com/ ~ カバー株式会社 | つくろう。世界が愛するカルチャーを。
+ メタバース・xR関連産業の企業
+  https://hikky.co.jp/ ~ HIKKY‐世界最大のVRイベント『バーチャルマーケット』をはじめ、最先端のメタバース体験を提供する企業
+ 　https://weaverselab.com/ ~ WeaverseLab株式会社
+ 　https://www.infiniteloop.co.jp/ ~ 北海道札幌市・宮城県仙台市のVR・ゲーム・システム開発 インフィニットループ
+ 　https://www.gatebox.ai/ ~ Gatebox株式会社
+ メタバース関連デバイスの企業
+  https://www.vive.com/jp/ ~ VIVE 日本 | 想像を超えたバーチャルリアリティの体験
+  https://www.picoxr.com/jp ~ PICO バーチャル リアリティ | 公式ウェブサイト | PICO Japan
+  https://www.sony.jp/mocopi/?srsltid=AfmBOoohdiIGsXIPBnSLCn-IFhn7udWKrIuzkEG9qVE4gEf3FzaSwV5h ~ モバイルモーションキャプチャー mocopi | ソニー
+  https://shop.roox.jp/ ~ ROOX Online - ROOXxR - Meet Tangible
+  https://www.meta.com/jp/ ~ Meta - MR・VRヘッドセット、グラスを購入する | Metaストア
+ 研究室
+ 　https://star.rcast.u-tokyo.ac.jp/ ~ INFORMATION SOMATICS LAB – RCAST, THE UNIVERSITY OF TOKYO
+ メディア
+  https://www.moguravr.com/ ~ Mogura VR - VRの「いま」を掘りだすニュースメディア
+   https://www.moguravr.com/live/ ~ MoguLive - バーチャルで遊ぶ・楽しむエンタメメディア
+   https://www.moguravr.com/news/ ~ MoguraVR News - XRの「いま」を掘り出すビジネステックメディア
+  https://panora.tokyo/ ~ PANORA – 「日本にVRを広める」がミッションのVRニュースサイト
+   https://panora.tokyo/archives/tag/メタバース ~ メタバース | PANORA
+ アバター服飾ブランド
+ 　https://yoyogimori.com/ ~ YOYOGI MORI - アバター服飾ブランド
+ 技術者
+  https://www.youtube.com/VoxelKei ~ VoxelKei - YouTube
+ 　https://orangejp.net/ ~ orange portfolio
+ 　https://www.yorimiyastudio.com/ ~ YORIMIYA STUDIO
+ 情報を発信している方
+  https://orangejp.net/ ~ orange portfolio
+  https://note.com/rabbuttz ~ あむ/Rabbuttz｜note
+  https://note.com/akiram_vr ~ akiRAM｜note
+  https://dinosaur-fossil.hatenablog.com/ ~ 恐竜の化石
+  https://note.com/sirojake ~ ginjake｜note
+  https://j4.lc/ ~ Jae "J4" Lo Presti
+   https://b.j4.lc/ ~ Jae's Blog
+  ( 以下は一時的にリストしているページ )
+   [# https://nachia.tech/blog/vrchat/ ~ VRChat 技術記録 - Nachia]
+   [# https://noclip.in/ ~ NOCLIP.in]
+   [# https://blog.pikegadge.com/ ~ ぴけっとガジェット]
+   [# https://note.com/zozokasu ~ ぞぞかす｜note]
+   [# https://note.com/rocrocot ~ ロクロ｜note]
+   [# https://note.com/ketowatary ~ ととやま｜note]
+   [# https://note.com/usutabi ~ うすたび｜note]
+   [# https://note.com/tonby_oxide ~ tonby｜note]
+   [# https://note.com/hutsunoningen ~ 普通の人間｜note]
+   [# https://note.com/markn2000 ~ まーくん。｜note]
+   [# https://note.com/liudmilabre ~ Liudmila Bredikhina｜note]
+   [# https://researchmap.jp/nemchan_nel ~ バーチャル美少女 ねむ (Nem Virtual Girl) - マイポータル - researchmap]
+ その他
+  https://www.soumu.go.jp/ ~ 総務省
+   https://www.soumu.go.jp/main_sosiki/kenkyu/metaverse/ ~ 総務省｜Web3時代に向けたメタバース等の利活用に関する研究会｜Web3時代に向けたメタバース等の利活用に関する研究会
+   https://www.soumu.go.jp/main_sosiki/kenkyu/metaverse2/ ~ 総務省｜安心・安全なメタバースの実現に関する研究会｜安心・安全なメタバースの実現に関する研究会
+
+アーティスト
+ https://okikata.org/ ~ Akihiko Taniguchi
+ http://snowcontemporary.com/artist/yonezawa_shu.html ~ SNOW Contemporary (注: 米澤柊)
+ `https://rintarofuse.com/` ~ 布施琳太郎 Rintaro Fuse
+  http://www.snowcontemporary.com/artist/fuse_rintaro.html ~ SNOW Contemporary (注: 布施琳太郎)
+ https://matsuuratomoya.com/ ~ Toppage - Matsuura Tomoya|松浦知也
+  https://garden.matsuuratomoya.com/ ~ Matsuura Tomoya Research Note
+ https://evala.jp/ ~ evala | official website
+ 　https://hackingtone.space/ ~ hacking tone by evala 2007
+ https://www.ryojiikeda.com/ ~ ryoji ikeda  |  news
+ https://baku89.com/ ~ 橋本 麦 - Baku Hashimoto
+ 　https://baku89.com/blog ~ Blog | 麦 Baku
+ https://ayumu-nagamatsu.com/ ~ 永松 歩 | Ayumu Nagamatsu
+ https://yoichiochiai.com/ ~ 落合陽一公式ページ / Yoichi Ochiai Official Portfolio
+ https://www.yorimiyastudio.com/ ~ YORIMIYA STUDIO
+ https://hiraiportfolio.web.app/ ~ Hirai's Portfolio
+ https://openprocessing.org/user/6533/ ~ takawo - OpenProcessing
+ https://aguyoshi.net/ ~ アグネス吉井 Aguyoshi | 街を歩き外で踊る2人組ダンスユニット。A dance duo based in Japan that explores the city on foot and performs outdoors.
+
+映像作家
+ https://baku89.com/ ~ 橋本 麦 - Baku Hashimoto
+ https://aodaruma.net/ ~ Aodaruma
+ https://stnw.org/ ~ Director Hiroshi Kondo
+ https://www.kojiaramaki.org/ ~ Koji Aramaki
+ https://yohsukechiai.com/ ~ yohsukechiai.com
+ https://hiromuoka.com/ ~ Hiromu Oka
+ https://takashiohashi.com/ ~ Takashi Ohashi
+ https://gupon.jp/ ~ GUPON
+ https://yonayonagraphics.com/ ~ yonayona graphics
+ http://www.hsgn.tk/ ~ index.html (注: Takuya Hosogane)
+ https://www.google.com/search?q=伊藤高志 ~ 伊藤高志 - Google 検索
+ https://taotajima.jp/ ~ TAO TAJIMA | Filmmaker
+ https://oumlr.com/ ~ shun yamaguchi
+ https://followthedarkside.com/ ~ FOLLOW THE DARKSIDE
+ https://ismsx.jp/ ~ isshin
+ https://kataisarachi.com/ ~ katai sarachi
+
+映画監督
+ https://takeshi-kitano.jp/ ~ 北野武 公式サイト
+ https://ja.wikipedia.org/wiki/濱口竜介 ~ 濱口竜介 - Wikipedia
+ http://www.kore-eda.com/ ~ KORE-EDA.com
+ https://www.google.com/search?q=伊藤高志 ~ 伊藤高志 - Google 検索
+ https://www.google.com/search?q=奥山由之 ~ 奥山由之 - Google 検索
+
+サウンドアーティスト、サウンドデザイナー、音楽家、シンガーソングライター
+ https://evala.jp/ ~ evala | official website
+  https://hackingtone.space/ ~ hacking tone by evala 2007
+ https://www.ryojiikeda.com/ ~ ryoji ikeda  |  news
+ https://hakushihasegawa.com/ ~ 長谷川白紙 – HAKUSHI HASEGAWA official site
+ https://www.tofubeats.com/ ~ tofubeats
+ https://agraph.jp/ ~ agraph – kensuke ushio official site
+ https://www.google.com/search?q=笠松広司 ~ 笠松広司 - Google 検索
+ https://kabanagu.com/ ~ Kabanagu
+ https://www.pasoconongaku.club/ ~ PASOCOM MUSIC CLUB
+ https://susumuhirasawa.com/ ~ 平沢進公式サイト / Susumu Hirasawa Official Site
+ https://telematicvisions.neocities.org/ ~ Telematic Visions
+ https://porterrobinson.com/ ~ Porter Robinson SMILE! :D
+ https://kairuidesu.com/ ~ KAIRUI information – KAIRUI information
+ https://templi.me/ ~ TEMPLIME
+ https://hoshimiyatoto.com/ ~ HOSHIMIYA TOTO
+
+DJ
+ https://www.cannorin.net/ ~ cannorin.net
+
+VJ
+ https://hiraiportfolio.web.app/ ~ Hirai's Portfolio
+ https://baku89.com/ ~ 橋本 麦 - Baku Hashimoto
+  https://www.youtube.com/watch?v=r71TtQSKpz8 ~ imai / Mad Mouse (VJ:橋本麦) - YouTube
+ https://tndhjm.com/ ~ Tsunoda Hajime
+ https://www.sainakey.com/ ~ SainaKey
+  https://www.youtube.com/watch?v=qckeZlz1am4 ~ 【2024年度未踏／No.4】ジェネラティブVJソフトウェアの開発を容易にするシステム - YouTube
+
+クラブイベント
+　https://nighthike.net/ ~ NIGHT HIKE
+
+サウンドアート
+ https://www.kcm-sd.ac.jp/ ~ 国立音楽大学コンピュータ音楽／音楽デザイン研究室
+ https://seebyyourears.jp/ ~ See by Your Ears | evala, Official Website
+ https://soundcloud.com/shun-nakaseko-1 ~ Stream Ｓhun Ｎakaseko music | Listen to songs, albums, playlists for free on SoundCloud
+ http://lucferrari.com/en/program/ ~ Program - Luc Ferrari
+  https://association-presquerien.hatenablog.com/ ~ リュック・フェラーリの『プレスク・リヤン協会』（簡易日本語版）
+ https://sound3.co.jp/denshi-ongaku/ ~ 音の始源を求めて NHK電子音楽作品集 The Beginnings of Japanese Electroacoustic
+
+イラストレーター、アニメーター
+ https://bansoukou.org/ ~ WATARU336 (注: 植草航)
+ https://suzukiharuka.com/ ~ スズキハルカ/SUZUKI HARUKA
+ https://www.google.com/search?q=松本慶祐 ~ 松本慶祐 - Google 検索
+ http://www.ukix.org/nl/ ~ niralog (注: 宇木敦哉)
+ https://1041uuu.jp/ ~ 1041uuu展示室
+ https://heikinritsu.com/ ~ 平均律 / HEIKINRITSU (注: robamoto)
+ http://akimasaweb.3zoku.com/ ~ Akimasa Tokunaga 徳永明正-イラストレーション-
+ https://emma-sky.com/ ~ lotus eater (注: スカイエマ)
+ 故人
+ 　https://konstone.s-kon.net/ ~ 今 敏 オフィシャル・サイト - KON'S TONE
+
+アニメ
+　https://www.haruhi.tv/ ~ SOS Dan web site
+　https://lucky-ch.com/ ~ 「らき☆すた」オフィシャルサイト／「らっきー☆ちゃんねるWEB」／「らきすた」公式サイト
+　https://city-the-animation.com/ ~ 『CITY THE ANIMATION』公式サイト
+　http://land-of-the-lustrous.com/ ~ TVアニメ『宝石の国』公式サイト
+
+アニメーション制作会社
+　https://www.khara.co.jp/ ~ 株式会社カラー
+　https://www.ghibli.jp/ ~ スタジオジブリ｜STUDIO GHIBLI
+　https://www.orange-cg.com/ ~ Orange Co.,Ltd. - CG Animation Studio
+　https://www.kyotoanimation.co.jp/ ~ 京都アニメーション
+　https://a1p.jp/ ~ A-1 Pictures オフィシャルサイト
+　http://nutinc.jp/ ~ 株式会社ナット NUT Inc.
+　https://studiochizu.jp/ ~ スタジオ地図
+　https://yostar-pictures.co.jp/ ~ Yostar Pictures
+　https://pieinthesky.jp/ ~ Pie in the sky
+　https://studioalble.co.jp/ ~ スタジオオーブル｜studio ALBLE
+　http://lapintrack.com/wp/ ~ ラパントラック
+　https://cygamespictures.co.jp/ ~ CygamesPictures
+　https://amepippin.com/ ~ ame pippin
+　https://sciencesaru.com/ ~ サイエンスSARU - Science SARU
+　https://cloverworks.co.jp/ ~ CloverWorks Official site
+　https://www.dogakobo.com/ ~ 株式会社動画工房
+　https://www.shaft-web.co.jp/ ~ SHAFT Animation Studio
+　 https://shaft-50th.jp/exhibition/ ~ シャフト50周年展
+　https://www.madhouse.co.jp/ ~ マッドハウス
+　https://poncotan.jp/ ~ STUDIO PONCOTAN（スタジオ ポンコタン）
+
+映像制作
+ https://ins-stud.io/ ~ ins-stud.io
+ https://mimoid.inc/ ~ mimoid
+ https://rhizomatiks.com/ ~ Rhizomatiks
+ https://www.flapper3.co.jp/ ~ flapper3 Inc.
+ https://signif.jp/ ~ SIGNIF
+ https://morie-inc.com/ ~ MORIE Inc.（株式会社 MORIE）
+ https://vixi-vixi.jp/ ~ VIXI INC
+ https://tsuributokyo.com/ ~ 釣部東京
+ https://www.khara.co.jp/ ~ 株式会社カラー
+ https://www.w0w.co.jp/ ~ TOP | WOW
+ https://nanameinc.jp/ ~ 株式会社ナナメ - CREATIVE MOVIE MAKER
+ https://a4a.jp/ ~ A4A
+ https://www.likiinc.com/ ~ LIKI Inc.
+ https://hurray.fun/ ~ Hurray!
+ https://kakoneko.com/ ~ かこねこ / KITTENED
+ https://www.pvsf.jp/ ~ オンライン映像イベント / PVSF
+
+メディア芸術関連の団体
+　https://generativeart.or.jp/ ~ 一般財団法人ジェネラティブアート振興財団
+ https://www.janica.jp/ ~ 日本アニメーター・演出協会（JAniCA）
+ https://www.jsscc.net/ ~ 日本マンガ学会
+
+デザイナー
+ https://heijiroyagi.com/ ~ Heijiro Yagi
+ http://kosei-komatsu.com/ ~ Kosei Komatsu Studio
+ https://www.tokujin.com/ ~ 吉岡徳仁デザイン事務所 - TOKUJIN YOSHIOKA
+ https://shunsukesugiyama.com/ ~ Shunsuke Sugiyama
+ https://o24.works/ ~ 大西拓磨｜Takuma Ōnishi
+ https://kashiwasato.com/ ~ KASHIWA SATO - CREATIVE DIRECTOR / SAMURAI INC. TOKYO
+ https://pointlessimages.com/ ~ Naoki Takehisa｜竹久直樹
+
+デザインスタジオ
+ https://www.cog.ooo/ ~ www.cog.ooo
+ https://to2kyo2.com/ ~ 東東京京 | TO2KYO2
+ https://emuni.co.jp/ ~ emuni
+
+ウェブデザイナー
+ https://unshift.jp/ ~ unshift - I'm a creative / front-end developer. (注: Takumi Hasegawa)
+  https://tkmh.me/ ~ Takumi Hasegawa
+ https://p5aholic.me/ ~ Keita Yamada
+
+文筆家、評論家、作家、脚本家
+ https://ferne-web.com/ ~ ferne web
+  https://note.com/sr_ktd ~ 北出栞 siori kitade｜note
+　https://cruel.org/jindex.html ~ YAMAGATA Hiroo: The Official J-Page
+　 https://cruel.org/freeware/hacker.html ~ How To Become A Hacker: Japanese
+　 https://cruel.org/freeware/noosphere.html ~ Homesteading the Noosphere: Japanese
+　 https://www.genpaku.org/ ~ Project Sugita Genpaku
+　http://self-reference.engine.sub.jp/ ~ Self-Reference ENGINE
+　 https://github.com/EnJoeToh ~ EnJoeToh (EnJoeToh)
+　 https://mstdn.jp/@enjoetoh ~ enjoetoh (@enjoetoh@mstdn.jp) - mstdn.jp
+ https://nyalra.com/ ~ にゃるら
+  https://angelkawaii.com/ ~ 超絶最かわてんしちゃん - 公式サイト
+ https://yubais.net/ ~ 柞刈湯葉のWebサイト Yuba Isukari
+ 　https://kakuyomu.jp/users/yubais ~ 柞刈湯葉（@yubais） - カクヨム
+ 　https://yubais.hatenablog.com/ ~ 1400字制限
+ https://null.style/ ~ からっぽもーど
+ http://www.konaka.com/ ~ Alice6 Chiaki J. Konaka's Web
+  https://yamaki-nyx.hatenablog.com/entry/2018/04/27/145823 ~ Present day, present time... - welcome back to wired
+
+批評
+ https://ferne-web.com/ ~ ferne web
+ https://mediensysteme2019.wordpress.com/ ~ 学術誌『メディウム』 – Medien bestimmen unsere Lage, die (trotzdem oder deshalb) eine Beschreibung verdient.
+　https://soramimi.neocities.org/ ~ 奇想同人音声評論誌 空耳
+　https://nyalra.com/ ~ にゃるら
+ https://hito-horobe.net/ ~ hito-horobe.net
+
+写真家
+ https://pointlessimages.com/ ~ Naoki Takehisa｜竹久直樹
+ https://sizu.me/sa ~ sa｜しずかなインターネット
+ https://mikiyatakimoto.com/ ~ MIKIYA TAKIMOTO PHOTOGRAPH OFFICE - 瀧本幹也
+ https://eizo-gak.com/ ~ 映像学区
+
+建築家、建築事務所
+ http://www.tadao-ando.com/ ~ 安藤忠雄建築研究所 Tadao Ando
+ http://www.sanaa.co.jp/ ~ Kazuyo Sejima + Ryue Nishizawa / (注: SANAA)
+
+VTuber
+ https://natorisana.com/ ~ natorisana.com (注: 名取さな)
+ https://saeki-yahiro.wixsite.com/official ~ VTuber | さえきやひろオフィシャルサイト
+ https://ptrsuou.com/ ~ 周防パトラオフィシャルサイト
+ https://voms.net/ ~ VOMS .net
+
+VTuber事務所
+ https://www.nijisanji.jp/ ~ にじさんじ
+   https://www.anycolor.co.jp/ ~ ANYCOLOR株式会社（ANYCOLOR Inc.)
+    https://magazine.anycolor.co.jp/ ~ ANYCOLOR MAGAZINE
+    https://www.nornis.com/ ~ Nornis
+ https://hololivepro.com/ ~ ホロライブプロダクション
+  https://cover-corp.com/ ~ カバー株式会社 | つくろう。世界が愛するカルチャーを。
+  https://holoearth.com/ ~ ホロアース
+ https://vspo.jp/ ~ ぶいすぽっ！ | 公式サイト
+  https://bravegroup.co.jp/ ~ 株式会社Brave group | 80億の、心をうちぬけ
+   https://virtual-entertainment.co.jp/ ~ 株式会社バーチャルエンターテイメント | Virtual Entertainment Inc.
+
+VTuberファンによるページ
+ https://wikiwiki.jp/nijisanji/ ~ にじさんじ Wiki*
+ https://wikiwiki.jp/sana_natori/ ~ 名取さな非公式Wiki Wiki*
+ https://www.natorisana.love/ ~ さなボタン(2)
+
+VTuber関連のイベント等の配信サービス
+　https://www.zan-live.com/ja/ ~ トップページ - Z-aN
+
+研究機関
+ https://www.nii.ac.jp/ ~ 国立情報学研究所 / National Institute of Informatics
+ https://www.aist.go.jp/ ~ AIST： 産業技術総合研究所
+  https://songrium.jp/ ~ Songrium - つながりを用いた新しい音楽鑑賞を
+  https://kiite.jp/ ~ Kiite - 好みの楽曲と出会える音楽発掘サービス
+
+大学
+ https://www.iii.u-tokyo.ac.jp/ ~ 東京大学大学院 情報学環・学際情報学府 - The University of Tokyo Interfaculty Initiative in Information Studies Graduate School of Interdisciplinary Information Studies
+ https://www.iamas.ac.jp/ ~ 情報科学芸術大学院大学 `[`IAMAS`]` ｜ Institute of Advanced Media Arts and Sciences
+  https://nxpclab.info/ ~ NxPC.Lab - Next dimension Plural media Club experience. Laboratory
+ https://www.tohoku.ac.jp/japanese/ ~ 東北大学 -TOHOKU UNIVERSITY-
+ https://u-aizu.ac.jp/ ~ 会津大学 - University of Aizu
+ https://www.jaist.ac.jp/index.html ~ JAIST 北陸先端科学技術大学院大学
+ https://www.naist.jp/ ~ 奈良先端科学技術大学院大学
+ https://www.oist.jp/ ~ Okinawa Institute of Science and Technology OIST
+ https://www.fun.ac.jp/ ~ 公立はこだて未来大学 -Future University Hakodate-
+ https://www.isct.ac.jp/ja ~ Science Tokyo - 東京科学大学
+ https://www.i.kyoto-u.ac.jp/ ~ 京都大学大学院情報学研究科
+ https://www.iuj.ac.jp/ ~ International University of Japan
+ https://www.design-architecture.kit.ac.jp/ ~ 京都工芸繊維大学大学院 建築学専攻・デザイン学専攻・KIT+CMU国際連携建築学専攻
+  https://www.d-lab.kit.ac.jp/ ~ KYOTO Design Lab
+ https://www.kcm-sd.ac.jp/ ~ 国立音楽大学コンピュータ音楽／音楽デザイン研究室
+ https://www.geidai.ac.jp/ ~ 東京藝術大学
+  https://games.geidai.ac.jp/ ~ Tokyo University of the Arts | Game Course – 東京藝術大学大学院映像研究科 ゲームコース｜Webサイト
+   https://www.geidai.ac.jp/news/20250707150227.html ~ 大学院映像研究科にゲーム・インタラクティブアート専攻を新設 | 東京藝術大学
+ https://www.kcua.ac.jp/ ~ 京都市立芸術大学
+ https://www.tamabi.ac.jp/ ~ 多摩美術大学
+ https://www.musabi.ac.jp/ ~ 武蔵野美術大学
+ https://www.kyoto-seika.ac.jp/ ~ 京都精華大学
+ https://www.nagaoka-id.ac.jp/ ~ 公立大学法人長岡造形大学
+ https://www.kyoto-art.ac.jp/ ~ 京都芸術大学
+ https://www.osaka-geidai.ac.jp/ ~ 大阪芸術大学
+ https://www.shiga-u.ac.jp/newslist/ ~ 大学からのお知らせ – 滋賀大学
+
+研究室
+　https://star.rcast.u-tokyo.ac.jp/ ~ INFORMATION SOMATICS LAB – RCAST, THE UNIVERSITY OF TOKYO
+
+研究者
+ http://dnobori.cs.tsukuba.ac.jp/ja/ ~ 登 大遊 のホームページ
+ https://www.kurims.kyoto-u.ac.jp/~motizuki/ ~ 望月新一＠数理研
+ https://www.gakushuin.ac.jp/~881791/indexJ.html ~ Hal Tasaki's main web page in Japanese
+ https://researchmap.jp/takeyama ~ 竹山 美宏 (Yoshihiro TAKEYAMA) - マイポータル - researchmap
+ https://www.math.shimane-u.ac.jp/~tosihiro/ ~ Toshihiro NAKANISHI (Cover)
+ https://okumuralab.org/~okumura/ ~ 奥村 晴彦 | Haruhiko Okumura
+ https://g-omr.github.io/ ~ Takayuki Omori Home Page
+ http://www.akimichitakemura.com/athp/ ~ Akimichi Takemura
+ https://www.shimizulab.org/ss ~ Shimizu Lab. - SHIMIZU Shohei | 清水昌平
+ https://imoz.jp/ ~ プロフィール - いもす研 (imos laboratory)
+  https://imoz.jp/algorithms/imos_method.html ~ いもす法 - いもす研 (imos laboratory)
+ https://takiba.net/ ~ Takuya Akiba
+  https://iwiwi.hatenablog.com/ ~ iwiwiの日記
+  https://iwiwi.hatenadiary.jp/ ~ iwiwi 備忘録
+ https://tmaehara.gitlab.io/ ~ Takanori Maehara
+ http://herumi.in.coocan.jp/ ~ With Unz
+ https://researchmap.jp/nemchan_nel ~ バーチャル美少女 ねむ (Nem Virtual Girl) - マイポータル - researchmap
+ https://researchmap.jp/deinotaton ~ 難波 優輝 (Yuuki Namba) - マイポータル - researchmap
+ https://baku89.com/ ~ 橋本 麦 - Baku Hashimoto
+ https://matsuuratomoya.com/ ~ Toppage - Matsuura Tomoya|松浦知也
+
+競プロer[# （競プロをすでに引退しているっぽい方もリストしています） ]
+ https://imoz.jp/ ~ プロフィール - いもす研 (imos laboratory)
+ https://takiba.net/ ~ Takuya Akiba
+  https://iwiwi.hatenablog.com/ ~ iwiwiの日記
+ https://wata-orz.hatenablog.com/ ~ wataの日記
+ http://chokudai.net/ ~ 高橋直大 プロフィール
+  https://chokudai.hatenablog.com/ ~ chokudaiのブログ
+ https://blog.mitrichev.ch/ ~ Algorithms Weekly by Petr Mitrichev
+ https://tozangezan.github.io/ ~ Ikumi Hide | tozangezan.github.io
+  https://tozangezan.hatenablog.com/ ~ tozangezan's diary
+ https://snuke.main.jp/ ~ Snuke
+  https://scrapbox.io/snuke ~ snuke
+ https://semiexp.net/ ~ semiexp.net
+ https://hos.ac/ ~ hos.ac
+ https://sigma425.hatenablog.com/ ~ sigma425のブログ
+ https://degwer.hatenablog.com/ ~ DEGwerのブログ
+ https://natsugiri.hatenablog.com/ ~ でも今日はSRMあるから
+ https://yosupo.hatenablog.com/ ~ よすぽの日記
+ https://nachia.tech/ ~ Top - Nachia
+  https://www.mathenachia.blog/ ~ Mathenachia
+ https://kotatsugame.hatenablog.com/ ~ kotatsugameの日記
+ https://noshi91.hatenablog.com/ ~ noshi91のメモ
+ https://rsk0315.hatenablog.com/ ~ えびちゃんの日記
+ https://259-momone.hatenablog.com/ ~ 競プロをはじめた家事手伝いロボットのブログ
+ https://physics0523.hatenablog.com/ ~ physics0523's 精進ログ
+  https://clist.by/coder/physics0523/ ~ physics0523 - Coder - CLIST
+ https://ei1333.github.io/ ~ ei1333's page
+ https://drken1215.hatenablog.com/ ~ けんちょんの競プロ精進記録
+ https://kyopro-friends.hatenablog.com/ ~ kyopro_friends’ diary
+ https://e869120.hatenablog.com/ ~ E869120's Blog
+  https://qiita.com/e869120 ~ e869120 - Qiita
+ https://pctprobability.hatenablog.jp/ ~ PCTprobability's blog
+  https://scrapbox.io/pctsnote ~ PCT's Note
+ https://kodaman.hatenablog.com/ ~ Kodaman のメモ
+  https://scrapbox.io/Kodaman ~ Kodaman's memo
+ https://qiita.com/black-yuki ~ black-yuki - Qiita
+  https://black-yuki.hatenablog.com/ ~ blackyuki の日記
+ https://mtsaka.github.io/ ~ MtSaka
+  https://scrapbox.io/mtsaka-memo ~ mtsaka-memo
+ https://cyanmond.hatenablog.com/ ~ Cyanmond - 競技プログラミング
+ https://ret2home.github.io/blog/ ~ risoria's blog (注: define)
+  https://defineprogram.hatenablog.com/ ~ ACCE55_DE21ED
+ https://hotate29.github.io/ ~ hotate29
+ https://izayoi-r.hatenablog.com/ ~ 十六夜日記
+ https://atree4728.github.io/ ~ About
+ https://nouka28.hatenablog.com/ ~ nouka28のブログ
+ https://iroha-3856.hatenablog.com/ ~ Iroha_3856の日記
+ https://blueberry1001.hatenablog.com/ ~ blueberry1001のブログ
+  https://scrapbox.io/Atcoder-myReflection ~ Atcoder-myReflection-blueberry
+ https://scrapbox.io/magurofly ~ ま
+ https://tokusakurai.hatenadiary.jp/ ~ トークサクライ
+ http://rsujskf.s602.xrea.com/ ~ トップページ - ゲームにっき（仮）別館（仮） (注: LayCurse)
+ https://qcfium.hatenadiary.com/ ~ QCFiumのブログ
+ https://shinchankosen.hatenadiary.jp/ ~ 橙になりたいaquarium
+ https://series205.hatenablog.com/ ~ Series_205 のいろいろ
+ https://winter-2521.hatenablog.com/ ~ winter-2521の競プロメモ
+ https://bakamono1357.hatenablog.com/ ~ memo46 (注: siro53)
+ https://note.com/maguro3260 ~ maguro｜note (注: Altale)
+  https://scrapbox.io/magurosdiary ~ maguro's Diary (注: Altale)
+ https://kenkoooo.com/ ~ Applications | kenkoooo.github.io
+ https://yu212.dev/ ~ Yu_212's Website
+ https://keymoon.hatenablog.com/ ~ keymoonの日記
+ https://terry-u16.hatenablog.com/ ~ TERRYのブログ
+ https://poyo.me/ ~ そすうぽよ(prime)のページ
+ https://kaage.hatenablog.com/ ~ kaage精進録
+ https://primenumberzz.hatenablog.com/ ~ ぷの日記 (注: Puranya)
+ https://heno239.hatenablog.com/ ~ heno239’s blog
+ https://japlj.hatenablog.com/ ~ J * A * P * L * J
+
+競技プログラミング
+ https://atcoder.jp/ ~ AtCoder：競技プログラミングコンテストを開催する国内最大のサイト
+ https://codeforces.com/ ~ Codeforces
+ Aizu Online Judge
+  https://judge.u-aizu.ac.jp/onlinejudge/ ~ AIZU ONLINE JUDGE: Programming Challenge (注: AOJ 1.0)
+  https://onlinejudge.u-aizu.ac.jp/home ~ Aizu Online Judge (注: AOJ 2.0)
+  https://onlinejudge.u-aizu.ac.jp/beta/ice/ ~ Aizu Online Judge 3.0
+ https://yukicoder.me/ ~ yukicoder
+ https://clist.by/ ~ CLIST
+ https://joi.goodbaton.com/ ~ AOJ/AtCoder-JOI
+ https://cphof.org/ ~ Competitive Programming Hall Of Fame
+ https://icpc.global/ ~ The ICPC International Collegiate Programming Contest
+ https://icpc.jp/ ~ ICPC Japan
+ https://jag-icpc.org/ ~ FrontPage - ICPC OB/OG の会
+ https://www.ioi-jp.org/ ~ 日本情報オリンピック | 日本情報オリンピックの情報です
+
+タイパー、タイピスト
+ http://dqmaniac.g1.xrea.com/ ~ dqmaniac's Homepage
+ http://tanon710.s500.xrea.com/ ~ CGIとか使って色々やるページ | トップ
+ http://www.ceres.dti.ne.jp/~pocari/ ~ On the field
+
+個人サイト
+ https://kkofu.github.io/ ~ kkofu
+ https://mikanixonable.github.io/ ~ 月面植物園 | Mikanixonable
+ https://sno2wman.net/ ~ SnO2WMaN.net
+ https://www.cannorin.net/ ~ cannorin.net
+ https://www.yude.jp/ ~ yude.jp
+ https://h6i.org/ ~ 点点公社
+ https://sksat.net/ ~ sksat
+ https://いなにわうどん.みんな/ ~ いなにわうどん.みんな
+ https://ryotak.net/ ~ RyotaK's website
+ https://sosukesuzuki.dev/ ~ sosukesuzuki.dev
+ https://ternbusty.github.io/ ~ ternbusty
+ https://denasu.com/ ~ Denasu System
+ https://baldanders.info/ ~ Baldanders.info
+ https://efcl.info/ ~ Web Scratch
+ https://whileimautomaton.net/ ~ while (“im automaton”);
+ https://dimden.dev/ ~ dimden's hotel
+ https://ohashifrog.com/ ~ ohashi frog | おはしふろぐ
+ https://yokatoki.sakura.ne.jp/ ~ よかひよかとき
+ https://tim3.web.fc2.com/ ~ ティムの部屋
+ http://akimasaweb.3zoku.com/ ~ Akimasa Tokunaga 徳永明正-イラストレーション-
+ https://www16.big.or.jp/~zun/ ~ 上海アリス幻樂団
+ https://ideoaves.github.io/ ~ Ideoaves
+ https://hazuqu.github.io/ ~ 木葉はづく 🦉 HAZUQU
+ http://usada.sakura.vg/ ~ うさださくら
+ http://kochasuikei.web.fc2.com/ ~ 水景回遊
+ https://amagoyasairuiu.web.fc2.com/ ~ 雨小屋*トップページ
+ http://small9.web.fc2.com/ ~ small9.web
+ https://cosgaso.com/ ~ cosgaso
+ https://cumulist.net/ ~ CumulistHQ
+ https://moeken.moe/ ~ 萌研
+ https://hito-horobe.net/ ~ hito-horobe.net
+ http://www.puzzlein.com/ ~ パズル工房「葉樹林」
+ http://tsujimotter.info/ ~ tsujimotter のポートフォリオ
+ https://emma-sky.com/rice/ ~ ごはん入りホットケーキ友の会
+ https://ankokudan.org/d/ ~ 暗黒通信団 -The Darkside Communication Group-
+ https://navymule9.sakura.ne.jp/ikeda-jfirst.htm ~ 池田光穂のページにようこそ！
+ https://qri-chi-niq.notion.site/0ce71d8c921543f182df328508b986b7 ~ でかいキュウリの血と肉
+ https://eizo-gak.com/ ~ 映像学区
+  https://eizo-gak.com/blog/2022/2022-12-02/ ~ 第２弾！Lightroomプリセットを配布します【Kobe Classic White】｜映像学区
+  https://eizo-gak.com/blog/2022/2022-11-26/ ~ 2000年代のミライ系アニソン・ゲーソン・同人曲再生リストから伝えたいこと｜映像学区
+
+MyAnimeList
+ https://myanimelist.net/animelist/Kano_park?status=2&order=4 ~ Kano_park's Anime List - MyAnimeList.net (注: CompletedタブでScoreが高い順にソートした際の表示)
+ https://myanimelist.net/animelist/Archaeon?status=2&order=4 ~ Archaeon's Anime List - MyAnimeList.net (注: 同上)
+ https://myanimelist.net/animelist/Naufalalaziziyo?order=4&status=2 ~ Naufalalaziziyo's Anime List - MyAnimeList.net (注: 同上)
+ https://myanimelist.net/animelist/Skadi?status=2&order=4 ~ Skadi's Anime List - MyAnimeList.net (注: 同上)
+
+Bandcamp
+ https://bandcamp.com/nameyourprice ~ nameyourprice さんのコレクション | Bandcamp
+ https://bandcamp.com/babylonkey ~ babylonkey さんのコレクション | Bandcamp
+ https://bandcamp.com/fatal_stance ~ fatal_stance さんのコレクション | Bandcamp
+ https://bandcamp.com/alien_8823 ~ alien_8823 さんのコレクション | Bandcamp
+ https://bandcamp.com/baku89 ~ baku89 さんのコレクション | Bandcamp
+ https://bandcamp.com/sskhybrid ~ sskhybrid さんのコレクション | Bandcamp
+
+紀行ブログ
+ https://nagatorowo2.hatenablog.com/ ~ 石仏石神を求めて
+ https://ohashifrog.com/ ~ ohashi frog | おはしふろぐ
+ https://drive-ns.hatenablog.com/ ~ 記事一覧 - 週末大冒険
+ https://yuzuta-sanpo.com/ ~ ゆずた散歩
+ https://aguyoshi.net/moyayoshi/ ~ アグネス吉井の「もやよし」
+ https://hahaeatora.hateblo.jp/ ~ ダークサイドにようこそ!
+ https://www.departure-ruins.com/ ~ Departure | 時を超える冒険の旅へ
+ サービス
+  https://sanpoo.jp/ ~ サンポー｜誰かの散歩マガジン
+
+廃墟
+ https://haikyo.info/ ~ 廃墟検索地図
+ https://www.youtube.com/@ottenki_ ~ おってんき - YouTube
+ https://www.departure-ruins.com/ ~ Departure | 時を超える冒険の旅へ
+ https://ameblo.jp/rk-ppp/ ~ OUTDOOR 番外地！
+
+フォント
+ https://font.kim/ ~ 機械彫刻用標準書体フォント
+ https://rsms.me/inter/ ~ Inter font family
+
+lain
+ https://www.nbcuni.co.jp/rondorobe/anime/lain/ttl/ ~ serial experiments lain TTL 2019-2028
+ http://www.konaka.com/ ~ Alice6 Chiaki J. Konaka's Web
+ https://yamaki-nyx.hatenablog.com/entry/2018/04/27/145823 ~ Present day, present time... - welcome back to wired
+ https://www.nbcuni.co.jp/rondorobe/anime/graphid/news/hp0001/list00010000.html ~ プロデューサーの制作日記 -serial experiments lain Blu-ray LABO プロデューサーの制作日記-
+ r/Lain
+  Lain
+   https://www.reddit.com/r/Lain/comments/1luvorm/what_is_this_thing_in_lains_hairs/ ~ What is this thing in Lain's hairs ? : r/Lain
+  Anime
+   https://www.reddit.com/r/Lain/comments/1lubm1u/why_do_the_father_say_its_almost_over_what_are/ ~ Why do the father say its almost over? What are they refering too? : r/Lain
+   https://www.reddit.com/r/Lain/comments/1mdk2ma/how_much_do_you_think_lains_whole_set_up_cost_and/ ~ How much do you think Lain's whole set up cost? And where did she get it all? : r/Lain
+  Music
+   https://www.reddit.com/r/Lain/comments/1lwpi5n/hello_enthusiast_of_the_wired_i_cone_to_ask_for/ ~ Hello enthusiast of the wired. I cone to ask for your tastes in music, recommendations and to see what lain fans listen to in general. : r/Lain
+  Figure
+   https://www.reddit.com/r/Lain/comments/1lb2r35/new_official_lain_figure/ ~ New official Lain figure : r/Lain
+   https://www.reddit.com/r/Lain/comments/1mc0xoq/pop_up_parade_lain_iwakura_l_size_serial/ ~ POP UP PARADE lain iwakura L Size serial experiments lain Figure : r/Lain
+  Meme
+   cereal experiments (Meme)
+     https://www.reddit.com/r/Lain/comments/1lt9txv/i_am_her_she_is_me/ ~ I am her, she is me. : r/Lain
+     https://www.reddit.com/r/Lain/comments/1lw9phb/lain_experimenting_with_cereal/ ~ Lain experimenting with cereal : r/Lain
+
+海腹川背
+ https://umiharakawase.the-ninja.jp/ ~ 海腹川背 攻略 - トップページ
+　https://ocn1.net/umikawa/ ~ 海腹川背・旬　攻略 (注: 超伝導ワニくんさんのサイト。旬だけでなく海腹川背シリーズについての情報が豊富)
+　http://www.st.rim.or.jp/~shoda/shun/ ~ Umihara Kawase Shun (注: ファンによるページ)
+　https://www.speedrun.com/umi ~ Umihara Kawase - Speedrun.com
+ https://www.youtube.com/playlist?list=PLlHU4SKpsHTa9DRqOvITlL2RTvi4hwIU7 ~ Umihara Kawase - YouTube (注: [juten10x.icon]のプレイリスト)
+
+MOTHER
+ https://www.1101.com/mother_project/ ~ ほぼ日『MOTHER』プロジェクト - ほぼ日刊イトイ新聞
+  https://www.1101.com/mother_project/entry/ ~ MOTHERのよみもの - ほぼ日『MOTHER』プロジェクト - ほぼ日刊イトイ新聞
+ https://laingame.net/index.html ~ lain game :: index
+
+ロボットと暮らす
+ https://robot-friendly.com/ ~ Robot Friendly Project - Robot Friendly Project
+
+企業
+ https://sakana.ai/ ~ Sakana AI
+ https://www.preferred.jp/ja/ ~ 株式会社Preferred Networks
+ https://group.ntt/jp/ ~ NTT / NTTグループ
+ https://jprs.jp/ ~ JPドメイン名のサービス案内 | JPRS
+  https://jprs.jp/registration/suspended/ ~ ドメイン名の廃止に関する注意 | JPドメイン名の活用方法 | JPドメイン名について | JPRS
+  https://jprs.co.jp/ ~ 株式会社日本レジストリサービス（JPRS）
+ https://blog.flatt.tech/ ~ GMO Flatt Security Blog
+   https://flatt.tech/research/ ~ GMO Flatt Security Research
+ https://dwango.co.jp/ ~ 株式会社ドワンゴ
+  https://dwango.github.io/ ~ dwango on GitHub
+
+GAFAの動向
+ https://www.itmedia.co.jp/news/articles/2501/21/news106.html ~ トランプ新大統領の就任式にGAFAトップ勢ぞろい　もちろんイーロン・マスク氏も - ITmedia NEWS
+ https://gigazine.net/news/20250111-meta-roll-back-dei-program/ ~ Metaがファクトチェックに続き多様性・公平性・包括性に関するDEIプログラムを廃止 - GIGAZINE
+  https://www.nikkei.com/article/DGXZQOGN10E320Q5A110C2000000/ ~ メタ、多様性対策を廃止　テック大手も保守派に同調 - 日本経済新聞
+ https://jp.reuters.com/business/KIU5VQUUUBJWFDTPTEP3BV4YEU-2025-02-06/ ~ 米グーグルもＤＥＩ見直し宣言、トランプ大統領令準拠が理由 | ロイター
+  https://www.nikkei.com/article/DGXZQOGN060KA0W5A200C2000000/ ~ GoogleもDEIに基づく採用目標を廃止　米大統領令受け - 日本経済新聞
+　https://www.itmedia.co.jp/news/articles/2507/07/news112.html ~ 日本マンガ学会、アマゾンに「強い懸念と憂慮」　研究成果「BLマンガの表現史」販売されず - ITmedia NEWS
+　https://jp.reuters.com/business/technology/5QJVOX73ZNP7JFTFSSH3MLPKFI-2025-01-11/ ~ メタとアマゾン、多様性対策を廃止　トランプ大統領就任前に | ロイター
+　https://gigazine.net/news/20250124-amazon-removes-commitment-transgender-black-rights/ ~ Amazonが企業ポリシーから「LGBTQ＋の権利」と「黒人への公平性」への言及を削除 - GIGAZINE
+　 ←→ https://dentsu-ho.com/articles/9087 ~ DEIな企業風土の耕し方。アマゾンジャパンの場合 | ウェブ電通報
+
+SNS
+ https://freeourfeeds.com/ ~ Free Our Feeds
+ https://bsky.social/about ~ Bluesky
+ https://misskey-hub.net/ja/ ~ Misskey Hub – Misskeyプロジェクト 公式サイト
+ https://joinmastodon.org/ja ~ Mastodon - 分散型ソーシャルネットワーク
+
+SNSの動向
+ https://forbesjapan.com/articles/detail/76554 ~ 2700万人突破の新興SNS「Bluesky」、Ｘの轍を踏まないための取り組み | Forbes JAPAN 公式サイト（フォーブス ジャパン）
+ https://www.sankei.com/article/20250615-VOPIKBQLJ5CWJKA7ONW3G6GD4Q/ ~ Xの代替SNS「Bluesky」で特定意見が増幅するエコーチェンバー深刻…利用者半減 - 産経ニュース
+ https://www.itmedia.co.jp/aiplus/articles/2506/17/news094.html ~ note「AI学習でユーザーに対価」正式機能に　初期設定は「データ提供OK」、拒否したければ設定オフに - ITmedia AI＋
+ https://p2ptk.org/monopoly/4366 ~ メタクソ化するTiktok：プラットフォームが生まれ、成長し、支配し、滅びるまで » p2ptk[.]org
+ https://note.com/tbapiko/n/ne3afba8bc3c7 ~ どこかズレていると感じるYouTubeの“ランキング”機能―VTuberにもたらす影響を考える｜パピコ
+ https://www.itmedia.co.jp/news/articles/2501/14/news137.html ~ マストドンのロチコCEO退任　「分散型ネットワークは個人によって所有されるべきではない」 - ITmedia NEWS
+  https://gigazine.net/news/20250114-mastodon-transition-nonprofit-structure/ ~ Mastodonが運営の大部分を非営利団体に移管することを発表 - GIGAZINE
+ https://www.itmedia.co.jp/news/articles/2412/13/news157.html ~ Twitter共同創業者のウィリアムズ氏、プライベートなソーシャルアプリ「Mozi」立ち上げ - ITmedia NEWS
+ https://bsky.app/profile/srktd.bsky.social/post/3lcooscxqgs2r ~ 北出栞 siori kitade: "正直なところ、自分みたいに普段からフォローしている人を全ミュートにしてタイムラインに自分の投稿しか並ばないようにしている人間にとっては、アルゴリズムに混入したマスクの意思が強制的に見せてくる対立煽りのどうしようもない投稿を目にすることも能動的に「おすすめ」タブを開かない限りないから、単に有効な宣伝ツールって感じだし（URLを貼ると効果が薄くなるって仕様は怠いけど）、何なら以前よりもいい意味で偶発的な広がり方をするなと感じている節すらあるんだよな。" — Bluesky
+
+メディア
+ https://www.nikkei.com/ ~ 日本経済新聞 - ニュース・速報 最新情報
+ https://www.itmedia.co.jp/news/ ~ ITの今が見える、明日が分かる - ITmedia NEWS
+ https://gigazine.net/ ~ GIGAZINE（ギガジン）
+ https://gihyo.jp/ ~ gihyo.jp | gihyo.jp
+ https://news.ycombinator.com/news ~ Hacker News
+ https://internet.watch.impress.co.jp/ ~ INTERNET Watch
+ https://macc.bunka.go.jp/ ~ MACC – Media Arts Current Contents
+  https://mediag.bunka.go.jp/ ~ メディア芸術カレントコンテンツ - マンガ・アニメ・ゲーム・メディアアートをもっと知るための情報サイト
+ https://gdr.jagda.or.jp/ ~ The Graphic Design Review
+ https://animestyle.jp/column/ ~ COLUMN | WEBアニメスタイル
+ https://dailyportalz.jp/ ~ デイリーポータルZ
+ https://sanpoo.jp/ ~ サンポー｜誰かの散歩マガジン
+ https://www.1101.com/home.html ~ ほぼ日刊イトイ新聞
+ https://www.moguravr.com/ ~ Mogura VR - VRの「いま」を掘りだすニュースメディア
+  https://www.moguravr.com/writer/writer-65580/ ~ たまごまご - Mogura VR
+ https://panora.tokyo/ ~ PANORA – 「日本にVRを広める」がミッションのVRニュースサイト
+ http://www.kaminotane.com/ ~ かみのたね
+  http://www.kaminotane.com/2024/03/05/25480/ ~ 第１回　良さについて | かみのたね
+ https://webgl.souhonzan.org/ ~ WebGL 総本山
+ https://normalize.fm/ ~ normalize.fm
+  https://normalize.fm/071/ ~ normalize.fm - 071. 【公開収録アーカイブ】 夜の部: Baku Hashimoto
+   https://scrapbox.io/glisp/normalize.fm_%2371_公開収録_付録 ~ normalize.fm `#`71 公開収録 付録 - baku
+  https://normalize.fm/050/ ~ normalize.fm - 050. 仕事ができないな～
+   https://baku89.com/2023/10/23/normalizefm-appendix ~ normalize.fm `#`50 付録 | 麦 Baku
+ https://bijutsutecho.com/ ~ 美術手帖
+ https://distance.media/ ~ トップページ | DISTANCE.media
+  https://distance.media/tag/?query=猫ミーム化するキュレーション ~ 猫ミーム化するキュレーションに関する記事一覧 | DISTANCE.media
+ https://www.tv-tokyo.co.jp/wbs/ ~ WBS（ワールドビジネスサテライト）：テレビ東京
+ https://www.nhk.or.jp/ ~ NHK | 日本放送協会
+ 　https://www.nhk.jp/p/special/ts/2NY2QQLPM3/ ~ NHKスペシャル - NHK
+  https://www.nhk.jp/p/ts/QPN1RW1PYW/ ~ プレミアムシネマ - NHK
+  https://www.nhk.jp/p/ts/LJWWVGY6J2/ ~ ゲームゲノム - NHK
+
+アート
+ https://rhizomatiks.com/ ~ Rhizomatiks
+ https://generativeart.or.jp/ ~ 一般財団法人ジェネラティブアート振興財団
+ https://www.kaikaikiki.com/ ~ カイカイキキ | アートの総合商社
+ https://poncotan.jp/ ~ STUDIO PONCOTAN（スタジオ ポンコタン）OFFICIAL WEBSITE | Kaikai Kiki Co., Ltd.
+
+アート関連のプロジェクト
+　https://expoworlds.jp/ja/ ~ EXPO WORLDs - 大阪・関西万博 OPEN DESIGN PROJECT
+ https://deaddrops.com/ ~ Dead Drops – Un-cloud your files in cement! 'Dead Drops’ is an anonymous, offline, peer to peer file-sharing network in public space.
+
+メディアアート関連の記事
+ https://note.com/toyoshimorioka/n/n40eb95d35847 ~ メディアアートとパイオニアと名乗ることの難しさについて｜Toyoshi Morioka
+ https://www.cbc-net.com/dots/daito_manabe/manabe_02/ ~ CBCNET > Dots & Lines > 真鍋 大度 > 連載 : Ideas come from everywhere
+ https://matsuuratomoya.com/blog/2025-05-29/where-you-go-teamlab/ ~ チームラボよ、どこへ行く？ - Matsuura Tomoya|松浦知也
+ https://note.com/akiko_saito/n/nec49ac35f86a ~ ゴッホより普通にラッセンが好き〜チームラボと「アート」について｜akiko_saito
+ https://ayumu-nagamatsu.com/archives/811/ ~ 批評とTeamLab | 永松 歩 | Ayumu Nagamatsu
+ https://scrapbox.io/glisp/Jul_3,_2024:_ソフトウェアはブートストラップする ~ Jul 3, 2024: ソフトウェアはブートストラップする - baku
+ https://eguchishintaro.jp/?p=952 ~ 『Counter Void』と「Relight Project」にまつわる考察 - SHINTARO EGUCHI
+ https://ferne-web.com/article/shinkaimakoto-apple/ ~ この手のなかに溶けゆく世界——新海誠とAppleにおける流体のマテリアリズム | ferne web
+ https://ferne-web.com/article/vtuber/ ~ 「レイヤーの合成」によるVTuberの再定義――主体的な生のデザインのために | ferne web
+ https://note.com/shiba710/n/nc2a912334a37 ~ パクリとオマージュの境界線について｜柴 那典
+ https://morinorihide.hatenablog.com/entry/2025/07/20/011729 ~ 「パクリ」概念を整理する - 昆虫亀
+
+モーショングラフィックス関連の記事
+ https://gdr.jagda.or.jp/articles/71/ ~ モーショングラフィックス文化とTVアニメのクレジットシーケンス｜ARTICLES｜The Graphic Design Review
+　https://baku89.com/making-of/kindolphin ~ Making of “Kindolphin” | 麦 Baku
+
+『宝石の国』とOrange Co.,Ltd.
+　https://www.japandesign.ne.jp/interview/land-of-the-lustrous-1/ ~ フルCGアニメーションの限界に挑戦！TVアニメ『宝石の国』スタッフが語る、かつてない意欲作ができ上がるまで（1） - デザイン情報サイト`[`JDN`]`
+　https://cgworld.jp/feature/201710-cgw231T2-houseki.html ~ TVアニメ『宝石の国』制作秘話～フォスを例に紐解く宝石の髪の質感づくり篇～
+　https://cgworld.jp/feature/201710-cgw231T2-houseki02.html ~ TVアニメ『宝石の国』制作秘話～サラサラの髪を目指したシンシャ篇～
+　https://cgworld.jp/feature/201710-cgw231T2-houseki03.html ~ TVアニメ『宝石の国』制作秘話～現実の宝石と原作のイメージの間で質感を模索した輝く、ダイヤモンド篇～
+　https://cgworld.jp/feature/201710-cgw231T2-houseki04.html ~ TVアニメ『宝石の国』制作秘話～リアルな質感のウェントリコスス＆針状結晶のルチル＆特徴的なハイライトのモルガナイト篇～
+　https://www.toei-anim.co.jp/sp/ee_cgmovie/interview/021.html ~ 井野元英二氏（オレンジ代表／ CGディレクター）【3DCGの夜明け 〜日本のフルCGアニメの未来を探る〜　第21回／2014年9月号】｜INTERVIEW インタビュー｜EE.jp
+
+『それでも町は廻っている』
+　https://warp.da.ndl.go.jp/info:ndljp/pid/12099645/archive.j-mediaarts.jp/profile/ISHIGURO_Masakazu ~ 石黒 正数 | プロフィール一覧 | 文化庁メディア芸術祭 歴代受賞作品 (注: WARPのアーカイブ)
+　https://warp.da.ndl.go.jp/info:ndljp/pid/8668625/j-mediaarts.jp/awards/excellence_award?locale=ja&section_id=4 ~ 第17回文化庁メディア芸術祭 (注: マンガ部門優秀賞の作品リストでありWARPのアーカイブ)
+　https://www.tbs.co.jp/anime/soremachi/ ~ TBSアニメーション・それでも町は廻っている 公式ホームページ
+
+レーベル
+ http://maltinerecords.cs8.biz/ ~ Maltine Records
+ https://flau.jp/ ~ FLAU
+ http://bunkai-kei.com/ ~ Bunkai-Kei records
+
+iM@S
+ https://idolmaster-official.jp/ ~ 【公式】アイドルマスター ポータル（アイマス）
+  https://idolmaster-official.jp/20th_anniversary ~ アイドルマスター20周年特設サイト | 【公式】アイドルマスター ポータル（アイマス）
+  https://gkmas-1stanniv.idolmaster-official.jp/ ~ 学園アイドルマスター 1st Anniversary 特設サイト
+  https://961pro.jp/ ~ 961プロダクション オフィシャルサイト
+
+美術館・博物館
+　https://www.ntticc.or.jp/ja/ ~ NTTインターコミュニケーション・センター `[`ICC`]`
+ 　https://www.ntticc.or.jp/Chronology/ ~ ICC × Media Art Chronology
+　 https://hyper.ntticc.or.jp/ ~ ハイパーICC
+　https://www.ycam.jp/ ~ 山口情報芸術センター［YCAM］
+　https://www.momak.go.jp/ ~ 京都国立近代美術館 | The National Museum of Modern Art, Kyoto
+　https://nakka-art.jp/ ~ 大阪中之島美術館
+
+映画館
+ https://demachiza.com/ ~ 出町座 | 京都 出町桝形商店街にある映画×書店×カフェのカルチャー拠点
+
+政府（国外含む）
+ https://www.ipa.go.jp/ ~ IPA 独立行政法人 情報処理推進機構
+  https://www.ipa.go.jp/jinzai/mitou/koubo/ ~ 未踏事業 | IPA 独立行政法人 情報処理推進機構
+  https://dx.ipa.go.jp/ ~ DX SQUARE - DXを学んで、知って、実践するポータルサイト　
+ https://jvn.jp/ ~ Japan Vulnerability Notes
+ https://www.soumu.go.jp/ ~ 総務省
+  https://www.soumu.go.jp/dpa/ ~ つくろう！守ろう！安心できる情報社会　DIGITAL POSITIVE ACTION｜総務省
+   https://www.soumu.go.jp/menu_news/s-news/01ryutsu05_02000169.html ~ 総務省｜報道資料｜総合的なICTリテラシー向上に向けた官民連携プロジェクト「DIGITAL POSITIVE ACTION」の開始
+  https://www.soumu.go.jp/main_sosiki/kenkyu/metaverse/ ~ 総務省｜Web3時代に向けたメタバース等の利活用に関する研究会｜Web3時代に向けたメタバース等の利活用に関する研究会
+  https://www.soumu.go.jp/main_sosiki/kenkyu/metaverse2/ ~ 総務省｜安心・安全なメタバースの実現に関する研究会｜安心・安全なメタバースの実現に関する研究会
+  https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/index.html ~ 国民のためのサイバーセキュリティサイト
+ https://www.digital.go.jp/ ~ デジタル庁
+  https://www.digital.go.jp/resources/introduction-to-web-accessibility-guidebook ~ ウェブアクセシビリティ導入ガイドブック｜デジタル庁
+ https://www.nisc.go.jp/ ~ 国家サイバー統括室
+  https://security-portal.nisc.go.jp/ ~ NCO | みんなで使おうサイバーセキュリティ・ポータルサイト
+ https://www.bunka.go.jp/index.html ~ 文化庁
+  https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/index.html ~ インターネット上の海賊版による著作権侵害対策情報ポータルサイト | 文化庁
+  https://macc.bunka.go.jp/ ~ MACC – Media Arts Current Contents
+   https://mediag.bunka.go.jp/ ~ メディア芸術カレントコンテンツ - マンガ・アニメ・ゲーム・メディアアートをもっと知るための情報サイト
+  https://creators.j-mediaarts.bunka.go.jp/ ~ メディア芸術クリエイター育成支援事業
+ https://j-mediaarts.jp/ ~ 文化庁メディア芸術祭 - JAPAN MEDIA ARTS FESTIVAL
+ https://www.ndl.go.jp/ ~ 国立国会図書館―National Diet Library
+  https://ndlsearch.ndl.go.jp/ ~ 国立国会図書館サーチ（NDLサーチ）
+  https://warp.ndl.go.jp/ ~ 国立国会図書館インターネット資料収集保存事業
+
+Scrapbox
+ https://scrapbox.io/nazosauna ~ nazosauna AviUtl
+ https://scrapbox.io/glisp ~ baku
+ https://scrapbox.io/aodaruma ~ aod-knowledgebase
+ https://scrapbox.io/lookdev ~ lookdev
+ https://scrapbox.io/artresearch ~ Art Research by Daito Manabe
+ https://scrapbox.io/generative-breaking ~ generative-breaking
+ https://scrapbox.io/oumlr ~ oumlr
+ https://scrapbox.io/frog96lab ~ frog96lab
+ https://scrapbox.io/kofu-lab ~ こふ⧵scrap
+ https://scrapbox.io/enjoetoh ~ enjoetoh
+ https://scrapbox.io/rehashf ~ rehash frog
+ https://scrapbox.io/recruit-art-center ~ リクルートアートセンター
+ https://scrapbox.io/imasaraC ~ いまさらC言語
+ https://scrapbox.io/pctsnote ~ PCT's Note
+ https://scrapbox.io/Atcoder-myReflection ~ Atcoder-myReflection-blueberry
+ https://scrapbox.io/Kodaman ~ Kodaman's memo
+ https://scrapbox.io/mtsaka-memo ~ mtsaka-memo
+ https://scrapbox.io/magurofly ~ ま
+ https://scrapbox.io/magurosdiary ~ maguro's Diary (注: Altale)
+ https://scrapbox.io/jumius ~ jumius
+ https://scrapbox.io/help-jp ~ Cosense ヘルプ
+
+#note
+#ウェブ
+#ウォッチリスト

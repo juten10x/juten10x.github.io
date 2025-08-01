@@ -1,0 +1,31 @@
+国会図書館で閲覧する予定のメディアのメモ
+未確認
+　つげ義春関連の書籍
+　　https://ja.wikipedia.org/wiki/つげ義春 で示されている出典について、それぞれの「該当する記述が具体的にその文献の何ページあるいはどの章節にあるのか」確認して補う
+　　著作権侵害を疑う議論; https://ja.wikipedia.org/wiki/ノート:つげ義春#著作権は大丈夫でしょうか？ が提起されてから半年以上が経つが提起した利用者は返答せず（そもそも投稿記録が以降半年以上無い）、半年以上著作権侵害調査依頼のテンプレートが貼られたままになってしまっている。いろいろと問題なので確認して議論を終了させるか問題があるならば適切な対応をとる。
+ https://ndlsearch.ndl.go.jp/books/R100000002-I000002957253 ~ 『コミック魔人4・東京魔人學園剣風帖激画伝・刻』コーエー、2000年12月1日、ISBN 4-87719-845-8。
+  https://ja.wikipedia.org/w/index.php?diff=105497632 の自分の編集が適当であったかを確かめるため、216-218頁の「声優インタビュー・松来未祐」を読む
+ https://ndlsearch.ndl.go.jp/books/R100000002-I000011238324 ~ 『W100 アニメ声優』シンコーミュージック・エンタテイメント、2010年11月30日、ISBN 978-4-401-77028-1。
+  184-185頁を読んで https://ja.wikipedia.org/wiki/松来未祐#cite_note-由来-9 の記述を改善する
+ Wikipediaの記事 https://ja.wikipedia.org/wiki/ノースイースタン大学 の大言壮語な表現を修正する + 出典を追加して改稿する
+  https://ja.wikipedia.org/wiki/Wikipedia:大言壮語をしない
+　https://ndlsearch.ndl.go.jp/books/R100000002-I000009021563
+　 lain BOOTLEG
+
+もう一度確認する
+ アカイイト関連の書籍（https://juten10x.net/blog/2025-04-17_tokyo.html#閲覧 も参照。一応書いておくが、タイトル画面で放置していると再生されるムービーの内容は例の文章とは異なる。）
+ 　https://ndlsearch.ndl.go.jp/books/R100000002-I000007731532 ~ アカイイト 設定解説ファンブック（ジャイブ発売） ISBN 978-4-86176-056
+ 　https://ndlsearch.ndl.go.jp/books/R100000002-I000008022517 ~ アカイイト : 絆の記憶 (Jive character novels)
+ 　https://ndlsearch.ndl.go.jp/books/R100000002-I000010467449 ~ アカイイト&アオイシロ公式アートワークス (Jive fan book series)
+
+確認済み
+　https://ja.wikipedia.org/wiki/涼宮ハルヒの憂鬱_(アニメ)#CITEREF公式ガイドブック2006 ~ コンプティーク 編『オフィシャルファンブック 涼宮ハルヒの公式』角川書店、2006年8月25日。ISBN 4-04-853991-4。
+　　https://ja.wikipedia.org/wiki/特別:GoToComment/c-Gurenge-20230922091100-Alicia_jawiki-20230921140600 でも指摘されている通り、 https://ja.wikipedia.org/wiki/涼宮ハルヒの憂鬱_(アニメ)#構成 の「本作の構成会議は琵琶湖で行われており、」が謎。出典は当該書籍のp.83となっているので、確認し加筆する。
+　　　加筆した
+　https://ndlsearch.ndl.go.jp/books/R100000002-I000007731532 ~ アカイイト 設定解説ファンブック（ジャイブ発売） ISBN 978-4-86176-056
+　 https://ja.wikipedia.org/wiki/ノート:アカイイト_(ゲーム)#著作権問題調査依頼 の [議論定期者とは別の方のコメント https://ja.wikipedia.org/wiki/特別:GoToComment/c-田村悠-20241011174800-柏尾菓子-20240918091700] を読めば一応納得はするが、議論提起者が確認したかったことが確認されないまま調査が終了となってしまっている。確かにそうではあるかもしれないが、このような状態で終了となっているのはあまり良くないと思うので、この書籍を閲覧し、ウェブアーカイブ等を利用して過去のサイトの情報を得てそれらの情報をノートにコメントとして書く。
+　ほか2点
+　　https://ndlsearch.ndl.go.jp/books/R100000002-I000008022517 ~ アカイイト : 絆の記憶 (Jive character novels)
+　　https://ndlsearch.ndl.go.jp/books/R100000002-I000010467449 ~ アカイイト&アオイシロ公式アートワークス (Jive fan book series)
+
+#note
