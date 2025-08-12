@@ -105,8 +105,7 @@ for文で $i=1, \ldots, 100$ まで回しましょう．そして，各 $i$ に�
 JavaScriptによる解答例を以下に示します．
 </p>
 
-<pre><code class="language-javascript">
-let cnt = 0;
+<pre><code class="language-javascript">let cnt = 0;
 
 for (let i = 1; i &lt;= 100; i++) {
   if (100 % i == 0) cnt += 1;
@@ -134,8 +133,7 @@ document.write(cnt);
 以上により，JavaScriptで以下のように書くことができます．
 </p>
 
-<pre><code class="language-javascript">
-let cnt = 0, ans = 1, N = 100;
+<pre><code class="language-javascript">let cnt = 0, ans = 1, N = 100;
 
 for (let i = 2; N != 1; i++) {
   cnt = 0;
@@ -184,8 +182,7 @@ document.write(ans);
 JavaScriptによる解答例を以下に示します．
 </p>
 
-<pre><code class="language-javascript">
-let a = [0,0,0,0,0,0,0,0,0,0];
+<pre><code class="language-javascript">let a = [0,0,0,0,0,0,0,0,0,0];
 
 for (let i = 0; i &lt; 10; i++) {
   a[i] = 1 + i*2
@@ -208,8 +205,7 @@ for (let i = 0; i &lt; 10; i++) {
 JavaScriptによる解答例を以下に示します．
 </p>
 
-<pre><code class="language-javascript">
-let a = 0;
+<pre><code class="language-javascript">let a = 0;
 
 for (let i = 0; i &lt; 10; i++) {
   a = 1 + i*2;
@@ -274,8 +270,7 @@ for (let i = 0; i &lt; 10; i++) {
 JavaScriptによる解答例を以下に示します．
 </p>
 
-<pre><code class="language-javascript">
-let x = 1, y = 1;
+<pre><code class="language-javascript">let x = 1, y = 1;
 
 for (let i = 3; i &lt;= 30; i++) {
   if (i%2 == 0) x = x + y;
@@ -308,8 +303,7 @@ document.write(x);
 JavaScriptによる解答例を以下に示します．
 </p>
 
-<pre><code class="language-javascript">
-let s = [1, 1];
+<pre><code class="language-javascript">let s = [1, 1];
 
 for (let i = 3; i &lt;= 30; i++) {
   s[i%2] = s[0] + s[1];
