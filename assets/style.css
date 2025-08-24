@@ -33,6 +33,26 @@ h3 {
 details {
   margin: 8px 0 24px 0;
 }
+summary {
+  cursor: pointer;
+}
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr::after {
+  background: #fff;
+  content: "§";
+  font-size: 14px;
+  padding: 0 4px;
+  position: relative;
+  top: -16px;
+}
 code {
   font-family: 'Inconsolata', 'Noto Sans JP';
   font-weight: 500;
@@ -40,9 +60,6 @@ code {
   border: solid lightgray 1px;
   border-radius: .3rem;
   background-color: #f7f7f7;
-}
-summary {
-  cursor: pointer;
 }
 button.hoge {
   font-weight: bold;
@@ -66,6 +83,12 @@ button.hoge {
 #article_date {
   font-size: 16px;
   font-weight: 200;
+}
+#my-footer {
+  height: 2px;
+  width: 100%;
+  margin: 12px 0;
+  background-color: lightgray;
 }
 
 @media (min-width: 768px) {
