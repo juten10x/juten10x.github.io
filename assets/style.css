@@ -228,9 +228,9 @@ button.hoge {
     left: 0;
     opacity: 0;
     z-index: 1;
-    transform: scale(1, 0);
+    /*transform: scale(1, 0);*/
     transform-origin: top;
-    transition: all .3s ease;
+    transition: all .1s ease-out;
     font-size: 28px;
     font-weight: 300;
     line-height: 1.4;
@@ -304,7 +304,8 @@ button.hoge {
   }
   .i-btn:checked ~ #menu_list {
     opacity: 1;
-    transform: scale(1, 1);
+    transition: opacity .3s ease-in .1s;
+    /*transform: scale(1, 1);*/
   }
   .i-btn {
     display: none;
