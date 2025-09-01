@@ -787,6 +787,7 @@ code:style.css
  	}
  }
  
+ /* juten10x: 一応注釈を。ここで独自タグとして[# ]で囲むとテキストが灰色かつ小さめ（0.9em）になるように設定されている */
  /* Custom Syntax */
  .deco-\# {
  	color: #777;
@@ -840,3 +841,4 @@ code:style.css
  	}
  }
  
+
