@@ -44,7 +44,6 @@ hr {
   text-align: center;
   height: 0;
 }
-
 hr::after {
   background: #fff;
   content: "§";
@@ -83,6 +82,9 @@ button.hoge {
 #article_date {
   font-size: 16px;
   font-weight: 200;
+}
+.co {
+  color: #777;
 }
 #my-footer {
   height: 2px;
