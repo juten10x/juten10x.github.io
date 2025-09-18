@@ -234,6 +234,7 @@ button.hoge {
     top: 25px;
     left: 0;
     opacity: 0;
+    visibility: hidden;
     z-index: 1;
     /*transform: scale(1, 0);*/
     transform-origin: top;
@@ -311,6 +312,7 @@ button.hoge {
   }
   .i-btn:checked ~ #menu_list {
     opacity: 1;
+    visibility: visible;
     transition: opacity .3s ease-in .1s;
     /*transform: scale(1, 1);*/
   }
