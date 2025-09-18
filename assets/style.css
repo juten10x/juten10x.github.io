@@ -15,8 +15,13 @@ a.mya {
   transition: all .3s ease-in-out;
   text-decoration: none;
 }
-a.mya:hover {
+a.mya[href*="//"]:hover {
   color: var(--link-color);
+  text-decoration: underline;
+}
+a.mya:hover, a.mya[href*="https://juten10x.net/"]:hover {
+  color: var(--link-color);
+  text-decoration: none;
 }
 img {
   border-radius: .3rem;
