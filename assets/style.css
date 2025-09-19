@@ -10,6 +10,17 @@ a {
 a:hover {
   text-decoration: underline;
 }
+a[href*="//"], a.mya[href*="//"] {
+  text-decoration: dotted underline;
+}
+a[href*="//"]:hover {
+  text-decoration: underline;
+}
+a[href^="https://juten10x.net/"],
+a[href^="https://u.juten10x.net/"],
+a.mya[href^="https://juten10x.net/"] {
+  text-decoration: none;
+}
 a.mya {
   color: #000; 
   transition: all .3s ease-in-out;
