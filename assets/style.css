@@ -1,7 +1,7 @@
 :root {
-  --font-color: black;
-  --b-color: white;
-  --link-color: royalblue;
+  --font-color: #000;
+  --b-color: #fff;
+  --link-color: #4169e1;
 }
 a {
   color: var(--link-color);
@@ -11,7 +11,7 @@ a:hover {
   text-decoration: underline;
 }
 a.mya {
-  color: black; 
+  color: #000; 
   transition: all .3s ease-in-out;
   text-decoration: none;
 }
@@ -95,7 +95,7 @@ button.hoge {
   height: 2px;
   width: 100%;
   margin: 12px 0;
-  background-color: lightgray;
+  background-color: #d3d3d3;
 }
 
 @media (min-width: 768px) {
@@ -257,8 +257,8 @@ button.hoge {
     left: -5%;
     width: 110%;
     height: 55px;
-    background-color: white;
-    border: solid black 1.5px;
+    background-color: #fff;
+    border: solid #000 1.5px;
     transform-origin: center;
     transition: all .3s ease;
   }
@@ -285,7 +285,7 @@ button.hoge {
     width: 100%;
     height: 2px;
     transition: all .3s ease;
-    background-color: black;
+    background-color: #000;
   }
   .btn span:nth-of-type(1) {
     top: 0;
@@ -294,7 +294,7 @@ button.hoge {
     bottom: 0;
   }
   .i-btn:checked ~ #btn span {
-    background-color: royalblue;
+    background-color: #4169e1;
   }
   .i-btn:checked ~ #btn span:nth-of-type(1) {
     transform: translate(0, 6px) rotate(-35deg);
@@ -303,11 +303,11 @@ button.hoge {
     transform: translate(0, -6px) rotate(35deg);
   }
   .i-btn:checked ~ #menu_board {
-    border: solid royalblue 1.5px;
+    border: solid #4169e1 1.5px;
     height: 230px;
   }
   .i-btn:checked ~ #menu_board2 {
-    border: solid royalblue 1.5px;
+    border: solid #4169e1 1.5px;
     height: 190px;
   }
   .i-btn:checked ~ #menu_list {
