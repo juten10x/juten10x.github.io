@@ -1,5 +1,15 @@
 国会図書館で閲覧する予定のメディアのメモ
 未確認
+ 坂茂関連の書籍
+  https://ndlsearch.ndl.go.jp/books/R100000002-I000002739281 ~ 紙の建築行動する : 震災の神戸からルワンダ難民キャンプまで
+ 　https://ndlsearch.ndl.go.jp/books/R100000002-I000010191803 ~ ふむふむのヒトトキ. はじまりのおわり編
+ 　https://ndlsearch.ndl.go.jp/books/R100000002-I000003577586 ~ 文化の仮設性 : 建築からマンガまで
+ 　https://ndlsearch.ndl.go.jp/books/R100000002-I000002843612 ~ 坂茂プロジェクツ・イン・プロセス : ハノーバー万博2000日本館までの歩み
+ 　上２つを読んで確認して、 https://ja.wikipedia.org/wiki/坂茂 の「要ページ番号」がつけられている出典にページ番号を書く
+ 今日マチ子『cocoon』
+ 　通常版：https://ndlsearch.ndl.go.jp/books/R100000002-I000010961913 ~ Cocoon
+ 　文庫版：https://ndlsearch.ndl.go.jp/books/R100000002-I026279628 ~ cocoon (秋田文庫 ; 74-1)
+  https://ja.wikipedia.org/wiki/Cocoon_(今日マチ子の漫画)#書誌情報 の作品タイトルはすべて大文字となっているが、上記の通り国会図書館での登録名にも表記ゆれがあるように、作品連載時のメディアの記事や出版社のサイトの書籍ページなどで表記が統一されていない。最も重要であるのは元の書籍にどの表記で書かれているかであるため、確認して必要であれば修正する。
 　つげ義春関連の書籍（jawikiの記事の出典から）
 　　https://ja.wikipedia.org/wiki/つげ義春 で示されている出典について、それぞれの「該当する記述が具体的にその文献の何ページあるいはどの章節にあるのか」確認して補う
 　　著作権侵害を疑う議論; https://ja.wikipedia.org/wiki/ノート:つげ義春#著作権は大丈夫でしょうか？ が提起されてから半年以上が経つが提起した利用者は返答せず（そもそも投稿記録が以降半年以上無い）、半年以上著作権侵害調査依頼のテンプレートが貼られたままになってしまっている。いろいろと問題なので確認して議論を終了させるか実際に著作権的に問題があるならば適切な対応をとる。
@@ -13,9 +23,14 @@
   https://ja.wikipedia.org/wiki/瀬戸の花嫁_(アニメ)#cite_note-53 が付けられている文の意味がとりづらいので確認して補足する
  https://ndlsearch.ndl.go.jp/books/R100000002-I000002897483 ~ 青野武 ほか『演声人語 : ベテラン声優が語る役者人生』ソニー・マガジンズ、2000年6月、ISBN 4-7897-1569-8。
   https://ja.wikipedia.org/wiki/青野武#cite_ref-演声人語_18-4 が出典としてつけられている文の意味が取りづらいので確認して修正する
+ https://ndlsearch.ndl.go.jp/books/R100000002-I000008496659 ~ 宇宙船イヤーブック. 2007 (ソノラマmook)
+  出典 https://ja.wikipedia.org/wiki/インプリント〜ぼっけえ、きょうてえ〜#cite_ref-宇宙船YB07_2-1 がつけられている文について、「放送中止」でなく「放映中止」では？確認する
  https://ndlsearch.ndl.go.jp/books/R100000002-I000008314297 ~ エウレカセブン グラヴィティボーイズ&リフティングガール. 2
   https://ja.wikipedia.org/wiki/エウレカセブン_グラヴィティボーイズ%26リフティングガール で、すでに連載期間は終了していると思われるが連載が終了した時期が書かれていないため、確認して補足する
   検索用: https://ndlsearch.ndl.go.jp/search?cs=bib&display=panel&from=0&size=20&keyword=エウレカセブン+グラヴィティボーイズ＆リフティングガール&f-ht=ndl
+ https://ndlsearch.ndl.go.jp/books/R100000002-I000002837534 ~ 文化としてのマナー(日本の50年日本の200年)
+ 　https://ja.wikipedia.org/wiki/いただきます#cite_ref-bunka_6-0 が気になるので読んでみる
+  再刊された https://ndlsearch.ndl.go.jp/books/R100000002-I025133705 もついでに
 　海腹川背関連の書籍
  　https://ndlsearch.ndl.go.jp/books/R100000002-I000002401922 ~ 海腹川背 : ラバーリング・アクションゲーム ハイパーテクニック徹底攻略+コミック
  　https://ndlsearch.ndl.go.jp/books/R100000002-I000002573599 ~ 海腹川背・旬攻略ガイドブック
@@ -45,8 +60,6 @@
   読みたい
  https://ndlsearch.ndl.go.jp/books/R100000002-I000001863221 ~ 寝台特急八分停車 (角川文庫)
   一応、 https://ja.wikipedia.org/wiki/寝台特急八分停車#cite_note-1 の読みが正しいかを確認してみる。
- Wikipediaの記事 https://ja.wikipedia.org/wiki/ノースイースタン大学 の大言壮語な表現を修正する + 出典を追加して改稿する
-  https://ja.wikipedia.org/wiki/Wikipedia:大言壮語をしない
 　https://ndlsearch.ndl.go.jp/books/R100000002-I000009021563
 　 lain BOOTLEG
 
@@ -63,4 +76,3 @@
 
 #note
 #jawiki
-
