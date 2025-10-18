@@ -167,8 +167,8 @@ button.hoge {
     margin-top: -4px;
     font-size: 14px;
   }
-  #breadcrumbs {
-    font-weight: 300;
+  .breadcrumbs {
+    line-height: 2.0;
   }
   #menu_forPhone {
     display: none;
