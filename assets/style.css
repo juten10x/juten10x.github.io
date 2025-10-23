@@ -177,6 +177,9 @@ button.hoge {
     line-height: 1.0;
     letter-spacing: 0.01rem;
   }
+  #bskybr {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   html {
