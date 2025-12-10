@@ -37,6 +37,9 @@ a.mya:hover, a.mya[href*="https://juten10x.net/"]:hover {
 img {
   border-radius: .3rem;
 }
+h1,h2 {
+  font-weight: 600;
+}
 h2 {
   margin: 0 0 -8px 0;
 }
