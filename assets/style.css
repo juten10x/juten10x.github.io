@@ -162,6 +162,9 @@ button.hoge {
   .image3 {
     width: 48%;
   }
+  .image4 {
+    width: 80%;
+  }
   #_image1 {
     width: 110px;
     margin-bottom: -4px;
@@ -213,6 +216,9 @@ button.hoge {
     width: 100%;
   }
   .image3 {
+    width: 100%;
+  }
+  .image4 {
     width: 100%;
   }
   #_image1 {
