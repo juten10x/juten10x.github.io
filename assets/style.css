@@ -232,7 +232,7 @@ button.hoge {
     display: none;
   }
   #main {
-    margin: 8% 0 0 0;
+    margin-top: 32px;
   }
   #menu_forPhone {
     user-select: none;
