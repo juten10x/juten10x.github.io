@@ -62,14 +62,14 @@ hr {
   text-align: center;
   height: 0;
 }
-hr::after {
+/*hr::after {
   background: #fff;
   content: "§";
   font-size: 14px;
   padding: 0 4px;
   position: relative;
   top: -16px;
-}
+}*/
 code {
   font-family: 'Inconsolata', 'Noto Sans JP';
   font-weight: 500;
