@@ -23,7 +23,6 @@ a.mya[href^="https://juten10x.net/"] {
 }
 a.mya {
   color: #000; 
-  transition: all .3s ease-in-out;
   text-decoration: none;
 }
 a.mya[href*="//"]:hover {
