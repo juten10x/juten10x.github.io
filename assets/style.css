@@ -262,7 +262,7 @@ button.hoge {
     transform-origin: top;
     transition: all .1s ease-out;
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.4;
   }
   #pagetop {
