@@ -232,7 +232,7 @@ button.hoge {
     display: none;
   }
   #main {
-    margin: 10% 0 0 0;
+    margin: 8% 0 0 0;
   }
   #menu_forPhone {
     user-select: none;
@@ -244,9 +244,9 @@ button.hoge {
   }
   #forPhone_ju {
     position: fixed;
-    top: 10px;
+    top: 8px;
     left: 5%;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     z-index: 1;
   }
@@ -325,11 +325,9 @@ button.hoge {
     transform: translate(0, -6px) rotate(35deg);
   }
   .i-btn:checked ~ #menu_board {
-    border: solid #4169e1 1.5px;
     height: 230px;
   }
   .i-btn:checked ~ #menu_board2 {
-    border: solid #4169e1 1.5px;
     height: 190px;
   }
   .i-btn:checked ~ #menu_list {
