@@ -181,7 +181,7 @@ code {
   body {
     margin: 0% 5% 20% 5%;
     font-family: 'Inter', 'Noto Sans JP', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 0.03rem;
     line-height: 1.8;
     color: var(--font-color);
@@ -189,6 +189,10 @@ code {
   }
   figure {
     margin: 0 0 16px 0;
+  }
+  figcaption {
+    margin-top: -4px;
+    font-size: 14px;
   }
   h2.beforeImage {
     margin: 0 0 0.5px 0;
@@ -211,10 +215,6 @@ code {
   #_image1 {
     width: 105px;
     margin-bottom: -4px;
-  }
-  figcaption {
-    margin-top: -4px;
-    font-size: 12px;
   }
   #menu, #menu2 {
     display: none;
