@@ -181,7 +181,7 @@ code {
   body {
     margin: 0% 5% 20% 5%;
     font-family: 'Inter', 'Noto Sans JP', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 0.03rem;
     line-height: 1.8;
     color: var(--font-color);
@@ -192,7 +192,7 @@ code {
   }
   figcaption {
     margin-top: -4px;
-    font-size: 14px;
+    font-size: 13px;
   }
   h2.beforeImage {
     margin: 0 0 0.5px 0;
