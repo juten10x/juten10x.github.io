@@ -94,7 +94,7 @@ code {
   background-color: #d3d3d3;
 }
 
-@media (min-width: 768px) {
+@media (width > 768px) {
   html {
     scroll-padding-top: 8px;
   }
@@ -133,7 +133,6 @@ code {
   }
   #article_title2 {
     line-height: 1.0;
-    font-size: 24px;
     letter-spacing: 0.01rem;
   }
   #juten10x_img {
@@ -166,15 +165,12 @@ code {
   #menu_forPhone {
     display: none;
   }
-  #article_title2 {
-    line-height: 1.0;
-    letter-spacing: 0.01rem;
-  }
-  #bskybr {
+  #bskybr, #awabr {
     display: none;
   }
 }
-@media (max-width: 768px) {
+
+@media (width <= 768px) {
   html {
     scroll-padding-top: 58px;
   }
@@ -199,6 +195,11 @@ code {
   }
   h3.beforeImage {
     margin: 8px 0 -2px 0;
+  }
+  #article_title2 {
+    line-height: 1.0;
+    font-size: 24px;
+    letter-spacing: 0.01rem;
   }
   .image1 {
     width: 100%;
@@ -320,6 +321,12 @@ code {
     transition: opacity .3s ease-in .1s;
   }
   .i-btn {
+    display: none;
+  }
+}
+
+@media (width >= 330px) {
+  #bskybr2 {
     display: none;
   }
 }
