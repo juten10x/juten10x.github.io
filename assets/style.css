@@ -22,7 +22,7 @@ a.mya[href^="https://juten10x.net/"] {
   text-decoration: none;
 }
 a.mya {
-  color: #000; 
+  color: var(--font-color); 
   text-decoration: none;
 }
 a.mya[href*="//"]:hover {
