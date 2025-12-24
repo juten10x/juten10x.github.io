@@ -33,6 +33,7 @@ a.mya:hover, a.mya[href*="https://juten10x.net/"]:hover {
   color: var(--link-color);
   text-decoration: none;
 }
+
 img {
   border-radius: .3rem;
 }
@@ -159,8 +160,36 @@ code {
     margin-top: -4px;
     font-size: 14px;
   }
+  #topa::after {
+    content: "↑";
+    font-size: 24px;
+    font-weight: 300;
+    position: fixed;
+    bottom: 34px;
+    right: 56px;
+    z-index: 1;
+  }
+  a img.top {
+    border: 1px solid #000;
+    border-radius: 35px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 2;
+  }
+  .top:hover {
+    border: 1px solid var(--link-color);
+  }
+  #topb {
+    border-radius: 35px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 0;
+  }
   .breadcrumbs {
     line-height: 2.0;
+    font-weight: 400;
   }
   #menu_forPhone {
     display: none;
@@ -182,13 +211,6 @@ code {
     line-height: 1.8;
     color: var(--font-color);
     background-color: var(--b-color);
-  }
-  figure {
-    margin: 0 0 16px 0;
-  }
-  figcaption {
-    margin-top: -4px;
-    font-size: 13px;
   }
   h2.beforeImage {
     margin: 0 0 0.5px 0;
@@ -216,6 +238,40 @@ code {
   #_image1 {
     width: 105px;
     margin-bottom: -4px;
+  }
+  figure {
+    margin: 0 0 16px 0;
+  }
+  figcaption {
+    margin-top: -4px;
+    font-size: 13px;
+  }
+  #topa::after {
+    content: "↑";
+    font-size: 24px;
+    font-weight: 300;
+    position: fixed;
+    bottom: 22px;
+    right: 36px;
+    z-index: 1;
+  }
+  a img.top {
+    border: 1px solid #000;
+    border-radius: 35px;
+    position: fixed;
+    bottom: 17px;
+    right: 20px;
+    z-index: 2;
+  }
+  .top:hover {
+    border: 1px solid var(--link-color);
+  }
+  #topb {
+    border-radius: 35px;
+    position: fixed;
+    bottom: 18px;
+    right: 21px;
+    z-index: 0;
   }
   #menu, #menu2 {
     display: none;
@@ -301,7 +357,7 @@ code {
     bottom: 0;
   }
   .i-btn:checked ~ #btn span {
-    background-color: #4169e1;
+    background-color: var(--link-color);
   }
   .i-btn:checked ~ #btn span:nth-of-type(1) {
     transform: translate(0, 6px) rotate(-35deg);
