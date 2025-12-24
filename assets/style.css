@@ -183,8 +183,8 @@ code {
   #topb {
     border-radius: 35px;
     position: fixed;
-    bottom: 30px;
-    right: 40px;
+    bottom: 31px;
+    right: 41px;
     z-index: 0;
   }
   .breadcrumbs {
