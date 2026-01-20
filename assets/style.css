@@ -194,7 +194,7 @@ code {
   #menu_forPhone {
     display: none;
   }
-  #bskybr, #awabr {
+  #br, #awabr {
     display: none;
   }
 }
@@ -382,7 +382,7 @@ code {
 }
 
 @media (width >= 330px) {
-  #bskybr2 {
+  #br2 {
     display: none;
   }
 }
