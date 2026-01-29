@@ -329,7 +329,7 @@ code {
     position: fixed;
     top: 0;
     right: 0;
-    width: 70px;
+    width: 160px;
     height: 50px;
     cursor: pointer;
     z-index: 2;
@@ -356,8 +356,17 @@ code {
   .btn span:nth-of-type(2) {
     bottom: 0;
   }
-  .i-btn:checked ~ #btn span {
-    background-color: var(--link-color);
+  .btn::after {
+	  right: 14%;
+	  top: 12px;
+	  position: fixed;
+	  content: "メニュー";
+  }
+  .i-btn:checked ~ .btn::after {
+	  right: 14%;
+	  top: 12px;
+	  position: fixed;
+	  content: "　閉じる";
   }
   .i-btn:checked ~ #btn span:nth-of-type(1) {
     transform: translate(0, 6px) rotate(-35deg);
