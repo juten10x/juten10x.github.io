@@ -304,7 +304,6 @@ code {
     visibility: hidden;
     z-index: 1;
     transform-origin: top;
-    transition: all .1s ease-out;
     font-size: 28px;
     font-weight: 400;
     line-height: 1.4;
@@ -323,7 +322,6 @@ code {
     background-color: #fff;
     border: solid #000 1.5px;
     transform-origin: center;
-    transition: all .3s ease;
   }
   .label-b {
     position: fixed;
@@ -347,13 +345,16 @@ code {
     left: 0;
     width: 100%;
     height: 2px;
-    transition: all .3s ease;
     background-color: #000;
   }
   .btn span:nth-of-type(1) {
     top: 0;
   }
   .btn span:nth-of-type(2) {
+    top: 6px;
+	opacity: 1;
+  }
+  .btn span:nth-of-type(3) {
     bottom: 0;
   }
   .btn::after {
@@ -372,6 +373,9 @@ code {
     transform: translate(0, 6px) rotate(-35deg);
   }
   .i-btn:checked ~ #btn span:nth-of-type(2) {
+    opacity: 0;
+  }
+  .i-btn:checked ~ #btn span:nth-of-type(3) {
     transform: translate(0, -6px) rotate(35deg);
   }
   .i-btn:checked ~ #menu_board {
@@ -383,7 +387,6 @@ code {
   .i-btn:checked ~ #menu_list {
     opacity: 1;
     visibility: visible;
-    transition: opacity .3s ease-in .1s;
   }
   .i-btn {
     display: none;
