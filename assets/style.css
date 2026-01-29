@@ -1,7 +1,7 @@
 :root {
   --font-color: #333;
   --b-color: #fff;
-  --link-color: #4979f5;
+  --link-color: #4169e1;
 }
 a {
   color: var(--link-color);
