@@ -1,5 +1,5 @@
 :root {
-  --font-color: #000;
+  --font-color: #333;
   --b-color: #fff;
   --link-color: #4169e1;
 }
@@ -170,7 +170,7 @@ code {
     z-index: 1;
   }
   a img.top {
-    border: 1px solid #000;
+    border: 1px solid var(--font-color);
     border-radius: 35px;
     position: fixed;
     bottom: 30px;
@@ -256,7 +256,7 @@ code {
     z-index: 1;
   }
   a img.top {
-    border: 1px solid #000;
+    border: 1px solid var(--font-color);
     border-radius: 35px;
     position: fixed;
     bottom: 17px;
@@ -302,7 +302,6 @@ code {
     opacity: 0;
     visibility: hidden;
     z-index: 1;
-    transform-origin: top;
     font-size: 28px;
     font-weight: 400;
     line-height: 1.4;
@@ -318,9 +317,8 @@ code {
     left: -5%;
     width: 110%;
     height: 55px;
-    background-color: #fff;
-    border: solid #000 1.5px;
-    transform-origin: center;
+    background-color: var(--b-color);
+    border: solid var(--font-color) 1.5px;
   }
   .label-b {
     position: fixed;
@@ -344,7 +342,7 @@ code {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #000;
+    background-color: var(--font-color);
   }
   .btn span:nth-of-type(1) {
     top: 0;
