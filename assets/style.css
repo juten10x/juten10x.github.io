@@ -160,32 +160,8 @@ code {
     margin-top: -4px;
     font-size: 14px;
   }
-  #topa::after {
-    content: "↑";
-    font-size: 24px;
-    font-weight: 300;
-    position: fixed;
-    bottom: 34px;
-    right: 56px;
-    z-index: 1;
-  }
-  a img.top {
-    border: 1px solid var(--font-color);
-    border-radius: 35px;
-    position: fixed;
-    bottom: 30px;
-    right: 40px;
-    z-index: 2;
-  }
-  .top:hover {
-    border: 1px solid var(--link-color);
-  }
-  #topb {
-    border-radius: 35px;
-    position: fixed;
-    bottom: 31px;
-    right: 41px;
-    z-index: 0;
+  #pagetop {
+    font-weight: 400;
   }
   .breadcrumbs {
     line-height: 2.0;
@@ -245,33 +221,6 @@ code {
   figcaption {
     margin-top: -4px;
     font-size: 13px;
-  }
-  #topa::after {
-    content: "↑";
-    font-size: 24px;
-    font-weight: 300;
-    position: fixed;
-    bottom: 22px;
-    right: 36px;
-    z-index: 1;
-  }
-  a img.top {
-    border: 1px solid var(--font-color);
-    border-radius: 35px;
-    position: fixed;
-    bottom: 17px;
-    right: 20px;
-    z-index: 2;
-  }
-  .top:hover {
-    border: 1px solid var(--link-color);
-  }
-  #topb {
-    border-radius: 35px;
-    position: fixed;
-    bottom: 18px;
-    right: 21px;
-    z-index: 0;
   }
   #menu, #menu2 {
     display: none;
